@@ -91,7 +91,7 @@ const r = fruits.includes("Banana");
 document.write(r);
 ```
 
-#### Index Of
+#### Array Index Of
 * The indexOf() method **searches an array for an element value and returns its position**. 
 * The first item has position 0, the second item has position 1, and so on.
 * The `indexOf()` method returns -1 if the value is not found.
@@ -99,4 +99,27 @@ document.write(r);
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let index = fruits.indexOf("Apple");
 document.write(index)
+```
+
+##### Array Reverse
+* The java-Script array reverse method change the sequence of element of the given array and return the reverse sequence.
+```js
+var numArray = [10, 20, 30, 22, 35, 50];
+var resutl = numArray.reverse();
+document.write(resutl);
+```
+
+##### Array Push
+* The java-Script array push method adds one or more to the end of the given array and return that element.
+```js
+var numArray = [10, 20, 30, 22, 35, 50];
+numArray.push(100,200);
+document.write(numArray);
+```
+##### Array Pop
+* The java-Script array pop method remove the last element from the given array and return that element.
+```js
+var numArray = [10, 20, 30, 22, 35, 50];
+numArray.pop();
+document.write(numArray);
 ```
