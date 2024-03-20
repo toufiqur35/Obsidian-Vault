@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d23765abd9b1f847",
+        "id": "591cef255360a411",
         "type": "tabs",
         "children": [
           {
-            "id": "27eba6994f930972",
+            "id": "09de0514f34dda3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -128,14 +128,21 @@
                 "file": "sobuj/toufiqur.md"
               }
             }
+          },
+          {
+            "id": "bfbdc8e43d0155c3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,11 +154,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "27eba6994f930972",
+  "active": "09de0514f34dda3d",
   "lastOpenFiles": [
+    "sobuj/toufiqur.md",
     "obsidiant-repo",
     "JavaScript/Loop.md",
-    "sobuj/toufiqur.md",
     "sobuj",
     "JavaScript/Function.md",
     "JavaScript/Condition.md",
