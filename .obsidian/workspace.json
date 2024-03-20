@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "7ff13e211df7f671",
+    "type": "split",
+    "children": [
+      {
+        "id": "d23765abd9b1f847",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27eba6994f930972",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "sobuj/toufiqur.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1311895ee32fa519",
+    "type": "split",
+    "children": [
+      {
+        "id": "35aeb5e632237e74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf94feffdf98b826",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f46a0edf0a3c099e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "af56520e7c437901",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "363b0e8973658f75",
+    "type": "split",
+    "children": [
+      {
+        "id": "6fb00e84b13b712b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "793009b6e8f2616f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "sobuj/toufiqur.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c13c4e66a97d7a2f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "sobuj/toufiqur.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2ad4776e69ecafcb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "70faf95652349223",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "sobuj/toufiqur.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "27eba6994f930972",
+  "lastOpenFiles": [
+    "obsidiant-repo",
+    "JavaScript/Loop.md",
+    "sobuj/toufiqur.md",
+    "sobuj",
+    "JavaScript/Function.md",
+    "JavaScript/Condition.md",
+    "JavaScript/Array.md",
+    "Untitled.canvas",
+    "2024-03-20.md",
+    "mark down/mark down.md",
+    "Screenshot_1.png",
+    "Pasted image 20240320150015.png",
+    "JavaScript/Anonymous function.md",
+    "ostad live class/class 2/github.md",
+    "JavaScript",
+    "2024-03-05.md",
+    "mark down",
+    "ostad live class/class 2",
+    "class 2",
+    "class 2/Untitled.canvas",
+    "ostad live class",
+    "Untitled.md"
+  ]
+}
