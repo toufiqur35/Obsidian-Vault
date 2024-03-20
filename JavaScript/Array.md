@@ -101,7 +101,7 @@ let index = fruits.indexOf("Apple");
 document.write(index)
 ```
 
-##### Array Reverse
+##### Array Reverse()
 * The java-Script array reverse method change the sequence of element of the given array and return the reverse sequence.
 ```js
 var numArray = [10, 20, 30, 22, 35, 50];
@@ -109,17 +109,43 @@ var resutl = numArray.reverse();
 document.write(resutl);
 ```
 
-##### Array Push
+##### Array Push()
 * The java-Script array push method adds one or more to the end of the given array and return that element.
 ```js
 var numArray = [10, 20, 30, 22, 35, 50];
 numArray.push(100,200);
 document.write(numArray);
 ```
-##### Array Pop
+##### Array Pop()
 * The java-Script array pop method remove the last element from the given array and return that element.
 ```js
 var numArray = [10, 20, 30, 22, 35, 50];
 numArray.pop();
+document.write(numArray);
+```
+
+##### Array Sort()
+* The java-Script array sort() method is used to arrange the array element in same order. By default, sort() method follows the ascending order.
+```js
+//asc
+var numArray = [10, 20, 30, 22, 35, 50];
+numArray.sort();
+document.write(numArray);
+//desc
+var numArray = [10, 20, 30, 22, 35, 50];
+numArray.sort().reverse();
+document.write(numArray);
+```
+
+##### Array Slice()
+* The java-Script array slice() method extracts the part of the given array and returns it. This method doesn`t change the 
+```js
+//asc
+var numArray = [10, 20, 30, 22, 35, 50];
+numArray.sort();
+document.write(numArray);
+//desc
+var numArray = [10, 20, 30, 22, 35, 50];
+numArray.sort().reverse();
 document.write(numArray);
 ```
