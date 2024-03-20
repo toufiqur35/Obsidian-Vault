@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d822b457805be39f",
+        "id": "a699d61cc9a19fd6",
         "type": "tabs",
         "children": [
           {
-            "id": "5c8118658fd23e72",
+            "id": "893263aa5e03cb24",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "JavaScript/Array.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "JavaScript/Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "JavaScript/Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "JavaScript/Array.md"
+              }
             }
           },
           {
@@ -137,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,7 +155,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5c8118658fd23e72",
+  "active": "893263aa5e03cb24",
   "lastOpenFiles": [
     "sobuj/toufiqur.md",
     "obsidiant-repo",
