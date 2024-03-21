@@ -95,5 +95,68 @@ document.write(a);    // output: 3
 document.write(b);    // output:  3
 document.write(c);    // output:  2
 document.write(d);    // output:  -3
-document.write(e);    // output:  -3
+document.write(e);    // output:  -2
+```
+
+#### JAVASCRIPT NUMBER OBJECT 
+* The JavaScript number object enables you to represent a numeric value. It may be integer or floating-point. 
+#### isFinite()
+* It determines whether the given value is a finite number.
+```js
+let result = isFinite(123);
+document.write(e);    // output:  true
+```
+#### isInteger() 
+* It determines whether the given value is an integer.
+```js
+
+```
+#### parseFloat() 
+* It converts the given string into a floating point number. 
+```js
+
+```
+#### parseInt() 
+* It converts the given string into an integer number. 
+```js
+
+```
+#### toFixed() 
+* It returns the string that represents a number with exact digits after a decimal point. 
+```js
+
+```
+#### toString() 
+* It returns the given number in the form of string. 
+```js
+
+```
+
+---
+####  WINDOW OBJECT 
+* The window object represents a window in browser. An object of window is created automatically by the browser.
+#### alert() 
+* displays the alert box containing message with ok button. 
+```js
+
+```
+#### confirm() 
+* displays the confirm dialog box containing message with ok and cancel button. 
+```js
+
+```
+####  prompt() 
+* displays a dialog box to get input from the user. open() opens the new window.
+```js
+
+```
+#### close() 
+* closes the current window. 
+```js
+
+```
+#### setTimeout() 
+* performs action after specified time like calling function, evaluating expressions etc.
+```js
+
 ```
