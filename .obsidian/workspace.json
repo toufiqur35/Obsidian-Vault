@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a699d61cc9a19fd6",
+        "id": "a8d21dd0ac638b3d",
         "type": "tabs",
         "children": [
           {
-            "id": "893263aa5e03cb24",
+            "id": "cddf78643fa8a28d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/String.md",
+                "file": "JavaScript/Date Object.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/String.md",
+                "file": "JavaScript/Date Object.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/String.md",
+                "file": "JavaScript/Date Object.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/String.md"
+                "file": "JavaScript/Date Object.md"
               }
             }
           },
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,10 +155,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "893263aa5e03cb24",
+  "active": "cddf78643fa8a28d",
   "lastOpenFiles": [
-    "JavaScript/Array.md",
+    "JavaScript/Date Object.md",
     "JavaScript/String.md",
+    "JavaScript/Array.md",
     "sobuj/toufiqur.md",
     "obsidiant-repo",
     "JavaScript/Loop.md",
