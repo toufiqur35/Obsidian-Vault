@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Date Object.md",
+                "file": "JavaScript/Math.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Date Object.md",
+                "file": "JavaScript/Math.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Date Object.md",
+                "file": "JavaScript/Math.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Date Object.md"
+                "file": "JavaScript/Math.md"
               }
             }
           },
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,6 +158,7 @@
   "active": "cddf78643fa8a28d",
   "lastOpenFiles": [
     "JavaScript/Date Object.md",
+    "JavaScript/Math.md",
     "JavaScript/String.md",
     "JavaScript/Array.md",
     "sobuj/toufiqur.md",
