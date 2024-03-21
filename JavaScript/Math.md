@@ -109,17 +109,42 @@ document.write(e);    // output:  true
 #### isInteger() 
 * It determines whether the given value is an integer.
 ```js
-
+Number.isInteger(123);  // output:  true
+Number.isInteger(-123);  // output:  true
+Number.isInteger('123');  // output:  false
 ```
 #### parseFloat() 
 * It converts the given string into a floating point number. 
 ```js
+a = Number.parseFloat(10);
+b = Number.parseFloat("10");
+c = Number.parseFloat("10.33");
+d = Number.parseFloat("34 45 66");
+e = Number.parseFloat("He was 40");
 
+document.write(a); // output: 10
+document.write(b); // output:  10
+document.write(c); // output:  10.33
+document.write(d); // output:  34
+document.write(e); // output:  NaN
 ```
 #### parseInt() 
 * It converts the given string into an integer number. 
+* The `Number.parseInt` method parses a value as a string and returns the first integer.
 ```js
+a = Number.parseInt("10");  
+b = Number.parseInt("10.00");  
+c = Number.parseInt("10.33");  
+d = Number.parseInt("34 45 66");   
+e = Number.parseInt("40 years");  
+f = Number.parseInt("He was 40");
 
+document.write(a); // output: 10
+document.write(b); // output:  10
+document.write(c); // output:  10
+document.write(d); // output:  34
+document.write(e); // output:  40
+document.write(e); // output:  NaN
 ```
 #### toFixed() 
 * It returns the string that represents a number with exact digits after a decimal point. 
