@@ -202,5 +202,8 @@ function closeWin() {
 #### setTimeout() 
 * performs action after specified time like calling function, evaluating expressions etc.
 ```js
+const myTimeout = setTimeout(myGreeting, 5000);
 
+function myGreeting() {
+  document.getElementById("demo").innerHTML = "Happy Birthday!"
 ```
