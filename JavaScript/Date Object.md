@@ -56,3 +56,46 @@ var myDate = new Date();
 var result = myDate.Milliseconds();
 document.write(result);      //           output: 45
 ```
+
+#### getUTCDate() 
+* It returns the integer value between 1 and 31 that represents the day for the specified date on the basis of universal time. 
+```js
+var myDate = new Date();
+var result = myDate.getUTCDate();
+document.write(result);      //           output: 21
+```
+#### getUTCDay() 
+* It returns the integer value between 0 and 6 that represents the day of the week on the basis of universal time. 
+```js
+var myDate = new Date();
+var result = myDate.getUTCDay();
+document.write(result);      //           output: 2
+```
+#### getUTCFullYears() 
+* It returns the integer value that represents the year on the basis of universal time. 
+```js
+var myDate = new Date();
+var result = myDate.getUTCFullYears();
+document.write(result);      //           output: 2024
+```
+#### getUTCHours() 
+* It returns the integer value between 0 and 23 that represents the hours on the basis of universal time. 
+```js
+var myDate = new Date();
+var result = myDate.getUTCHours();
+document.write(result);      //           output: 6
+```
+#### getUTCMinutes() 
+* It returns the integer value between 0 and 59 that represents the minutes on the basis of universal time. 
+```js
+var myDate = new Date();
+var result = myDate.getUTCMinutes();
+document.write(result);      //           output: 55
+```
+#### getUTCMonth() 
+* It returns the integer value between 0 and 11 that represents the month on the basis of universal time.
+```js
+var myDate = new Date();
+var result = myDate.getUTCMonth();
+document.write(result);      //           output: 3
+```
