@@ -57,20 +57,28 @@ document.write(result);  //               output: angl
 #### slice() 
 * It is used to fetch the part of the given string. It allows us to assign positive as well negative index.
 ```js
-
+var country = "Bangladesh"
+var result = country.substr(1,4);
+document.write(result);  //               output: angl
 ```
 #### toLowerCase() 
 * It converts the given string into lowercase letter.
 ```js
-
+var country = "Bangladesh"
+var result = country.toLowerCase();
+document.write(result);  //               output: bangladesh
 ```
 #### toUpperCase() 
 * It converts the given string into uppercase letter. 
 ```js
-
+var country = "Bangladesh"
+var result = country.toLowerCase();
+document.write(result);  //               output: BANGLADESH
 ```
 #### trim() 
 * It trims the white space from the left and right side of the string.
 ```js
-
+var country = "      Bangladesh bogura     ";
+var result = country.trim();
+document.write(result);   //               output: Bangladesh bogura
 ```
