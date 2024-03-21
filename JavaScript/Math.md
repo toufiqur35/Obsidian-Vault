@@ -148,13 +148,28 @@ document.write(e); // output:  NaN
 ```
 #### toFixed() 
 * It returns the string that represents a number with exact digits after a decimal point. 
+* The `toFixed()` method converts a number to a string.
+* The `toFixed()` method rounds the string to a specified number of decimals.
 ```js
+let num = 5.56789;
+let n = num.toFixed();
+document.write(n); // output:  6
 
+let num2 = 5.56789;
+let m = num2.toFixed(2);
+document.write(m); // output:  5.57
 ```
 #### toString() 
 * It returns the given number in the form of string. 
 ```js
+let num2 = 15;  
+let text = num.toString();
+document.write(text); // output:  15
 
+//binary
+let num2 = 15;  
+let text2 = num2.toString(2);
+document.write(text2); // output:  1111
 ```
 
 ---
@@ -163,22 +178,26 @@ document.write(e); // output:  NaN
 #### alert() 
 * displays the alert box containing message with ok button. 
 ```js
-
+alert("Hello! I am an alert box!!");
 ```
 #### confirm() 
 * displays the confirm dialog box containing message with ok and cancel button. 
 ```js
-
+confirm("Press a button!");
 ```
-####  prompt() 
-* displays a dialog box to get input from the user. open() opens the new window.
-```js
 
-```
 #### close() 
 * closes the current window. 
 ```js
-
+let myWindow;  
+  
+function openWin() {  
+  myWindow = window.open("", "myWindow", "width=200, height=100");  
+}  
+  
+function closeWin() {  
+  myWindow.close();  
+}
 ```
 #### setTimeout() 
 * performs action after specified time like calling function, evaluating expressions etc.
