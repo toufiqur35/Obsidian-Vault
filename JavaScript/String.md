@@ -40,6 +40,7 @@ document.write(result);  //               output: bogura
 #### substr() 
 * It is used to fetch the part of the given string on the basis of the specified starting position and length.
 ```js
+//syntex: var result = country.substr(index number, lenth); 
 var country = "Bangladesh"
 var result = country.substr(1,4);
 document.write(result);  //               output: angl
