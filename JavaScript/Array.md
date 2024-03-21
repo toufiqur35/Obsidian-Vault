@@ -149,7 +149,13 @@ document.write(result);
 * The java-Script array splice() method is used to add/remove the elements to/from the existing array. it return the removed elements from an array. 
 * The splice() method also modifies the original array.
 ```js
+syntex:numArray.splice(index,removeCount,newItem);
+ 
 var numArray = [10, 20, 30, 22, 35, 50];
-var result = numArray.splice(1, 3);
-document.write(result);
+//remove
+numArray.splice(1, 3);
+document.write(numArray);
+//add
+numArray.splice(1, 0, 500);
+document.write(numArray);
 ```
