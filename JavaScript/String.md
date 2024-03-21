@@ -26,7 +26,7 @@ document.write(result);    //               output: 4
 * It provides the position of a char value present in the given string by searching a character from the last position.
 ```js
 var country = "Bangladesh bogura"
-var result = country.lastIndexOf('bogura');
+var result = country.lastIndexOf('bogura');   // full/single string ex: ("bogura"or"u")
 document.write(result);     //               output: 11
 ```
 #### replace() 
@@ -40,7 +40,7 @@ document.write(result);  //               output: bogura
 #### substr() 
 * It is used to fetch the part of the given string on the basis of the specified starting position and length.
 ```js
-//syntex: var result = country.substr(index number, lenth); 
+//syntex: var result = country.substr(index number, length); 
 var country = "Bangladesh"
 var result = country.substr(1,4);
 document.write(result);  //               output: angl
