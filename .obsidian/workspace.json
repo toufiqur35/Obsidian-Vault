@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Array.md",
+                "file": "JavaScript/String.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Array.md",
+                "file": "JavaScript/String.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Array.md",
+                "file": "JavaScript/String.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Array.md"
+                "file": "JavaScript/String.md"
               }
             }
           },
@@ -155,15 +155,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bfbdc8e43d0155c3",
+  "active": "893263aa5e03cb24",
   "lastOpenFiles": [
+    "JavaScript/Array.md",
+    "JavaScript/String.md",
     "sobuj/toufiqur.md",
     "obsidiant-repo",
     "JavaScript/Loop.md",
     "sobuj",
     "JavaScript/Function.md",
     "JavaScript/Condition.md",
-    "JavaScript/Array.md",
     "Untitled.canvas",
     "2024-03-20.md",
     "mark down/mark down.md",
