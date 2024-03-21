@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Math.md",
+                "file": "JavaScript/Event.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Math.md",
+                "file": "JavaScript/Event.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Math.md",
+                "file": "JavaScript/Event.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Math.md"
+                "file": "JavaScript/Event.md"
               }
             }
           },
@@ -157,8 +157,10 @@
   },
   "active": "cddf78643fa8a28d",
   "lastOpenFiles": [
-    "JavaScript/Date Object.md",
+    "JavaScript/Navigator.md",
+    "JavaScript/Event.md",
     "JavaScript/Math.md",
+    "JavaScript/Date Object.md",
     "JavaScript/String.md",
     "JavaScript/Array.md",
     "sobuj/toufiqur.md",
