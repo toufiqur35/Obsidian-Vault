@@ -138,14 +138,18 @@ document.write(numArray);
 ```
 
 ##### Array Slice()
-* The java-Script array slice() method extracts the part of the given array and returns it. This method doesn`t change the 
+* The java-Script array slice() method extracts the part of the given array and returns it. This method doesn`t change the orginal array. 
 ```js
-//asc
 var numArray = [10, 20, 30, 22, 35, 50];
-numArray.sort();
-document.write(numArray);
-//desc
+var result = numArray.slice(1, 3);
+document.write(result);
+```
+
+##### Array Splice()
+* The java-Script array splice() method is used to add/remove the elements to/from the existing array. it return the removed elements from an array. 
+* The splice() method also modifies the original array.
+```js
 var numArray = [10, 20, 30, 22, 35, 50];
-numArray.sort().reverse();
-document.write(numArray);
+var result = numArray.splice(1, 3);
+document.write(result);
 ```
