@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/String.md",
+                "file": "JavaScript/Condition.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/String.md",
+                "file": "JavaScript/Condition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/String.md",
+                "file": "JavaScript/Condition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/String.md"
+                "file": "JavaScript/Condition.md"
               }
             }
           },
@@ -158,14 +158,14 @@
   "active": "cddf78643fa8a28d",
   "lastOpenFiles": [
     "JavaScript/Loop.md",
+    "JavaScript/Function.md",
+    "JavaScript/String.md",
     "JavaScript/Date Object.md",
     "JavaScript/Array.md",
-    "JavaScript/Function.md",
     "JavaScript/Condition.md",
     "JavaScript/Event.md",
     "JavaScript/Navigator.md",
     "JavaScript/Math.md",
-    "JavaScript/String.md",
     "sobuj/toufiqur.md",
     "obsidiant-repo",
     "sobuj",
