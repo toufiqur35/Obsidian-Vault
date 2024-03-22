@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Condition.md",
+                "file": "Project/Hero.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Condition.md",
+                "file": "Project/Hero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Condition.md",
+                "file": "Project/Hero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Condition.md"
+                "file": "Project/Hero.md"
               }
             }
           },
@@ -157,12 +157,14 @@
   },
   "active": "cddf78643fa8a28d",
   "lastOpenFiles": [
+    "JavaScript/Condition.md",
+    "Project/Hero.md",
+    "Project",
     "JavaScript/Loop.md",
     "JavaScript/Function.md",
     "JavaScript/String.md",
     "JavaScript/Date Object.md",
     "JavaScript/Array.md",
-    "JavaScript/Condition.md",
     "JavaScript/Event.md",
     "JavaScript/Navigator.md",
     "JavaScript/Math.md",
