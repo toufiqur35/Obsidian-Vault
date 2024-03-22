@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Loop.md",
+                "file": "JavaScript/String.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Loop.md",
+                "file": "JavaScript/String.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Loop.md",
+                "file": "JavaScript/String.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Loop.md"
+                "file": "JavaScript/String.md"
               }
             }
           },
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,17 +157,17 @@
   },
   "active": "cddf78643fa8a28d",
   "lastOpenFiles": [
-    "JavaScript/Function.md",
+    "JavaScript/Loop.md",
     "JavaScript/Date Object.md",
+    "JavaScript/Array.md",
+    "JavaScript/Function.md",
     "JavaScript/Condition.md",
     "JavaScript/Event.md",
     "JavaScript/Navigator.md",
     "JavaScript/Math.md",
     "JavaScript/String.md",
-    "JavaScript/Array.md",
     "sobuj/toufiqur.md",
     "obsidiant-repo",
-    "JavaScript/Loop.md",
     "sobuj",
     "Untitled.canvas",
     "2024-03-20.md",
