@@ -37,5 +37,39 @@ class Person{
 }
 
 //OutPut:
-//The name of the person is Jhon Dee
+// Identifier 'Person' has already been declared
+```
+
+#### Another way to define a class is by using a class expression. 
+* Here, it is not mandatory to assign the name of the class. 
+* So, the class expression can be named or unnamed
+```js
+// normal class
+let Person=class { 
+//Properties 
+first_name='Jhon' 
+last_name='Dee' 
+//method 
+getName() { 
+return (`The name of the person is ${this.first_name} ${this.last_name}`) 
+} 
+}
+const person1 = new Person(); 
+console.log(person1.getName()); 
+
+
+// class expression
+let Person=class American { 
+//Properties 
+first_name='Jhon' 
+last_name='Dee' 
+//method 
+getName() { 
+return (`The name of the person is ${this.first_name} ${this.last_name}`) } 
+}
+const person1 = new Person(); 
+console.log(person1.getName())
+
+//OutPut:
+// The name of the person is Jhon Dee
 ```
