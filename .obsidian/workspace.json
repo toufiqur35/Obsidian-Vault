@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a8d21dd0ac638b3d",
+        "id": "0b7430478d02b857",
         "type": "tabs",
         "children": [
           {
-            "id": "cddf78643fa8a28d",
+            "id": "347849a043eca7cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/Hero.md",
+                "file": "JavaScript_oop/JavaScript oop.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/Hero.md",
+                "file": "JavaScript_oop/JavaScript oop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/Hero.md",
+                "file": "JavaScript_oop/JavaScript oop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/Hero.md"
+                "file": "JavaScript_oop/JavaScript oop.md"
               }
             }
           },
@@ -154,10 +154,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cddf78643fa8a28d",
+  "active": "347849a043eca7cf",
   "lastOpenFiles": [
+    "Project/Hero slider.md",
+    "JavaScript_oop/JavaScript oop.md",
+    "JavaScript_oop",
     "JavaScript/Condition.md",
-    "Project/Hero.md",
     "Project",
     "JavaScript/Loop.md",
     "JavaScript/Function.md",
