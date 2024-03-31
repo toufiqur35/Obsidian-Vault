@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript_oop/Inheritance.md",
+                "file": "JavaScript_oop/Inheritance Constructor.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript_oop/Inheritance.md",
+                "file": "JavaScript_oop/Inheritance Constructor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript_oop/Inheritance.md",
+                "file": "JavaScript_oop/Inheritance Constructor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript_oop/Inheritance.md"
+                "file": "JavaScript_oop/Inheritance Constructor.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "468ffa0f68c07211",
   "lastOpenFiles": [
-    "JavaScript_oop/Static Keyword.md",
     "JavaScript_oop/Inheritance.md",
+    "JavaScript_oop/Inheritance Constructor.md",
+    "JavaScript_oop/Static Keyword.md",
     "JavaScript_oop/Encapsulation.md",
     "11 Encapsulation.pdf",
     "JavaScript_oop/Getter and Setter.md",
