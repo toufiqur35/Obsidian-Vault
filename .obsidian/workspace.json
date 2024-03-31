@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0b7430478d02b857",
+        "id": "ec1d87c6cd691b8a",
         "type": "tabs",
         "children": [
           {
-            "id": "347849a043eca7cf",
+            "id": "8573ac4b6cdadd36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript_oop/Constructor.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d019fed57c267ffd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript_oop/Class.md",
+                "file": "JavaScript_oop/Getter and Setter.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript_oop/Constructor.md",
+                "file": "JavaScript_oop/Getter and Setter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript_oop/Constructor.md",
+                "file": "JavaScript_oop/Getter and Setter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript_oop/Constructor.md"
+                "file": "JavaScript_oop/Getter and Setter.md"
               }
             }
           },
@@ -167,8 +155,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "347849a043eca7cf",
+  "active": "8573ac4b6cdadd36",
   "lastOpenFiles": [
+    "JavaScript_oop/Getter and Setter.md",
     "JavaScript_oop/Class.md",
     "JavaScript_oop/Constructor.md",
     "JavaScript_oop/JavaScript Object.md",
