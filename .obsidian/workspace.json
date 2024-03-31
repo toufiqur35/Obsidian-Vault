@@ -19,7 +19,8 @@
               }
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -138,12 +139,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 257.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,7 +155,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8573ac4b6cdadd36",
+  "active": "2ad4776e69ecafcb",
   "lastOpenFiles": [
     "JavaScript_oop/Getter and Setter.md",
     "JavaScript_oop/Class.md",
