@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript_oop/Overriding.md",
+                "file": "JavaScript_oop/Encapsulation.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript_oop/Overriding.md",
+                "file": "JavaScript_oop/Encapsulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript_oop/Overriding.md",
+                "file": "JavaScript_oop/Encapsulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript_oop/Overriding.md"
+                "file": "JavaScript_oop/Encapsulation.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "468ffa0f68c07211",
   "lastOpenFiles": [
+    "JavaScript_oop/Polymorphism & Abstraction.md",
+    "JavaScript_oop/Overriding & Overloading.md",
     "JavaScript_oop/Inheritance Static Properties.md",
-    "JavaScript_oop/Overriding.md",
     "JavaScript_oop/Inheritance Constructor.md",
     "JavaScript_oop/Inheritance.md",
     "JavaScript_oop/Static Keyword.md",
@@ -192,7 +193,6 @@
     "JavaScript/Anonymous function.md",
     "ostad live class/class 2/github.md",
     "JavaScript",
-    "2024-03-05.md",
     "mark down",
     "ostad live class/class 2",
     "class 2",
