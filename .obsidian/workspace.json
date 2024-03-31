@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript_oop/Getter and Setter.md",
+                "file": "JavaScript_oop/Encapsulation.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript_oop/Getter and Setter.md",
+                "file": "JavaScript_oop/Encapsulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript_oop/Getter and Setter.md",
+                "file": "JavaScript_oop/Encapsulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript_oop/Getter and Setter.md"
+                "file": "JavaScript_oop/Encapsulation.md"
               }
             }
           },
@@ -139,11 +139,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,9 +156,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ad4776e69ecafcb",
+  "active": "8573ac4b6cdadd36",
   "lastOpenFiles": [
+    "11 Encapsulation.pdf",
     "JavaScript_oop/Getter and Setter.md",
+    "JavaScript_oop/Encapsulation.md",
     "JavaScript_oop/Class.md",
     "JavaScript_oop/Constructor.md",
     "JavaScript_oop/JavaScript Object.md",
