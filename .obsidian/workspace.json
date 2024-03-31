@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript_oop/JavaScript oop.md",
+                "file": "JavaScript_oop/Class.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript_oop/JavaScript oop.md",
+                "file": "JavaScript_oop/Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript_oop/JavaScript oop.md",
+                "file": "JavaScript_oop/Class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript_oop/JavaScript oop.md"
+                "file": "JavaScript_oop/Class.md"
               }
             }
           },
@@ -138,11 +138,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,8 +157,9 @@
   },
   "active": "347849a043eca7cf",
   "lastOpenFiles": [
+    "JavaScript_oop/JavaScript Object.md",
+    "JavaScript_oop/Class.md",
     "Project/Hero slider.md",
-    "JavaScript_oop/JavaScript oop.md",
     "JavaScript_oop",
     "JavaScript/Condition.md",
     "Project",
