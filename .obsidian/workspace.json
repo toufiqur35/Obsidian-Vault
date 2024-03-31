@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ec1d87c6cd691b8a",
+        "id": "680df684ef9cb83a",
         "type": "tabs",
         "children": [
           {
-            "id": "8573ac4b6cdadd36",
+            "id": "468ffa0f68c07211",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript_oop/Encapsulation.md",
+                "file": "JavaScript_oop/Inheritance.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript_oop/Encapsulation.md",
+                "file": "JavaScript_oop/Inheritance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript_oop/Encapsulation.md",
+                "file": "JavaScript_oop/Inheritance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript_oop/Encapsulation.md"
+                "file": "JavaScript_oop/Inheritance.md"
               }
             }
           },
@@ -156,11 +156,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8573ac4b6cdadd36",
+  "active": "468ffa0f68c07211",
   "lastOpenFiles": [
+    "JavaScript_oop/Static Keyword.md",
+    "JavaScript_oop/Inheritance.md",
+    "JavaScript_oop/Encapsulation.md",
     "11 Encapsulation.pdf",
     "JavaScript_oop/Getter and Setter.md",
-    "JavaScript_oop/Encapsulation.md",
     "JavaScript_oop/Class.md",
     "JavaScript_oop/Constructor.md",
     "JavaScript_oop/JavaScript Object.md",
