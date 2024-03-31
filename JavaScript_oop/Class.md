@@ -73,3 +73,33 @@ console.log(person1.getName())
 //OutPut:
 // The name of the person is Jhon Dee
 ```
+
+#### Re-declaring Class 
+* In this way you can redeclare class
+```js
+var Person=class { 
+//Properties 
+first_name='Jhon' 
+last_name='Dee' 
+//method 
+getName() { 
+return (`The name of the person is ${this.first_name} ${this.last_name}`) }
+} 
+const person1 = new Person(); 
+console.log(person1.getName()); 
+
+//Re-declaring Class 
+var Person=class { 
+//Properties 
+first_name='Toufiqur' 
+last_name='Sobuj' 
+//method 
+getName() { 
+return (`The name of the person is ${this.first_name} ${this.last_name}`) } 
+} 
+const person2 = new Person(); // main change
+console.log(person2.getName());
+
+//OutPut:
+// The name of the person is Toufiqur Sobuj
+```

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript_oop/Class.md",
+                "file": "JavaScript_oop/Constructor.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "363b0e8973658f75",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript_oop/Class.md",
+                "file": "JavaScript_oop/Constructor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript_oop/Class.md",
+                "file": "JavaScript_oop/Constructor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript_oop/Class.md"
+                "file": "JavaScript_oop/Constructor.md"
               }
             }
           },
@@ -158,8 +157,9 @@
   },
   "active": "347849a043eca7cf",
   "lastOpenFiles": [
-    "JavaScript_oop/JavaScript Object.md",
     "JavaScript_oop/Class.md",
+    "JavaScript_oop/Constructor.md",
+    "JavaScript_oop/JavaScript Object.md",
     "Project/Hero slider.md",
     "JavaScript_oop",
     "JavaScript/Condition.md",
