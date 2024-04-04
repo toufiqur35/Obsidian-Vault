@@ -28,3 +28,39 @@ console.log(counter.count);
 // 1
 // undefined (count is encapsulated)
 ```
+
+#### Using Constructor Functions
+
+```js
+function Car(make, model) { 
+let mileage = 0;
+this.getMake = function() { 
+return make; 
+}; 
+this.getModel = function() { 
+return model; 
+}; 
+this.getMileage = function() { 
+return mileage; 
+}; 
+this.drive = function(distance) {
+mileage += distance; 
+}; 
+} 
+const myCar = new Car('Toyota', 'Corolla'); 
+console.log(myCar.getMake()); 
+console.log(myCar.getMileage());
+console.log(myCar.getMileage()); 
+console.log(myCar.mileage); 
+
+// Output:
+// Toyota Using ES6 Classes #JavaScript_OOP
+// 0 myCar.drive(100);
+// 100 
+// undefined (mileage is encapsulated)
+```
+
+#### Using ES6 Classes
+```js
+
+```
