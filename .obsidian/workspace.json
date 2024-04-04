@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0cb5c3fa6606e639",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -156,7 +167,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "468ffa0f68c07211",
+  "active": "0cb5c3fa6606e639",
   "lastOpenFiles": [
     "JavaScript_oop/Polymorphism & Abstraction.md",
     "JavaScript_oop/Overriding & Overloading.md",
