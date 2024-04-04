@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript_oop/Encapsulation.md",
+                "file": "JavaScript_oop/Inheritance Constructor.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript_oop/Encapsulation.md",
+                "file": "JavaScript_oop/Inheritance Constructor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript_oop/Encapsulation.md",
+                "file": "JavaScript_oop/Inheritance Constructor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript_oop/Encapsulation.md"
+                "file": "JavaScript_oop/Inheritance Constructor.md"
               }
             }
           },
@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,10 +156,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf94feffdf98b826",
+  "active": "23abda0f2e90fe7a",
   "lastOpenFiles": [
-    "JavaScript_oop/11 Encapsulation.pdf",
     "JavaScript_oop/Encapsulation.md",
+    "JavaScript_oop/11 Encapsulation.pdf",
     "JavaScript_oop/Static Keyword.md",
     "JavaScript_oop/Polymorphism & Abstraction.md",
     "JavaScript_oop/Overriding & Overloading.md",
