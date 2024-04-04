@@ -143,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,7 +155,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "23abda0f2e90fe7a",
+  "active": "bf94feffdf98b826",
   "lastOpenFiles": [
     "JavaScript_oop/11 Encapsulation.pdf",
     "JavaScript_oop/Encapsulation.md",

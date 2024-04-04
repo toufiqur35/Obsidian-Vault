@@ -62,5 +62,26 @@ console.log(myCar.mileage);
 
 #### Using ES6 Classes
 ```js
+class BankAccount { 
+#balance = 0; // Private field 
+deposit(amount) { 
+this.#balance += amount; 
+} 
+withdraw(amount) { 
+if (amount <= this.#balance) { 
+this.#balance -= amount; 
+} else { 
+console.log("Insufficient balance"); 
+} 
+} 
+getBalance() {
+return this.#balance; 
+} 
+} 
+const acc = new BankAccount(); 
+acc.deposit(100); 
+console.log(acc.getBalance()); 
 
+// Output: 100 console.log(acc.#balance); 
+// Output: Error (private field is encapsulated)
 ```
