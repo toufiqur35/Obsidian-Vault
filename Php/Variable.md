@@ -39,7 +39,7 @@ PHP variables have different scopes, which determine where the variable can be a
 * Global Scope: Variables declared outside of any function can be accessed anywhere in the script. 
 * Super-global: Special global arrays like $_GET, $_POST, $_SESSION, etc., which are accessible from anywhere in the script.
 
-**Local Scope:** Variables declared within a function have local scope, meaning they are only accessible within that function.
+==**Local Scope:**== Variables declared within a function have local scope, meaning they are only accessible within that function.
 ```php
 function greet() {
 $message = "Hello, World!"; 
@@ -48,4 +48,16 @@ echo $message;
 greet();
 ```
 
-==Global Scope:== Variables declared outside of any function have global scope and can be accessed from anywhere in your script.
+**==Global Scope:==** Variables declared outside of any function have global scope and can be accessed from anywhere in your script.
+```php
+$name = "John"; 
+function greet() { 
+global $name; 
+echo "Hello $name!"; 
+} 
+greet();
+// Outputs: Hello John! 
+// You can also access $name outside of the function. echo "Outside function: $name"; // Outputs: Outside function: John
+```
+
+*==Super Global==*:
