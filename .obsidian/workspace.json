@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Printf().md",
+                "file": "Php/Variable.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Printf().md",
+                "file": "Php/Variable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Printf().md",
+                "file": "Php/Variable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Printf().md"
+                "file": "Php/Variable.md"
               }
             }
           },
@@ -143,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,9 +157,9 @@
   },
   "active": "4f892b8c27d36d4c",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Php/Printf().md",
     "Php/Constants.md",
+    "Php/Printf() And Sprintf().md",
+    "Untitled.md",
     "Php/Variable.md",
     "Php.md",
     "Php",
