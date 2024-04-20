@@ -10,12 +10,12 @@ $age=30;
 
 #### Variable Types 
 PHP is a loosely typed language, which means you don't need to declare the data type of a variable explicitly. PHP determines the data type based on the value assigned to it. Common data types in PHP include.
-Strings: Textual data enclosed in single ('') or double ("") quotes.
-Integers: Whole numbers. 
-Floats (or Doubles): Numbers with decimal points. Booleans: True or false values. 
-Arrays: Ordered collections of data. 
-Objects: Instances of user-defined classes. 
-Null: Represents a variable with no value.
+* **Strings:** Textual data enclosed in single **('')** or double **("")** quotes.
+* **Integers:** Whole numbers. 
+* **Floats (or Doubles):** Numbers with decimal points. Booleans: True or false values. 
+* **Arrays:** Ordered collections of data. 
+* **Objects:** Instances of user-defined classes. 
+* **Null:** Represents a variable with no value.
 
 ```php
 $name="John Smith"; 
