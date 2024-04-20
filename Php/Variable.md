@@ -32,3 +32,20 @@ $person1->name = "Alice";
 $person1->age = 25; 
 $noValue = null;
 ```
+
+#### Variable Scope
+PHP variables have different scopes, which determine where the variable can be accessed. The main variable scopes in PHP are
+* Local Scope: Variables declared within a function are only accessible within that function. 
+* Global Scope: Variables declared outside of any function can be accessed anywhere in the script. 
+* Super-global: Special global arrays like $_GET, $_POST, $_SESSION, etc., which are accessible from anywhere in the script.
+
+**Local Scope:** Variables declared within a function have local scope, meaning they are only accessible within that function.
+```php
+function greet() {
+$message = "Hello, World!"; 
+echo $message; 
+} 
+greet();
+```
+
+==Global Scope:== Variables declared outside of any function have global scope and can be accessed from anywhere in your script.
