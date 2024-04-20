@@ -60,4 +60,22 @@ greet();
 // You can also access $name outside of the function. echo "Outside function: $name"; // Outputs: Outside function: John
 ```
 
-*==Super Global==*:
+*==Super Global==*:Global variables are variables that can be accessed from any scope.
+Variables of the outer most scope are automatically global variables, and can be used by any scope, e.g. inside a function.
+To use a global variable inside a function you have to either define them as global with the `global`keyword, or refer to them by using the `$GLOBALS` syntax.
+```php
+// $GLOBALS syntax
+$x = 75; 
+function myfunction() {
+  echo $GLOBALS['x'];
+}
+myfunction();
+
+// global syntax
+$x = 75; 
+function myfunction() {
+  global $x;
+  echo $x;
+}
+myfunction();
+```

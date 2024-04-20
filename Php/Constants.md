@@ -1,0 +1,2 @@
+PHP, constants are like variables but with a significant difference: their values cannot be changed after they are defined. Constants are used to store values that should remain the same throughout your PHP script. 
+Defining Constants: Constants are defined using the define() function or the `const` keyword. The define() function is typically used for defining global constants, while the const keyword is used for class constants.
