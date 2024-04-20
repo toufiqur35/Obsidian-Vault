@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "23abda0f2e90fe7a",
+            "id": "4f892b8c27d36d4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript_oop/Inheritance Constructor.md",
+                "file": "Php/Variable.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "363b0e8973658f75",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript_oop/Inheritance Constructor.md",
+                "file": "Php/Variable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript_oop/Inheritance Constructor.md",
+                "file": "Php/Variable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript_oop/Inheritance Constructor.md"
+                "file": "Php/Variable.md"
               }
             }
           },
@@ -143,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,21 +157,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "23abda0f2e90fe7a",
+  "active": "4f892b8c27d36d4c",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Php/Variable.md",
+    "Php.md",
+    "Php",
+    "Project/Hero slider.md",
+    "JavaScript_oop/Inheritance Constructor.md",
     "JavaScript_oop/Encapsulation.md",
     "JavaScript_oop/11 Encapsulation.pdf",
     "JavaScript_oop/Static Keyword.md",
     "JavaScript_oop/Polymorphism & Abstraction.md",
     "JavaScript_oop/Overriding & Overloading.md",
     "JavaScript_oop/JavaScript Object.md",
-    "JavaScript_oop/Inheritance Constructor.md",
     "JavaScript_oop/Inheritance.md",
     "JavaScript_oop/Getter and Setter.md",
     "JavaScript_oop/Constructor.md",
     "JavaScript_oop/Class.md",
     "JavaScript_oop/Inheritance Static Properties.md",
-    "Project/Hero slider.md",
     "JavaScript_oop",
     "JavaScript/Condition.md",
     "Project",
@@ -186,15 +192,12 @@
     "sobuj",
     "Untitled.canvas",
     "2024-03-20.md",
-    "mark down/mark down.md",
     "Screenshot_1.png",
     "Pasted image 20240320150015.png",
-    "JavaScript/Anonymous function.md",
     "JavaScript",
     "mark down",
     "ostad live class/class 2",
     "class 2",
-    "class 2/Untitled.canvas",
-    "ostad live class"
+    "class 2/Untitled.canvas"
   ]
 }
