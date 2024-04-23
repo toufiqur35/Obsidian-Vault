@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vs Code/vs code shortcuts.md",
+                "file": "Php/While Loop.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vs Code/vs code shortcuts.md",
+                "file": "Php/While Loop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vs Code/vs code shortcuts.md",
+                "file": "Php/While Loop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vs Code/vs code shortcuts.md"
+                "file": "Php/While Loop.md"
               }
             }
           },
@@ -156,10 +156,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bfbdc8e43d0155c3",
+  "active": "4f892b8c27d36d4c",
   "lastOpenFiles": [
-    "Php/Switch Case.md",
+    "Php/For Loop.md",
+    "Php/While Loop.md",
     "Vs Code/vs code shortcuts.md",
+    "Php/Switch Case.md",
     "Vs Code",
     "Untitled.md",
     "Php/Nested Ternary Operators.md",
@@ -186,9 +188,7 @@
     "JavaScript_oop/Class.md",
     "JavaScript_oop/Inheritance Static Properties.md",
     "JavaScript_oop",
-    "JavaScript/Condition.md",
     "Project",
-    "JavaScript/Loop.md",
     "obsidiant-repo",
     "sobuj",
     "Untitled.canvas",
