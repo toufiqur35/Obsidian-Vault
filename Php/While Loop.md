@@ -22,7 +22,8 @@ while(++$i<5)
 	echo "\n";
 	echo $i;
 }
-// example 1: 
-// example 1
-// example 1
+//output:
+// example 1: 12345678910
+// example 2: 12345
+// example 3: 1234
 ```
