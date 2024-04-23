@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Variable.md",
+                "file": "Php/Ternary Operators.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Variable.md",
+                "file": "Php/Ternary Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Variable.md",
+                "file": "Php/Ternary Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Variable.md"
+                "file": "Php/Ternary Operators.md"
               }
             }
           },
@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,10 +158,13 @@
   },
   "active": "4f892b8c27d36d4c",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Php/Ternary Operators.md",
+    "Php/Nested If Else.md",
+    "Php/If Else.md",
+    "Php/Variable.md",
     "Php/Constants.md",
     "Php/Printf() And Sprintf().md",
-    "Untitled.md",
-    "Php/Variable.md",
     "Php.md",
     "Php",
     "Project/Hero slider.md",
@@ -184,9 +188,6 @@
     "JavaScript/String.md",
     "JavaScript/Date Object.md",
     "JavaScript/Array.md",
-    "JavaScript/Event.md",
-    "JavaScript/Navigator.md",
-    "JavaScript/Math.md",
     "obsidiant-repo",
     "sobuj",
     "Untitled.canvas",
