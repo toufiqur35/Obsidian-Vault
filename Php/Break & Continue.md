@@ -24,19 +24,17 @@ The PHP continue statement is used to continue the loop. It continues the curren
 
 The continue statement is used within looping and switch control structure when you immediately jump to the next iteration.
 
-The continue statement can be used with all types of loops such as - for, while, do-while, and foreach loop. The continue statement allows the user to skip the execution of the code for the specified condition.
-```php
+The continue statement can be used with all types of loops such as - for, while, do-while, and for-each loop. The continue statement allows the user to skip the execution of the code for the specified condition.
 ```php
 $x = 0;
-
 while($x < 10) {
   if ($x == 4) {
     continue;
   }
-  echo "The number is: $x <br>";
+  echo $x"\n";
   $x++;
 }
-```
+
 //outer loop  
 for ($i =1; $i<=5; $i++) {  
 //inner loop  
@@ -45,7 +43,7 @@ for ($i =1; $i<=5; $i++) {  
 		continue;       //skip when i and j does not have same values  
 		}  
 		echo $i.$j;  
-		echo "</br>";  
+		echo "\n";  
 	}  
 }
 ```
