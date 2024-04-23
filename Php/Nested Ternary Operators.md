@@ -1,4 +1,4 @@
-
+We can nest a ternary operator as **an expression inside another ternary operator**. We can use this to replace if…else if…else statements and switch statements.
 ```php
 $f = 0;
 

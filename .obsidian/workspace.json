@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Nested Ternary Operators.md",
+                "file": "Vs Code/vs code shortcuts.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Nested Ternary Operators.md",
+                "file": "Vs Code/vs code shortcuts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Nested Ternary Operators.md",
+                "file": "Vs Code/vs code shortcuts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Nested Ternary Operators.md"
+                "file": "Vs Code/vs code shortcuts.md"
               }
             }
           },
@@ -158,6 +158,9 @@
   },
   "active": "4f892b8c27d36d4c",
   "lastOpenFiles": [
+    "Php/Switch Case.md",
+    "Vs Code/vs code shortcuts.md",
+    "Vs Code",
     "Untitled.md",
     "Php/Nested Ternary Operators.md",
     "Php/Ternary Operators.md",
@@ -186,8 +189,6 @@
     "JavaScript/Condition.md",
     "Project",
     "JavaScript/Loop.md",
-    "JavaScript/Function.md",
-    "JavaScript/String.md",
     "obsidiant-repo",
     "sobuj",
     "Untitled.canvas",
@@ -196,7 +197,6 @@
     "JavaScript",
     "mark down",
     "ostad live class/class 2",
-    "class 2",
     "class 2/Untitled.canvas"
   ]
 }
