@@ -36,3 +36,19 @@ for (
 	print $i, $i++
 );
 ```
+
+#### Revers for loop
+```php
+for ($i = 10; $i > 0; $i--) {
+	echo"\n";
+    echo $i;
+}
+```
+#### Multiple stepping in for loop
+```php
+for($i = 10, $j = 0; $i > 0; $i-=1, $j++)
+{
+echo $i." ".$j;
+echo "\n";
+}
+```
