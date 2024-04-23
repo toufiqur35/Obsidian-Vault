@@ -1,1 +1,1 @@
- | Nested Ternary Operators | Switch Case | VSCode Power Tips | VSCode Settings & Extensions for PHP Laravel Web Development
+ |  | Switch Case | VSCode Power Tips | VSCode Settings & Extensions for PHP Laravel Web Development

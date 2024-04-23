@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Ternary Operators.md",
+                "file": "Php/Nested Ternary Operators.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Ternary Operators.md",
+                "file": "Php/Nested Ternary Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Ternary Operators.md",
+                "file": "Php/Nested Ternary Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Ternary Operators.md"
+                "file": "Php/Nested Ternary Operators.md"
               }
             }
           },
@@ -159,6 +159,8 @@
   "active": "4f892b8c27d36d4c",
   "lastOpenFiles": [
     "Untitled.md",
+    "Php/Nested Ternary Operators.md",
+    "Php/Ternary Operators.md",
     "Php/Ternary Operators.md",
     "Php/Nested If Else.md",
     "Php/If Else.md",
@@ -186,8 +188,6 @@
     "JavaScript/Loop.md",
     "JavaScript/Function.md",
     "JavaScript/String.md",
-    "JavaScript/Date Object.md",
-    "JavaScript/Array.md",
     "obsidiant-repo",
     "sobuj",
     "Untitled.canvas",
