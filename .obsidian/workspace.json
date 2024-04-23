@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Fibonacci Series.md",
+                "file": "Php/Variadic (multi parameters) function.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Fibonacci Series.md",
+                "file": "Php/Variadic (multi parameters) function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Fibonacci Series.md",
+                "file": "Php/Variadic (multi parameters) function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Fibonacci Series.md"
+                "file": "Php/Variadic (multi parameters) function.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "4f892b8c27d36d4c",
   "lastOpenFiles": [
-    "Php/Break & Continue.md",
     "Php/Fibonacci Series.md",
+    "Php/Variadic (multi parameters) function.md",
+    "Php/Break & Continue.md",
     "Php/While Loop.md",
     "Php/For Loop.md",
     "Php/Do While Loop.md",
@@ -186,7 +187,6 @@
     "JavaScript_oop/Overriding & Overloading.md",
     "JavaScript_oop/JavaScript Object.md",
     "JavaScript_oop/Inheritance.md",
-    "JavaScript_oop/Getter and Setter.md",
     "JavaScript_oop",
     "Project",
     "obsidiant-repo",
