@@ -225,3 +225,62 @@ if($counter>$end)
 }
 printN(0,5,2);
 ```
+
+#### Callback Function
+Function that is passed as an argument to another function and is executed after the completion of that function. This pattern is quite common in programming, especially in scenarios like event handling, asynchronous operations, or functions that require custom logic.
+```php
+function sum($a, $b) 
+{ 
+echo $a + $b; 
+} 
+function calculate($num1, $num2, $callback) 
+{
+return $callback($num1, $num2); 
+} 
+calculate(5, 3, 'sum');
+```
+
+Basic Return Types
+```php
+function getAge(): int 
+{ 
+return 25; 
+}
+function isAdult(int $age): bool 
+{ 
+return $age >= 18; 
+} 
+echo getAge(); 
+echo isAdult(11)
+```
+
+Nullable Return Type
+```php
+function findUsername(int $id): ?string
+{ 
+if ($id === 1) 
+{ 
+return "JohnDoe"; 
+} 
+return null; // It's valid because of the ? before string 
+} 
+echo findUsername(2);
+```
+
+Return Type of void
+```php
+function logMessage(string $message): void 
+{ 
+echo $message; 
+} 
+logMessage("Hello");
+```
+
+Union Return Types
+```php
+function sum($num1,$num2):int|string
+{
+return $num1+$num2; 
+} 
+echo sum("33","20");
+```
