@@ -66,6 +66,23 @@ function sum($num1, $num2=10) {
 echo $num1+$num2;
 } 
 sum(2);
+
+//example 2
+function serve($foodType,$numberOfItem)
+{
+	 echo "{$numberOfItem} of {$foodType} has been serve";
+}
+$ft = "coffee";
+$n = "2 cups";
+serve($ft,$n);
+
+//Default value of function
+function serve($foodType,$numberOfItem="1 cups")
+{
+	echo "{$numberOfItem} of {$foodType} has been serve";
+}
+$ft = "coffee";
+serve($ft);
 ```
 #### Type hinting or type checking of function parameters
 **Primitive types:** like `int, float, bool, string`. 
@@ -110,4 +127,48 @@ function factorial($n)
 }
 $x= "4";
 echo "Factorial {$x} is :".factorial($x);
+```
+Multiple type hinting in one parameter
+```php
+function sum(int|string $num1,int|string $num2) 
+{ 
+echo $num1+$num2; 
+} 
+sum("33","20");
+```
+
+Nullable type hints
+```php
+function myName(?string $text): void { 
+if ($text) { 
+echo "Text is: $text "; 
+} 
+else { 
+echo "No text provided."; 
+} }
+myName("Jack"); 
+myName(null);
+```
+#### Anonymous Functions (or Closures)
+These are functions without a name. They can be stored in variables or passed as arguments to other functions.
+* Creation & Execution Directly
+```php
+(function () 
+ { 
+ echo "Hello from the anonymous function!"; 
+ })
+ ();
+```
+
+* Assign to a Variable and Execute
+```php
+$greet = function($name) 
+{ 
+echo "Hello, " . $name . "!"; 
+}; 
+$greet("OSTAD");
+```
+* Arrow functions provide a more concise syntax for writing anonymous functions. are designed for simple, single-expression use-cases.
+```php
+$sum = fn($num1,$num2) =>$num1 * $num2; echo $sum(5,5);
 ```
