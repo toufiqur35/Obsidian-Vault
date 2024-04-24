@@ -1,6 +1,17 @@
 **==All Subject:==**
-1. 
-
+1. normal function
+2. Built-in Functions
+3. User-defined Functions
+4. Function With Parameters
+5. Function With Parameters Default Value 
+6. Type hinting or type checking of function parameters
+7. Anonymous Functions (or Closures)
+8. Recursion and Recursive Functions
+9. Callback Function
+10. Strict mode in PHP
+11. Variable Scope
+12. Static
+#### Normal Function
 PHP function is a piece of code that can be reused many times. It can take input as argument list and return value. There are thousands of built-in functions in PHP.
 
 In PHP, we can define **Conditional function**, **Function within Function** and **Recursive function** also.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Function/Function.md",
+                "file": "Php/Fibonacci Series.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Function/Function.md",
+                "file": "Php/Fibonacci Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Function/Function.md",
+                "file": "Php/Fibonacci Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Function/Function.md"
+                "file": "Php/Fibonacci Series.md"
               }
             }
           },
@@ -158,25 +158,27 @@
   },
   "active": "4f892b8c27d36d4c",
   "lastOpenFiles": [
-    "Php/Function/Fibonacci Series.md",
+    "Php/If Else/Switch Case.md",
+    "Php/If Else/Nested Ternary Operators.md",
+    "Php/Loop/Break & Continue.md",
     "Php/Function/Function.md",
+    "Php/If Else",
+    "Php/Loop",
+    "Php/Function/Fibonacci Series.md",
     "Php/Function/Variadic (multi parameters) function.md",
     "Php/Function",
     "Untitled",
     "Php/Fibonacci Series.md",
-    "Php/Break & Continue.md",
-    "Php/While Loop.md",
-    "Php/For Loop.md",
-    "Php/Do While Loop.md",
+    "Php/Loop/While Loop.md",
+    "Php/Loop/For Loop.md",
+    "Php/Loop/Do While Loop.md",
     "Vs Code/vs code shortcuts.md",
-    "Php/Switch Case.md",
     "Vs Code",
     "Untitled.md",
-    "Php/Nested Ternary Operators.md",
-    "Php/Ternary Operators.md",
-    "Php/Ternary Operators.md",
-    "Php/Nested If Else.md",
-    "Php/If Else.md",
+    "Php/If Else/Ternary Operators.md",
+    "Php/If Else/Ternary Operators.md",
+    "Php/If Else/Nested If Else.md",
+    "Php/If Else/If Else.md",
     "Php/Variable.md",
     "Php/Constants.md",
     "Php/Printf() And Sprintf().md",
@@ -188,15 +190,12 @@
     "JavaScript_oop/11 Encapsulation.pdf",
     "JavaScript_oop/Static Keyword.md",
     "JavaScript_oop/Polymorphism & Abstraction.md",
-    "JavaScript_oop/Overriding & Overloading.md",
     "JavaScript_oop",
     "Project",
     "obsidiant-repo",
-    "sobuj",
     "Untitled.canvas",
     "Screenshot_1.png",
     "Pasted image 20240320150015.png",
-    "JavaScript",
     "class 2/Untitled.canvas"
   ]
 }
