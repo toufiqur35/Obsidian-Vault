@@ -1,3 +1,6 @@
+**==All Subject:==**
+1. 
+
 PHP function is a piece of code that can be reused many times. It can take input as argument list and return value. There are thousands of built-in functions in PHP.
 
 In PHP, we can define **Conditional function**, **Function within Function** and **Recursive function** also.
@@ -308,18 +311,38 @@ PHP has three different variable scopes:
 
 A variable declared **outside** a function has a GLOBAL SCOPE and can only be accessed outside a function:
 ```php
-
+$x = 5; // global scope
+function myTest() {
+  echo $x; //eror
+}
+myTest();
+echo $x; //run
 ```
+## PHP The global Keyword
+The `global` keyword is used to access a global variable from within a function.
+To do this, use the `global` keyword before the variables (inside the function):
 ```php
+$x = 5;
+$y = 10;
+
+function myTest() {
+  global $x, $y;
+  $y = $x + $y;
+}
+
+myTest();
+echo $y; // outputs 15
+
+//another
 $name = "Sobuj";
 function doSomthing()
 {
 	echo $GLOBALS['name'];
 }
-doSomthing();
+doSomthing();// outputs Sobuj
 ```
-
 #### Static
+এটি ভেরিয়েবল, পদ্ধতি, ব্লক এবং নেস্টেড ক্লাসের সাথে ব্যবহার করা যেতে পারে। এটি একটি কীওয়ার্ড যা **প্রদত্ত ক্লাসের একই পরিবর্তনশীল বা পদ্ধতি ভাগ করতে ব্যবহৃত হয়** । মূলত, স্ট্যাটিক একটি ধ্রুবক পরিবর্তনশীল বা একটি পদ্ধতির জন্য ব্যবহৃত হয় যা একটি ক্লাসের প্রতিটি উদাহরণের জন্য একই। একটি শ্রেণীর প্রধান পদ্ধতি সাধারণত স্ট্যাটিক লেবেল করা হয়.
 ```php
 function doSomthing()
 {
