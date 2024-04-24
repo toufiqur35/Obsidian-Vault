@@ -143,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,7 +155,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f892b8c27d36d4c",
+  "active": "bf94feffdf98b826",
   "lastOpenFiles": [
     "Php/Function/Function.md",
     "Problem Solving/php/Easy.md",
