@@ -172,3 +172,56 @@ $greet("OSTAD");
 ```php
 $sum = fn($num1,$num2) =>$num1 * $num2; echo $sum(5,5);
 ```
+
+#### Recursion and Recursive Functions `niga niga call korba`
+Recursive functions are **a powerful tool in PHP that can simplify complex problems by breaking them down into smaller sub-problems**. However, they must be used with care and attention to detail to ensure that they terminate correctly and do not consume excessive resources.
+```php
+function factorial($n) 
+{ 
+if ($n == 0) { 
+	return 1; 
+} 
+else { 
+	return $n * factorial($n-1); 
+} 
+}
+echo factorial(5);
+
+//example 2
+function printN($i)
+{
+if($i>10)
+{
+	return;
+}
+	echo $i."\n";
+	$i++;
+	printN($i);
+}
+printN(0);
+//another
+function printN($counter,$end)
+{
+if($counter>$end)
+{
+	return;
+}
+	echo $counter."\n";
+	$counter++;
+	printN($counter,$end);
+}
+printN(0,5);
+
+//another
+function printN($counter,$end,$steap=1)
+{
+if($counter>$end)
+{
+	return;
+}
+	echo $counter."\n";
+	$counter+=$steap;
+	printN($counter,$end,$steap);
+}
+printN(0,5,2);
+```

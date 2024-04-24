@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Function/Function.md",
+                "file": "Php/Function/Fibonacci Series.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Function/Function.md",
+                "file": "Php/Function/Fibonacci Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Function/Function.md",
+                "file": "Php/Function/Fibonacci Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Function/Function.md"
+                "file": "Php/Function/Fibonacci Series.md"
               }
             }
           },
@@ -156,10 +156,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf94feffdf98b826",
+  "active": "4f892b8c27d36d4c",
   "lastOpenFiles": [
-    "Php/Function/Variadic (multi parameters) function.md",
     "Php/Function/Function.md",
+    "Php/Function/Fibonacci Series.md",
+    "Php/Function/Variadic (multi parameters) function.md",
     "Php/Function",
     "Untitled",
     "Php/Fibonacci Series.md",
@@ -188,7 +189,6 @@
     "JavaScript_oop/Static Keyword.md",
     "JavaScript_oop/Polymorphism & Abstraction.md",
     "JavaScript_oop/Overriding & Overloading.md",
-    "JavaScript_oop/JavaScript Object.md",
     "JavaScript_oop",
     "Project",
     "obsidiant-repo",
