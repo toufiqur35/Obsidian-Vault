@@ -25,11 +25,12 @@ if($n % 2 == 0)
 	}
 ```
 
-Built-in Functions: 
-These are the standard functions that are always available in PHP without any special requirement like. strlen(): To get the length of a string. array_merge(): To merge two or more arrays. is_numeric(): To check if a variable is a number or a numeric string. Build In Functions List https://www.php.net/manual/en/indexes.functions.php 
+#### Built-in Functions: 
+These are the standard functions that are always available in PHP without any special requirement like. `strlen()`: To get the length of a string. `array_merge()`: To merge two or more arrays. `is_numeric()`: To check if a variable is a number or a numeric string. 
+Build In Functions List https://www.php.net/manual/en/indexes.functions.php 
 ```php
 $string = "Hello,World!"; 
-$length = strlen($string); 
+$length = strlen($string)."\n"; 
 echo $length; 
 $value="12Z"; 
 if (is_numeric($value)) { 
@@ -39,5 +40,22 @@ else {
 echo "The value '$value' is NOT numeric"; 
 }
 ```
-User-defined Functions: 
+#### User-defined Functions: 
 These are functions created by the programmer. They're defined using the function keyword.
+```php
+function sum() { 
+$num1=20; 
+$num2=30; 
+echo $num1+$num2; 
+} 
+sum();
+```
+
+#### Function With Parameters
+```php
+function sum($num1, $num2) { 
+echo $num1+$num2;
+} 
+sum(1,2);
+```
+
