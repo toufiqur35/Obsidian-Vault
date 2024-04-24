@@ -284,3 +284,53 @@ return $num1+$num2;
 } 
 echo sum("33","20");
 ```
+
+#### Strict mode in PHP
+Affects how type hints are enforced. 
+By default, PHP will try to coerce values of the wrong type to match the expected type. 
+In strict mode, PHP will throw a Type Error if the provided value does not exactly match the expected type.
+```php
+declare(strict_types=1); 
+function add(int $a, int $b): int 
+{ 
+return $a + $b; 
+} 
+echo add("5", "10");
+```
+
+#### Variable Scope in PHP Function
+ভেরিয়েবল স্কোপস: একটি ভেরিয়েবলের স্কোপ **প্রোগ্রামের মধ্যে তার ব্যাপ্তি হিসাবে সংজ্ঞায়িত করা হয় যার মধ্যে এটি অ্যাক্সেস করা যেতে পারে** , অর্থাৎ একটি ভেরিয়েবলের সুযোগ হল প্রোগ্রামের সেই অংশ যার মধ্যে এটি দৃশ্যমান বা অ্যাক্সেস করা যেতে পারে। স্কোপের উপর নির্ভর করে, PHP এর তিনটি পরিবর্তনশীল স্কোপ রয়েছে।
+PHP has three different variable scopes:
+- local
+- global
+- static
+## Global and Local Scope
+
+A variable declared **outside** a function has a GLOBAL SCOPE and can only be accessed outside a function:
+```php
+
+```
+```php
+$name = "Sobuj";
+function doSomthing()
+{
+	echo $GLOBALS['name'];
+}
+doSomthing();
+```
+
+#### Static
+```php
+function doSomthing()
+{
+static $i;  //protibar ar man save kora rakba
+$i = $i ?? 0; // ?? null kina check korba
+$i++;
+echo $i;
+echo "\n";
+}
+doSomthing();
+doSomthing();
+doSomthing();
+doSomthing();
+```
