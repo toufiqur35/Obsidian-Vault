@@ -59,3 +59,55 @@ echo $num1+$num2;
 sum(1,2);
 ```
 
+#### Function With Parameters Default Value 
+One without a default value must be declared before the one with a default value.
+```php
+function sum($num1, $num2=10) { 
+echo $num1+$num2;
+} 
+sum(2);
+```
+#### Type hinting or type checking of function parameters
+**Primitive types:** like `int, float, bool, string`. 
+**Classes and interfaces:** Any class or interface name. 
+**Arrays:** with the array keyword.
+**Callable:** for functions or objects that implement the invoke method. 
+**Nullable types:** by prefixing with a ?.
+**Iterables:** with the iterable keyword, which includes both arrays and objects implementing the Traversable interface. 
+**Union types:** introduced in PHP 8, where a parameter can accept multiple types.
+```php
+//example 1
+function sum(int $num1,int $num2) { 
+echo $num1+$num2; 
+}
+sum(20,20);
+
+//example 1
+function factorial(int $n) //int type hinting
+{
+	$result = 1;
+	for($i=$n;$i>1;$i--)
+	{
+		$result *= $i;
+	}
+	return $result;
+}
+$x= 4;
+echo "Factorial {$x} is :".factorial($x);
+//another way
+function factorial($n)
+{
+	if(gettype($n)!="integer")// type hinting
+	{
+	return "invalid";
+	}
+		 $result = 1;
+	for($i=$n;$i>1;$i--)
+	{
+		$result *= $i;
+	}
+	return $result;
+}
+$x= "4";
+echo "Factorial {$x} is :".factorial($x);
+```
