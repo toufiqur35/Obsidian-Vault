@@ -11,6 +11,7 @@
 10. Strict mode in PHP
 11. Variable Scope
 12. Static
+PHP Functions - Manual: https://www.php.net/manual/en/language.functions.php
 #### Normal Function
 PHP function is a piece of code that can be reused many times. It can take input as argument list and return value. There are thousands of built-in functions in PHP.
 
