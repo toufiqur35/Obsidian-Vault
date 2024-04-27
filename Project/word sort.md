@@ -1,3 +1,3 @@
 ```php
-{{ Str::words ($blog->descriopion,10)}}
+{{ Str::words ($blog->description,10)}}
 ```
