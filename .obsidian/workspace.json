@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ostad live class/class 2/github.md",
+                "file": "Project/word sort.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ostad live class/class 2/github.md",
+                "file": "Project/word sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ostad live class/class 2/github.md",
+                "file": "Project/word sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ostad live class/class 2/github.md"
+                "file": "Project/word sort.md"
               }
             }
           },
@@ -157,6 +157,8 @@
   },
   "active": "0c39eaa62dda6fb2",
   "lastOpenFiles": [
+    "ostad live class/class 2/github.md",
+    "Project/word sort.md",
     "Problem Solving/php/Easy.md",
     "Php/Function/Function.md",
     "Problem Solving/php",
@@ -189,8 +191,6 @@
     "JavaScript_oop/Inheritance Constructor.md",
     "JavaScript_oop/Encapsulation.md",
     "JavaScript_oop/11 Encapsulation.pdf",
-    "JavaScript_oop/Static Keyword.md",
-    "JavaScript_oop/Polymorphism & Abstraction.md",
     "JavaScript_oop",
     "Project",
     "Untitled.canvas",
