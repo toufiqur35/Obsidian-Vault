@@ -30,4 +30,10 @@ git ignore:
 1. touch .gitignore
 
 #### git upload file all command:
-1. git ini
+```
+git init
+git add .
+git commit -m "your massage"
+git remote add origin (repository link)
+git push -u origin master
+```
