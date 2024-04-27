@@ -28,3 +28,6 @@ git checkout  key (j kono commit version jata parbo)
 
 git ignore:
 1. touch .gitignore
+
+#### git upload file all command:
+1. git ini

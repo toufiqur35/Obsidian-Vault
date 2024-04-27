@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problem Solving/php/Easy.md",
+                "file": "ostad live class/class 2/github.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problem Solving/php/Easy.md",
+                "file": "ostad live class/class 2/github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problem Solving/php/Easy.md",
+                "file": "ostad live class/class 2/github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problem Solving/php/Easy.md"
+                "file": "ostad live class/class 2/github.md"
               }
             }
           },
@@ -156,7 +156,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bfbdc8e43d0155c3",
+  "active": "0c39eaa62dda6fb2",
   "lastOpenFiles": [
     "Problem Solving/php/Easy.md",
     "Php/Function/Function.md",
