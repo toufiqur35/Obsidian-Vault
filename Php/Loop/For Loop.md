@@ -59,11 +59,3 @@ for($i = 0, $j = 0; $i<100; $i+=7,$j+=11)
 }
 ```
 
-
-```php
-$cars = array("Volvo", "BMW", "Toyota");
-foreach($fruits as $fruit)
-{
-echo $fruit."\n";
-}
-```
