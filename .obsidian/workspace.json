@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Variable.md",
+                "file": "Php/If Else/Switch Case.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Variable.md",
+                "file": "Php/If Else/Switch Case.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Variable.md",
+                "file": "Php/If Else/Switch Case.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Variable.md"
+                "file": "Php/If Else/Switch Case.md"
               }
             }
           },
@@ -158,24 +158,26 @@
   },
   "active": "0c39eaa62dda6fb2",
   "lastOpenFiles": [
+    "Php/If Else/Nested Ternary Operators.md",
+    "Php/Loop/Break & Continue.md",
+    "Php/Loop/Do While Loop.md",
+    "Php/Loop/For Loop.md",
+    "Php/Loop/While Loop.md",
+    "Php/Constants.md",
+    "Php/Fibonacci Series.md",
+    "Php/Variable.md",
     "Project/word sort.md",
     "ostad live class/class 2/github.md",
     "Problem Solving/php/Easy.md",
     "Php/Function/Function.md",
     "Problem Solving/php",
     "Problem Solving",
-    "Php/Fibonacci Series.md",
     "Php/If Else/Switch Case.md",
-    "Php/If Else/Nested Ternary Operators.md",
-    "Php/Loop/Break & Continue.md",
     "Php/If Else",
     "Php/Loop",
     "Php/Function/Fibonacci Series.md",
     "Php/Function/Variadic (multi parameters) function.md",
     "Php/Function",
-    "Php/Loop/While Loop.md",
-    "Php/Loop/For Loop.md",
-    "Php/Loop/Do While Loop.md",
     "Vs Code/vs code shortcuts.md",
     "Vs Code",
     "Untitled.md",
@@ -183,8 +185,6 @@
     "Php/If Else/Ternary Operators.md",
     "Php/If Else/Nested If Else.md",
     "Php/If Else/If Else.md",
-    "Php/Variable.md",
-    "Php/Constants.md",
     "Php/Printf() And Sprintf().md",
     "Php.md",
     "Php",
