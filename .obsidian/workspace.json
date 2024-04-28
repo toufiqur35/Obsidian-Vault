@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/word sort.md",
+                "file": "Php/Variable.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/word sort.md",
+                "file": "Php/Variable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/word sort.md",
+                "file": "Php/Variable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/word sort.md"
+                "file": "Php/Variable.md"
               }
             }
           },
@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,10 +156,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bfbdc8e43d0155c3",
+  "active": "0c39eaa62dda6fb2",
   "lastOpenFiles": [
-    "ostad live class/class 2/github.md",
     "Project/word sort.md",
+    "ostad live class/class 2/github.md",
     "Problem Solving/php/Easy.md",
     "Php/Function/Function.md",
     "Problem Solving/php",
