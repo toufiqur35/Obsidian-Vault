@@ -58,3 +58,12 @@ for($i = 0, $j = 0; $i<100; $i+=7,$j+=11)
 	echo $j<100 ? $j."\n":'';
 }
 ```
+
+
+```php
+$cars = array("Volvo", "BMW", "Toyota");
+foreach($fruits as $fruit)
+{
+echo $fruit."\n";
+}
+```
