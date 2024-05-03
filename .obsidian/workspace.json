@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "43ce9acdeaefea2c",
+        "id": "30d9a22c0fedfa18",
         "type": "tabs",
         "children": [
           {
-            "id": "0c39eaa62dda6fb2",
+            "id": "19aaa46bb774f72b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Php/Array/Array.md",
-                "mode": "source",
-                "source": false
+                "file": "sobujjj/8 Array Mathematics Function.pdf"
               }
             }
           }
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Array/Array.md",
+                "file": "sobujjj/8 Array Mathematics Function.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Array/Array.md",
+                "file": "sobujjj/8 Array Mathematics Function.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Array/Array.md"
+                "file": "sobujjj/8 Array Mathematics Function.pdf"
               }
             }
           },
@@ -156,10 +154,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c39eaa62dda6fb2",
+  "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
-    "Php/Loop/Do While Loop.md",
+    "sobujjj/8 Array Mathematics Function.md",
+    "sobujjj/8 Array Mathematics Function.pdf",
+    "sobujjj",
+    "New folder",
+    "2024-05-03.md",
     "Php/Array/Array.md",
+    "Php/Loop/Do While Loop.md",
     "Php/Array",
     "Php/Loop/for each.md",
     "Php/Loop/For Loop.md",
@@ -188,12 +191,6 @@
     "Php/If Else/Ternary Operators.md",
     "Php/If Else/Nested If Else.md",
     "Php/If Else/If Else.md",
-    "Php/Printf() And Sprintf().md",
-    "Php.md",
-    "Php",
-    "Project/Hero slider.md",
-    "JavaScript_oop/11 Encapsulation.pdf",
-    "JavaScript_oop",
     "Untitled.canvas",
     "Screenshot_1.png",
     "Pasted image 20240320150015.png",
