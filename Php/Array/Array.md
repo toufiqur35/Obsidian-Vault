@@ -26,8 +26,14 @@ echo $value . "  ";
 * Associative arrays can be defined using the array() function or the short array syntax [].
 ##### How to create
 ```php
-$person1 = array("first_name" => "John", "last_name" => "Doe");
-$person2 = ["first_name" => "Jane", "last_name" => "Smith"]; 
+$person1 = array(
+"first_name" => "John", 
+"last_name" => "Doe"
+);
+$person2 = [
+"first_name" => "Jane", 
+"last_name" => "Smith"
+]; 
 // Accessing Values
 echo $person1["first_name"]; 
 //Looping Through an Associative Array 
