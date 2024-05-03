@@ -42,3 +42,34 @@ foreach ($person1 as $key => $value)
 echo "$key : $value "; 
 }
 ```
+
+#### Multidimensional arrays
+* Multidimensional arrays are arrays that contain other arrays as their elements. The contained arrays can be indexed or associative
+##### How to create
+```php
+//Declaring a Multidimensional Array 
+$array = array( 
+array(1, 2, 3), 
+array(4, 5, 6), 
+array(7, 8, 9) 
+); 
+//Accessing Elements 
+echo $array[1][2]; 
+//Associative Multidimensional Array 
+$users = array( "john" => 
+			   array( "age" => 25, "email" => "john@example.com" ), 
+			   "jane" => 
+			   array( "age" => 30, "email" => "jane@example.com" 
+			   )
+			); 
+echo $users["john"]["email"]; 
+//Looping Through Multidimensional Arrays 
+foreach($users as $username => $details) 
+{ 
+echo "Username: $username\n"; 
+foreach($details as $key => $value) 
+{ 
+echo "$key: $value\n"; 
+} 
+}
+```
