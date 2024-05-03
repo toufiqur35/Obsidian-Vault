@@ -11,9 +11,11 @@
             "id": "19aaa46bb774f72b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "sobujjj/8 Array Mathematics Function.pdf"
+                "file": "Php/Array/Array.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sobujjj/8 Array Mathematics Function.pdf",
+                "file": "Php/Array/Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sobujjj/8 Array Mathematics Function.pdf",
+                "file": "Php/Array/Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sobujjj/8 Array Mathematics Function.pdf"
+                "file": "Php/Array/Array.md"
               }
             }
           },
@@ -156,8 +158,8 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
-    "sobujjj/8 Array Mathematics Function.md",
     "sobujjj/8 Array Mathematics Function.pdf",
+    "sobujjj/8 Array Mathematics Function.md",
     "sobujjj",
     "New folder",
     "2024-05-03.md",
