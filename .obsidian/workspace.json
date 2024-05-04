@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Array/Array Creation and Manipulation Functions.md",
+                "file": "Php/Array/Array Information Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Array/Array Creation and Manipulation Functions.md",
+                "file": "Php/Array/Array Information Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Array/Array Creation and Manipulation Functions.md",
+                "file": "Php/Array/Array Information Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Array/Array Creation and Manipulation Functions.md"
+                "file": "Php/Array/Array Information Functions.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
-    "Php/Array/Array.md",
     "Php/Array/Array Creation and Manipulation Functions.md",
+    "Php/Array/Array Information Functions.md",
+    "Php/Array/Array.md",
     "2024-05-03.md",
     "sobujjj/8 Array Mathematics Function.pdf",
     "sobujjj/8 Array Mathematics Function.md",
@@ -193,7 +194,6 @@
     "Php/If Else/Ternary Operators.md",
     "Php/If Else/Ternary Operators.md",
     "Php/If Else/Nested If Else.md",
-    "Php/If Else/If Else.md",
     "Untitled.canvas",
     "Screenshot_1.png",
     "Pasted image 20240320150015.png",

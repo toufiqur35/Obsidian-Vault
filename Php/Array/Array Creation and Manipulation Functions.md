@@ -68,7 +68,9 @@ array_splice($fruits, 1, 2, array("fig", "grape"));
 print_r($fruits);
 ```
 
-`array_slice()` - Extracts a portion of the array
+`array_slice()` - Extracts/removes a portion of the array
 ```php
-
+$fruits = array("apple", "banana", "cherry"); 
+$portion = array_slice($fruits, 1, 2);
+print_r($fruits);
 ```
