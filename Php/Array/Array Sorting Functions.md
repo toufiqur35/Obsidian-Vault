@@ -48,15 +48,28 @@ print_r($files);
 
 `natcasesort()` - Sorts an array using a case-insensitive natural order algorithm. 
 ```php
-
+$files = array("Img1.png", "img10.png", "img12.png", "IMG2.png"); natcasesort($files); 
+print_r($files);
 ```
 `uasort()` - Sorts an array with a user-defined comparison function and maintains index 
 association. 
 ```php
-
+$people = array( "Peter" => 35, "Jack" => 32, "Mary" => 28); 
+function ageComparator($a, $b) 
+{ 
+return $a - $b; 
+} 
+uasort($people , 'ageComparator'); 
+print_r($people);
 ```
 
 `uksort()` - Sorts an array by keys using a user-defined comparison function.
 ```php
-
+$people = array( "Peter" => 35, "Jack" => 32, "Mary" => 28); 
+function ageComparator($a, $b) 
+{ 
+return $a <=> $b; 
+} 
+uksort($people , 'ageComparator'); 
+print_r($people);
 ```
