@@ -24,36 +24,48 @@ echo $keys[1];
 $keys = array("a", "b", "c"); 
 $values = array("apple", "banana", "cherry"); 
 $combined = array_combine($keys, $values);
+print_r($combined);
 ```
 
 `array_fill()` - Fills an array with values. 
 ```php
-
+$filled = array_fill(0, 3, "apple");
+print_r($filled);
 ```
 
 `array_push()` - Adds one or more elements to the end of an array.
 ```php
-
+$fruits = array("apple", "banana", "cherry"); 
+array_push($fruits, "date", "elderberry");
+print_r($fruits);
 ```
 
 `array_pop( )` - Removes the last element from an array. 
 ```php
-
+$fruits = array("apple", "banana", "cherry"); 
+$lastFruit = array_pop($fruits);
+print_r($lastFruit);
 ```
 
 `array_unshift(`) - Adds one or more elements to the beginning of an array.
 ```php
-
+$fruits = array("apple", "banana", "cherry"); 
+array_unshift($fruits, "apricot");
+print_r($fruits);
 ```
 
 `array_shift()` - Removes the first element from an array. 
 ```php
-
+$fruits = array("apple", "banana", "cherry"); 
+$firstFruit = array_shift($fruits);
+print_r($fruits);
 ```
 
 `array_splice()` - Removes a portion of the array and replaces it with something
 ```php
-
+$fruits = array("apple", "banana", "cherry"); 
+array_splice($fruits, 1, 2, array("fig", "grape"));
+print_r($fruits);
 ```
 
 `array_slice()` - Extracts a portion of the array
