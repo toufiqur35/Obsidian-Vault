@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Array/Array Utility Functions.md",
+                "file": "Php/Array/Array Creation and Manipulation Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Array/Array Utility Functions.md",
+                "file": "Php/Array/Array Creation and Manipulation Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Array/Array Utility Functions.md",
+                "file": "Php/Array/Array Creation and Manipulation Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Array/Array Utility Functions.md"
+                "file": "Php/Array/Array Creation and Manipulation Functions.md"
               }
             }
           },
@@ -156,10 +156,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bfbdc8e43d0155c3",
+  "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
-    "Php/Array/Array Mathematics Function.md",
     "Php/Array/Array Utility Functions.md",
+    "Php/Array/Array Mathematics Function.md",
     "Php/Array/Multidimensional Arrays.md",
     "Php/Array/Array Iteration Functions.md",
     "Php/Array/Array Sorting Functions.md",

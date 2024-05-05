@@ -9,14 +9,14 @@ echo $fruits[2];
 ```php
 $assoc = array("a" => "apple", "b" => "banana", "c" => "cherry");
 $values = array_values($assoc);
-echo $values[1];
+print_r($values);
 ```
 
 `array_keys()` - Returns all the keys from the array. 
 ```php
 $assoc = array("a" => "apple", "b" => "banana", "c" => "cherry"); 
 $keys = array_keys($assoc);
-echo $keys[1];
+print_r($keys);
 ```
 
 `array_combine()` - Combines two arrays: one for keys and the other for values.
