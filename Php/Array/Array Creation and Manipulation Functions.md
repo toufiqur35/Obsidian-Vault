@@ -58,7 +58,7 @@ print_r($fruits);
 ```php
 $fruits = array("apple", "banana", "cherry"); 
 $firstFruit = array_shift($fruits);
-print_r($fruits);
+print_r($firstFruit);
 ```
 
 `array_splice()` - Removes a portion of the array and replaces it with something
@@ -72,5 +72,5 @@ print_r($fruits);
 ```php
 $fruits = array("apple", "banana", "cherry"); 
 $portion = array_slice($fruits, 1, 2);
-print_r($fruits);
+print_r($portion);
 ```
