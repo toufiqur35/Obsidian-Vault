@@ -22,20 +22,27 @@ $result = array_diff_key($array1, $array2);
 print_r($result);
 ```
 
-* `array_intersect()` Computes the intersection of arrays. /
+* `array_intersect()` Computes the intersection of arrays. /mil `gula` output `dakhaba`
 ```php
 $array1 = ["a", "b", "c", "d"]; 
 $array2 = ["b", "c", "e"]; 
 $result = array_intersect($array1, $array2); 
 print_r($result);
+//output: b c
 ```
 
 * `array_intersect_assoc()` Computes the intersection of arrays with additional index check. 
 ```php
-
+$array1 = ["a" => "green", "b" => "brown", "c" => "blue"];
+$array2 = ["a" => "green", "b" => "yellow", "c" => "blue"]; 
+$result = array_intersect_assoc($array1, $array2); 
+print_r($result);
 ```
 
 * `array_intersect_key()` Computes the intersection of arrays using keys for comparison.
 ```php
-
-``
+$array1 = ["blue" => 1, "red" => 2, "green" => 3];
+$array2 = ["green" => 4, "yellow" => 7]; 
+$result = array_intersect_key($array1, $array2); 
+print_r($result);
+```
