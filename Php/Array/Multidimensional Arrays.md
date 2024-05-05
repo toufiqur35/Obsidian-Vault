@@ -19,5 +19,10 @@ print_r($names);
 
 * `array_map()` This function applies a callback to the elements of the given arrays and returns an array containing all the elements after applying the callback function.
 ```php
-
+$numbers = [1, 2, 3, 4, 5]; 
+$squaredNumbers = array_map(function($n) 
+{ 
+return $n * $n; 
+}, $numbers); 
+print_r($squaredNumbers);
 ```

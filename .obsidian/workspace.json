@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Array/Multidimensional Arrays.md",
+                "file": "Php/Array/Array Mathematics Function.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Array/Multidimensional Arrays.md",
+                "file": "Php/Array/Array Mathematics Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Array/Multidimensional Arrays.md",
+                "file": "Php/Array/Array Mathematics Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Array/Multidimensional Arrays.md"
+                "file": "Php/Array/Array Mathematics Function.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
-    "Php/Array/Array Iteration Functions.md",
     "Php/Array/Multidimensional Arrays.md",
+    "Php/Array/Array Mathematics Function.md",
+    "Php/Array/Array Iteration Functions.md",
     "Php/Array/Array Sorting Functions.md",
     "Php/Array/Array Transformation Functions.md",
     "Php/Array/Array Information Functions.md",
@@ -192,7 +193,6 @@
     "Php/Loop",
     "Php/Function/Fibonacci Series.md",
     "Php/Function",
-    "Vs Code/vs code shortcuts.md",
     "Vs Code",
     "Untitled.canvas",
     "Screenshot_1.png",
