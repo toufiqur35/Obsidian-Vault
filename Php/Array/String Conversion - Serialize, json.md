@@ -13,12 +13,38 @@ echo implode(' ', $array);
 * The serialize() function takes an array and converts it to a string.
 
 ```php
-
+$array = array('apple', 'orange');
+$string = serialize($array);
+echo $string;
+#output: a:2:{i:0;s:5:"apple";i:1;s:6:"orange";}
 ```
 
 #### Array to `json`
 * The `json_encode`() function converts an array to a JSON string. It takes an array as input and returns a JSON array representation.
 
 ```php
+$array = array(
+    'Name' => 'Leo',
+    'Age' => 25,
+);
 
+$json = json_encode($array); 
+echo $json;
+//output: {"Name":"Leo","Age":25}
+```
+
+#### `json` to Array 
+* The `json_decode`() function returns an object by default. The `json_decode`() function has a second parameter, and **when set to true, JSON objects are decoded into associative arrays**.
+
+```php
+$array = array(
+    'Name' => 'Leo',
+    'Age' => 25,
+);
+
+$json = json_encode($array);
+$jsonDcode = json_decode($json);
+print_r($jsonDcode) ;
+
+//output: ( [Name] => Leo [Age] => 25 )
 ```
