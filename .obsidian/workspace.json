@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,7 +156,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19aaa46bb774f72b",
+  "active": "bfbdc8e43d0155c3",
   "lastOpenFiles": [
     "Php/Array/Array.md",
     "Php/Array/Array Reduce.md",
