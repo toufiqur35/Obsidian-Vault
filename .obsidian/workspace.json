@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Array/Array.md",
+                "file": "Php/Array/Array Reduce.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Array/Array.md",
+                "file": "Php/Array/Array Reduce.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Array/Array.md",
+                "file": "Php/Array/Array Reduce.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Array/Array.md"
+                "file": "Php/Array/Array Reduce.md"
               }
             }
           },
@@ -158,6 +158,8 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
+    "Php/Array/Array.md",
+    "Php/Array/Array Reduce.md",
     "Php/Array/String Conversion - Serialize, JSON.md",
     "Php/Array/Multidimensional Arrays.md",
     "Php/Array/Array Utility Functions.md",
@@ -167,7 +169,6 @@
     "Php/Array/Array Iteration Functions.md",
     "Php/Array/Array Information Functions.md",
     "Php/Array/Array Creation and Manipulation Functions.md",
-    "Php/Array/Array.md",
     "2024-05-03.md",
     "sobujjj/8 Array Mathematics Function.pdf",
     "sobujjj/8 Array Mathematics Function.md",
@@ -187,7 +188,6 @@
     "Php/Fibonacci Series.md",
     "Php/Variable.md",
     "Project/word sort.md",
-    "ostad live class/class 2/github.md",
     "Problem Solving/php",
     "Problem Solving",
     "Php/If Else",
