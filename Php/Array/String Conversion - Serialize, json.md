@@ -19,6 +19,20 @@ echo $string;
 #output: a:2:{i:0;s:5:"apple";i:1;s:6:"orange";}
 ```
 
+#### Serialize to Array 
+* The `unserialize`() function converts serialized data back into actual data/array.
+
+```php
+$array = array('apple', 'orange');
+$string = serialize($array);
+$Array2 = unserialize($string);
+print_r($Array2);
+#output: Array
+		// (
+		// [0] => apple
+		// [1] => orange
+		// )
+```
 #### Array to `json`
 * The `json_encode`() function converts an array to a JSON string. It takes an array as input and returns a JSON array representation.
 
