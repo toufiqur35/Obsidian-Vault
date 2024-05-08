@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Array/String Conversion - Serialize, JSON.md",
+                "file": "Php/Oop/Constructor.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Array/String Conversion - Serialize, JSON.md",
+                "file": "Php/Oop/Constructor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Array/String Conversion - Serialize, JSON.md",
+                "file": "Php/Oop/Constructor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Array/String Conversion - Serialize, JSON.md"
+                "file": "Php/Oop/Constructor.md"
               }
             }
           },
@@ -158,6 +158,10 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
+    "Php/Oop/Class & Object.md",
+    "Php/Oop/Constructor.md",
+    "Php/Array/String Conversion - Serialize, JSON.md",
+    "Php/Oop",
     "Php/Array/Array Transformation Functions.md",
     "Php/Array/Array Sorting Functions.md",
     "Php/Array/Array Reduce.md",
@@ -166,7 +170,6 @@
     "Php/Array/Array Information Functions.md",
     "Php/Array/Array.md",
     "Php/Array/Array Creation and Manipulation Functions.md",
-    "Php/Array/String Conversion - Serialize, JSON.md",
     "Php/Array/Multidimensional Arrays.md",
     "Php/Array/Array Utility Functions.md",
     "2024-05-03.md",
@@ -186,14 +189,11 @@
     "Php/Loop/While Loop.md",
     "Php/Constants.md",
     "Php/Fibonacci Series.md",
-    "Php/Variable.md",
-    "Project/word sort.md",
     "Problem Solving/php",
     "Problem Solving",
     "Php/If Else",
     "Php/Loop",
     "Php/Function",
-    "Vs Code",
     "Untitled.canvas",
     "Screenshot_1.png",
     "Pasted image 20240320150015.png",
