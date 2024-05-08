@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Oop/Final Keyword.md",
+                "file": "Php/Oop/Access modifiers.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Oop/Final Keyword.md",
+                "file": "Php/Oop/Access modifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Oop/Final Keyword.md",
+                "file": "Php/Oop/Access modifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Oop/Final Keyword.md"
+                "file": "Php/Oop/Access modifiers.md"
               }
             }
           },
@@ -158,9 +158,12 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
-    "Php/Oop/Abstract Classes.md",
-    "Php/Oop/Final Keyword.md",
+    "Php/Oop/Static.md",
+    "Php/Oop/Access modifiers.md",
+    "Php/Oop/Constructors and Inheritance.md",
     "Php/Oop/Parent Keyword.md",
+    "Php/Oop/Final Keyword.md",
+    "Php/Oop/Abstract Classes.md",
     "Php/Oop/Methods Overriding.md",
     "Php/Oop/Inheritance.md",
     "Php/Oop/Constructor.md",
@@ -186,9 +189,6 @@
     "Php/Array",
     "Php/Loop/for each.md",
     "Php/Loop/For Loop.md",
-    "Php/Function/Function.md",
-    "Php/Function/Variadic (multi parameters) function.md",
-    "Php/If Else/Switch Case.md",
     "Problem Solving/php",
     "Problem Solving",
     "Php/If Else",
