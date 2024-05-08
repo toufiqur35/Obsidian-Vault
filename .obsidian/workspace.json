@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Oop/Constructor.md",
+                "file": "Php/Oop/Methods Overriding.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Oop/Constructor.md",
+                "file": "Php/Oop/Methods Overriding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Oop/Constructor.md",
+                "file": "Php/Oop/Methods Overriding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Oop/Constructor.md"
+                "file": "Php/Oop/Methods Overriding.md"
               }
             }
           },
@@ -158,8 +158,10 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
-    "Php/Oop/Class & Object.md",
+    "Php/Oop/Inheritance.md",
+    "Php/Oop/Methods Overriding.md",
     "Php/Oop/Constructor.md",
+    "Php/Oop/Class & Object.md",
     "Php/Array/String Conversion - Serialize, JSON.md",
     "Php/Oop",
     "Php/Array/Array Transformation Functions.md",
@@ -187,8 +189,6 @@
     "Php/If Else/Nested Ternary Operators.md",
     "Php/Loop/Break & Continue.md",
     "Php/Loop/While Loop.md",
-    "Php/Constants.md",
-    "Php/Fibonacci Series.md",
     "Problem Solving/php",
     "Problem Solving",
     "Php/If Else",
