@@ -1,5 +1,5 @@
 * Abstract classes cannot be instantiated on their own but can be sub classed.
-* 
+*  common code `rakta use kora hoi`
 
 ```php
 abstract class Father { 
