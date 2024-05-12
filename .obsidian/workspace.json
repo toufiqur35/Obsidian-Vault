@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Oop/Magic Method/Destruct Method.md",
+                "file": "Php/Oop/Abstract Classes.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Oop/Magic Method/Destruct Method.md",
+                "file": "Php/Oop/Abstract Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Oop/Magic Method/Destruct Method.md",
+                "file": "Php/Oop/Abstract Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Oop/Magic Method/Destruct Method.md"
+                "file": "Php/Oop/Abstract Classes.md"
               }
             }
           },
@@ -158,8 +158,8 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
-    "Php/Oop/Magic Method/Autoload Method.md",
     "Php/Oop/Magic Method/Destruct Method.md",
+    "Php/Oop/Magic Method/Autoload Method.md",
     "Php/Oop/Access modifiers.md",
     "Php/Oop/Magic Method",
     "Php/Oop/Static.md",
