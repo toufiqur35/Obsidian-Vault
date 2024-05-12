@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Oop/Access modifiers.md",
+                "file": "Php/Oop/Magic Method/Destruct Method.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Oop/Access modifiers.md",
+                "file": "Php/Oop/Magic Method/Destruct Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Oop/Access modifiers.md",
+                "file": "Php/Oop/Magic Method/Destruct Method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Oop/Access modifiers.md"
+                "file": "Php/Oop/Magic Method/Destruct Method.md"
               }
             }
           },
@@ -156,10 +156,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bfbdc8e43d0155c3",
+  "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
-    "Php/Oop/Static.md",
     "Php/Oop/Access modifiers.md",
+    "Php/Oop/Magic Method/Destruct Method.md",
+    "Php/Oop/Magic Method",
+    "Php/Oop/Static.md",
     "Php/Oop/Constructors and Inheritance.md",
     "Php/Oop/Parent Keyword.md",
     "Php/Oop/Final Keyword.md",
@@ -188,12 +190,10 @@
     "Php/Loop/Do While Loop.md",
     "Php/Array",
     "Php/Loop/for each.md",
-    "Php/Loop/For Loop.md",
     "Problem Solving/php",
     "Problem Solving",
     "Php/If Else",
     "Php/Loop",
-    "Php/Function",
     "Untitled.canvas",
     "Screenshot_1.png",
     "Pasted image 20240320150015.png",
