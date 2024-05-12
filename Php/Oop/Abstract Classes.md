@@ -1,5 +1,5 @@
 * Abstract classes cannot be instantiated on their own but can be sub classed.
-* implement  করতে
+* 
 
 ```php
 abstract class Father { 
