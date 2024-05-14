@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Oop/Abstract Classes.md",
+                "file": "Php/Oop/Magic Method/Get.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Oop/Abstract Classes.md",
+                "file": "Php/Oop/Magic Method/Get.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Oop/Abstract Classes.md",
+                "file": "Php/Oop/Magic Method/Get.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Oop/Abstract Classes.md"
+                "file": "Php/Oop/Magic Method/Get.md"
               }
             }
           },
@@ -159,14 +159,15 @@
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
     "Php/Oop/Magic Method/Destruct Method.md",
+    "Php/Oop/Magic Method/Get.md",
     "Php/Oop/Magic Method/Autoload Method.md",
+    "Php/Oop/Abstract Classes.md",
     "Php/Oop/Access modifiers.md",
     "Php/Oop/Magic Method",
     "Php/Oop/Static.md",
     "Php/Oop/Constructors and Inheritance.md",
     "Php/Oop/Parent Keyword.md",
     "Php/Oop/Final Keyword.md",
-    "Php/Oop/Abstract Classes.md",
     "Php/Oop/Methods Overriding.md",
     "Php/Oop/Inheritance.md",
     "Php/Oop/Constructor.md",
@@ -188,7 +189,6 @@
     "sobujjj/8 Array Mathematics Function.md",
     "sobujjj",
     "New folder",
-    "Php/Loop/Do While Loop.md",
     "Php/Array",
     "Problem Solving/php",
     "Problem Solving",
