@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Oop/Magic Method/Invoke.md",
+                "file": "Php/Oop/Abstract Classes.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Oop/Magic Method/Invoke.md",
+                "file": "Php/Oop/Abstract Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Oop/Magic Method/Invoke.md",
+                "file": "Php/Oop/Abstract Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Oop/Magic Method/Invoke.md"
+                "file": "Php/Oop/Abstract Classes.md"
               }
             }
           },
@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,8 +158,8 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
-    "Php/Oop/Magic Method/Serialize.md",
     "Php/Oop/Magic Method/Invoke.md",
+    "Php/Oop/Magic Method/Serialize.md",
     "Php/Array/String Conversion - Serialize, JSON.md",
     "Php/Array/Multidimensional Arrays.md",
     "Php/Array/Array Utility Functions.md",
