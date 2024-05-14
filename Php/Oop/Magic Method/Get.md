@@ -1,0 +1,1 @@
+* The __get() method is a magic method in PHP that is automatically called when an attempt is made to access an inaccessible (private or protected) or non-existing property of an object.
