@@ -1,0 +1,1 @@
+https://code.tutsplus.com/php-magic-methods-cheat-sheet--cms-34681t
