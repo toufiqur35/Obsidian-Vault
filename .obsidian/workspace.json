@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Oop/Abstract Classes.md",
+                "file": "Php/Oop/Interface.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Oop/Abstract Classes.md",
+                "file": "Php/Oop/Interface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Oop/Abstract Classes.md",
+                "file": "Php/Oop/Interface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Oop/Abstract Classes.md"
+                "file": "Php/Oop/Interface.md"
               }
             }
           },
@@ -158,6 +158,9 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
+    "Php/Oop/Inheritance.md",
+    "Php/Oop/Abstract Classes.md",
+    "Php/Oop/Interface.md",
     "Php/Oop/Magic Method/Invoke.md",
     "Php/Oop/Magic Method/Serialize.md",
     "Php/Array/String Conversion - Serialize, JSON.md",
@@ -174,7 +177,6 @@
     "Php/Oop/Constructor.md",
     "Php/Oop/Class & Object.md",
     "Php/Oop/Access modifiers.md",
-    "Php/Oop/Abstract Classes.md",
     "Php/Oop/Static.md",
     "Php/Oop/Final Keyword.md",
     "Php/Oop/Magic Method/toString.md",
@@ -182,8 +184,6 @@
     "Php/Oop/Magic Method/Call.md",
     "Php/Oop/Magic Method/link.md",
     "Php/Oop/Magic Method/Set.md",
-    "Php/Oop/Magic Method/Get.md",
-    "Php/Oop/Magic Method/Destruct Method.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
