@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Oop/Magic Method/Invoke.md",
+                "file": "Php/Oop/Access modifiers.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Oop/Magic Method/Invoke.md",
+                "file": "Php/Oop/Access modifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Oop/Magic Method/Invoke.md",
+                "file": "Php/Oop/Access modifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Oop/Magic Method/Invoke.md"
+                "file": "Php/Oop/Access modifiers.md"
               }
             }
           },
@@ -158,10 +158,11 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
-    "Php/Oop/Interface.md",
-    "Php/Oop/Inheritance.md",
-    "Php/Oop/Abstract Classes.md",
+    "Php/Oop/Static.md",
     "Php/Oop/Magic Method/Invoke.md",
+    "Php/Oop/Interface.md",
+    "Php/Oop/Abstract Classes.md",
+    "Php/Oop/Inheritance.md",
     "Php/Oop/Magic Method/Serialize.md",
     "Php/Array/String Conversion - Serialize, JSON.md",
     "Php/Array/Multidimensional Arrays.md",
@@ -177,7 +178,6 @@
     "Php/Oop/Constructor.md",
     "Php/Oop/Class & Object.md",
     "Php/Oop/Access modifiers.md",
-    "Php/Oop/Static.md",
     "Php/Oop/Final Keyword.md",
     "Php/Oop/Magic Method/toString.md",
     "Php/Oop/Magic Method/isset() and __unset() Methods.md",
