@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Oop/Magic Method/link.md",
+                "file": "Php/Oop/Magic Method/Call.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Oop/Magic Method/link.md",
+                "file": "Php/Oop/Magic Method/Call.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Oop/Magic Method/link.md",
+                "file": "Php/Oop/Magic Method/Call.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Oop/Magic Method/link.md"
+                "file": "Php/Oop/Magic Method/Call.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
-    "Php/Oop/Magic Method/Set.md",
     "Php/Oop/Magic Method/link.md",
+    "Php/Oop/Magic Method/Call.md",
+    "Php/Oop/Magic Method/Set.md",
     "Php/Oop/Magic Method/Get.md",
     "Php/Oop/Magic Method/Destruct Method.md",
     "Php/Oop/Magic Method/Autoload Method.md",
@@ -185,7 +186,6 @@
     "Php/Array/Array.md",
     "Php/Array/Array Creation and Manipulation Functions.md",
     "Php/Array/Multidimensional Arrays.md",
-    "Php/Array/Array Utility Functions.md",
     "sobujjj/8 Array Mathematics Function.pdf",
     "sobujjj",
     "New folder",
