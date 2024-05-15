@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Array/String Conversion - Serialize, JSON.md",
+                "file": "Php/Oop/Inheritance.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Array/String Conversion - Serialize, JSON.md",
+                "file": "Php/Oop/Inheritance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Array/String Conversion - Serialize, JSON.md",
+                "file": "Php/Oop/Inheritance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Array/String Conversion - Serialize, JSON.md"
+                "file": "Php/Oop/Inheritance.md"
               }
             }
           },
@@ -158,6 +158,8 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
+    "Php/Oop/Interface.md",
+    "Php/Array/String Conversion - Serialize, JSON.md",
     "Php/Array/Array.md",
     "Php/Array/Multidimensional Arrays.md",
     "Php/Array/Array Utility Functions.md",
@@ -166,10 +168,8 @@
     "Php/Array/Array Iteration Functions.md",
     "Php/Array/Array Information Functions.md",
     "Php/Array/Array Creation and Manipulation Functions.md",
-    "Php/Array/String Conversion - Serialize, JSON.md",
     "Php/Oop/Magic Method/Serialize.md",
     "Php/Oop/Inheritance.md",
-    "Php/Oop/Interface.md",
     "Php/Oop/Methods Overriding.md",
     "Php/Oop/Parent Keyword.md",
     "Php/Oop/Static.md",
