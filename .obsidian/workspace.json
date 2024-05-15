@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Oop/Access modifiers.md",
+                "file": "Php/Array/Array.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Oop/Access modifiers.md",
+                "file": "Php/Array/Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Oop/Access modifiers.md",
+                "file": "Php/Array/Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Oop/Access modifiers.md"
+                "file": "Php/Array/Array.md"
               }
             }
           },
@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,8 +156,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf94feffdf98b826",
+  "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
+    "Php/Variable.md",
+    "Php/Loop/Break & Continue.md",
+    "Php/Loop/Do While Loop.md",
+    "Php/Loop/for each.md",
+    "Php/Loop/While Loop.md",
+    "Php/Loop/For Loop.md",
+    "Php/Oop/Access modifiers.md",
     "Php/Oop/Static.md",
     "Php/Oop/Magic Method/Invoke.md",
     "Php/Oop/Interface.md",
@@ -176,13 +184,6 @@
     "Php/Oop/Constructors and Inheritance.md",
     "Php/Oop/Constructor.md",
     "Php/Oop/Class & Object.md",
-    "Php/Oop/Access modifiers.md",
-    "Php/Oop/Final Keyword.md",
-    "Php/Oop/Magic Method/toString.md",
-    "Php/Oop/Magic Method/isset() and __unset() Methods.md",
-    "Php/Oop/Magic Method/Call.md",
-    "Php/Oop/Magic Method/link.md",
-    "Php/Oop/Magic Method/Set.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
