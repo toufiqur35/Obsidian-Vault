@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Oop/Inheritance.md",
+                "file": "ostad live class/class 2/github.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "363b0e8973658f75",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Oop/Inheritance.md",
+                "file": "ostad live class/class 2/github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Oop/Inheritance.md",
+                "file": "ostad live class/class 2/github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Oop/Inheritance.md"
+                "file": "ostad live class/class 2/github.md"
               }
             }
           },
@@ -158,6 +159,7 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
+    "Php/Oop/Inheritance.md",
     "Php/Oop/Interface.md",
     "Php/Array/String Conversion - Serialize, JSON.md",
     "Php/Array/Array.md",
@@ -169,7 +171,6 @@
     "Php/Array/Array Information Functions.md",
     "Php/Array/Array Creation and Manipulation Functions.md",
     "Php/Oop/Magic Method/Serialize.md",
-    "Php/Oop/Inheritance.md",
     "Php/Oop/Methods Overriding.md",
     "Php/Oop/Parent Keyword.md",
     "Php/Oop/Static.md",
