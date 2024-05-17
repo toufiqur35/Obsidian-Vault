@@ -1,6 +1,7 @@
 * Abstract classes cannot be instantiated on their own but can be sub classed.
 *  common code `rakta use kora hoi`
 * বিমূর্ত ক্লাস এবং পদ্ধতিগুলি হল যখন প্যারেন্ট ক্লাসের একটি নামকরণ পদ্ধতি থাকে, তবে কাজগুলি পূরণ করতে এর চাইল্ড ক্লাস(গুলি) প্রয়োজন৷ একটি বিমূর্ত শ্রেণী হল **এমন একটি শ্রেণী যাতে অন্তত একটি বিমূর্ত পদ্ধতি থাকে** । একটি বিমূর্ত পদ্ধতি একটি পদ্ধতি যা ঘোষণা করা হয়, কিন্তু কোডে প্রয়োগ করা হয় না।
+* abstract a method public, private protected use kora jaba.
 
 ```php
 // Parent class  

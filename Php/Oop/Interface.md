@@ -1,4 +1,5 @@
 * A PHP interface defines a contract which a class must fulfill. If a PHP class is a blueprint for objects, an interface is a blueprint for classes.
+* all method public.
 
 **Creating an Interface**
 Following is an example of how to define an interface using the _interface_ keyword.
