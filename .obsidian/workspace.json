@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Oop/Abstract Classes.md",
+                "file": "Php/Oop/Static.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Oop/Abstract Classes.md",
+                "file": "Php/Oop/Static.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Oop/Abstract Classes.md",
+                "file": "Php/Oop/Static.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Oop/Abstract Classes.md"
+                "file": "Php/Oop/Static.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
-    "Php/Oop/Interface.md",
+    "Php/Oop/Parent Keyword.md",
     "Php/Oop/Abstract Classes.md",
+    "Php/Oop/Interface.md",
     "Php/Function/Function.md",
     "Php/Array/Array Transformation Functions.md",
     "Php/Array/Array Sorting Functions.md",
@@ -176,7 +177,6 @@
     "Php/Array/Array Utility Functions.md",
     "Php/Oop/Magic Method/Serialize.md",
     "Php/Oop/Methods Overriding.md",
-    "Php/Oop/Parent Keyword.md",
     "Php/Oop/Static.md",
     "Php/Oop/Magic Method/toString.md",
     "Php/Variable.md",
