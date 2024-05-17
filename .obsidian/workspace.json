@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ostad live class/class 2/github.md",
+                "file": "Php/Array/Array.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 293.5
   },
   "right": {
     "id": "363b0e8973658f75",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ostad live class/class 2/github.md",
+                "file": "Php/Array/Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ostad live class/class 2/github.md",
+                "file": "Php/Array/Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ostad live class/class 2/github.md"
+                "file": "Php/Array/Array.md"
               }
             }
           },
@@ -159,6 +158,8 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
+    "Php/Function/Function.md",
+    "ostad live class/class 2/github.md",
     "Php/Oop/Inheritance.md",
     "Php/Oop/Interface.md",
     "Php/Array/String Conversion - Serialize, JSON.md",
@@ -183,8 +184,6 @@
     "Php/Loop/For Loop.md",
     "Php/Oop/Access modifiers.md",
     "Php/Oop/Magic Method/Invoke.md",
-    "Php/Oop/Abstract Classes.md",
-    "Php/Array/Array Sorting Functions.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
