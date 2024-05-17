@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Function/Function.md",
+                "file": "Php/Oop/Interface.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Function/Function.md",
+                "file": "Php/Oop/Interface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Function/Function.md",
+                "file": "Php/Oop/Interface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Function/Function.md"
+                "file": "Php/Oop/Interface.md"
               }
             }
           },
@@ -158,6 +158,8 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
+    "Php/Oop/Abstract Classes.md",
+    "Php/Function/Function.md",
     "Php/Array/Array Transformation Functions.md",
     "Php/Array/Array Sorting Functions.md",
     "Php/Array/Array Reduce.md",
@@ -166,7 +168,6 @@
     "Php/Array/Array Information Functions.md",
     "Php/Array/Array Creation and Manipulation Functions.md",
     "Php/Array/Array.md",
-    "Php/Function/Function.md",
     "ostad live class/class 2/github.md",
     "Php/Oop/Inheritance.md",
     "Php/Oop/Interface.md",
@@ -183,7 +184,6 @@
     "Php/Loop/Do While Loop.md",
     "Php/Loop/for each.md",
     "Php/Loop/While Loop.md",
-    "Php/Loop/For Loop.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
