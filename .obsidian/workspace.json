@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Oop/Static.md",
+                "file": "Php/If Else/Ternary Operators.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Oop/Static.md",
+                "file": "Php/If Else/Ternary Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Oop/Static.md",
+                "file": "Php/If Else/Ternary Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Oop/Static.md"
+                "file": "Php/If Else/Ternary Operators.md"
               }
             }
           },
@@ -158,6 +158,7 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
+    "Php/Oop/Static.md",
     "Php/Oop/Final Keyword.md",
     "Php/Oop/Constructors and Inheritance.md",
     "Php/Oop/Constructor.md",
@@ -165,7 +166,6 @@
     "Php/Oop/Abstract Classes.md",
     "Php/Oop/Class & Object.md",
     "Php/Oop/Interface.md",
-    "Php/Oop/Static.md",
     "Php/Oop/Parent Keyword.md",
     "Php/Function/Function.md",
     "Php/Array/Array Transformation Functions.md",
