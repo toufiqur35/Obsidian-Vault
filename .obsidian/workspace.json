@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/If Else/Ternary Operators.md",
+                "file": "Php/Function/Function.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 200
   },
   "right": {
     "id": "363b0e8973658f75",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/If Else/Ternary Operators.md",
+                "file": "Php/Function/Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/If Else/Ternary Operators.md",
+                "file": "Php/Function/Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/If Else/Ternary Operators.md"
+                "file": "Php/Function/Function.md"
               }
             }
           },
@@ -158,6 +158,12 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
+    "Php/Function/Variadic (multi parameters) function.md",
+    "Php/Function/Fibonacci Series.md",
+    "Project/word sort.md",
+    "Problem Solving/php/Easy.md",
+    "Php/Fibonacci Series.md",
+    "Php/If Else/Ternary Operators.md",
     "Php/Oop/Static.md",
     "Php/Oop/Final Keyword.md",
     "Php/Oop/Constructors and Inheritance.md",
@@ -178,12 +184,6 @@
     "Php/Array/Array.md",
     "ostad live class/class 2/github.md",
     "Php/Oop/Inheritance.md",
-    "Php/Array/String Conversion - Serialize, JSON.md",
-    "Php/Array/Multidimensional Arrays.md",
-    "Php/Array/Array Utility Functions.md",
-    "Php/Oop/Magic Method/Serialize.md",
-    "Php/Oop/Methods Overriding.md",
-    "Php/Oop/Magic Method/toString.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
