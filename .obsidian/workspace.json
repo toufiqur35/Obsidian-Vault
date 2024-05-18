@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Function/Function.md",
+                "file": "Php/Array/Array Function.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Function/Function.md",
+                "file": "Php/Array/Array Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Function/Function.md",
+                "file": "Php/Array/Array Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Function/Function.md"
+                "file": "Php/Array/Array Function.md"
               }
             }
           },
@@ -158,6 +158,8 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
+    "Php/Function/Function.md",
+    "Php/Array/Array Function.md",
     "Php/Function/Variadic (multi parameters) function.md",
     "Php/Function/Fibonacci Series.md",
     "Project/word sort.md",
@@ -173,7 +175,6 @@
     "Php/Oop/Class & Object.md",
     "Php/Oop/Interface.md",
     "Php/Oop/Parent Keyword.md",
-    "Php/Function/Function.md",
     "Php/Array/Array Transformation Functions.md",
     "Php/Array/Array Sorting Functions.md",
     "Php/Array/Array Reduce.md",
@@ -183,7 +184,6 @@
     "Php/Array/Array Creation and Manipulation Functions.md",
     "Php/Array/Array.md",
     "ostad live class/class 2/github.md",
-    "Php/Oop/Inheritance.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
