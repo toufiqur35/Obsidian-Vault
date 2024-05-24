@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Array/Array Function.md",
+                "file": "Php/Php file system/Date Time.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Array/Array Function.md",
+                "file": "Php/Php file system/Date Time.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Array/Array Function.md",
+                "file": "Php/Php file system/Date Time.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Array/Array Function.md"
+                "file": "Php/Php file system/Date Time.md"
               }
             }
           },
@@ -158,8 +158,11 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
-    "Php/Function/Function.md",
     "Php/Array/Array Function.md",
+    "Php/Php file system/Date Time.md",
+    "Php/Php file system",
+    "Php/Untitled.md",
+    "Php/Function/Function.md",
     "Php/Function/Variadic (multi parameters) function.md",
     "Php/Function/Fibonacci Series.md",
     "Project/word sort.md",
@@ -182,8 +185,6 @@
     "Php/Array/Array Iteration Functions.md",
     "Php/Array/Array Information Functions.md",
     "Php/Array/Array Creation and Manipulation Functions.md",
-    "Php/Array/Array.md",
-    "ostad live class/class 2/github.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
@@ -193,7 +194,6 @@
     "Problem Solving/php",
     "Problem Solving",
     "Php/If Else",
-    "Php/Loop",
     "Untitled.canvas",
     "Screenshot_1.png",
     "Pasted image 20240320150015.png",
