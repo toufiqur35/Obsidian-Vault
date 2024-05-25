@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Error Handling.md",
+                "file": "Php/Oop/Magic Method/Serialize.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Error Handling.md",
+                "file": "Php/Oop/Magic Method/Serialize.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Error Handling.md",
+                "file": "Php/Oop/Magic Method/Serialize.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Error Handling.md"
+                "file": "Php/Oop/Magic Method/Serialize.md"
               }
             }
           },
@@ -158,10 +158,10 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
-    "Php/Types Of Error.md",
-    "Php/Error Handling.md",
-    "Php/COOKIES.md",
     "Php/SESSION.md",
+    "Php/COOKIES.md",
+    "Php/Error Handling.md",
+    "Php/Types Of Error.md",
     "Php/JSON.md",
     "Php/Php file system/Date Time.md",
     "Php/Array/Array Function.md",
