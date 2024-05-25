@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Php file system/Date Time.md",
+                "file": "Php/COOKIES.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Php file system/Date Time.md",
+                "file": "Php/COOKIES.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Php file system/Date Time.md",
+                "file": "Php/COOKIES.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Php file system/Date Time.md"
+                "file": "Php/COOKIES.md"
               }
             }
           },
@@ -158,10 +158,12 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
-    "Php/Array/Array Function.md",
+    "Php/SESSION.md",
+    "Php/COOKIES.md",
+    "Php/JSON.md",
     "Php/Php file system/Date Time.md",
+    "Php/Array/Array Function.md",
     "Php/Php file system",
-    "Php/Untitled.md",
     "Php/Function/Function.md",
     "Php/Function/Variadic (multi parameters) function.md",
     "Php/Function/Fibonacci Series.md",
@@ -183,8 +185,6 @@
     "Php/Array/Array Reduce.md",
     "Php/Array/Array Mathematics Function.md",
     "Php/Array/Array Iteration Functions.md",
-    "Php/Array/Array Information Functions.md",
-    "Php/Array/Array Creation and Manipulation Functions.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
