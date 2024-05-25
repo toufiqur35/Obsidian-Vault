@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Oop/Magic Method/Serialize.md",
+                "file": "Php/SESSION.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Oop/Magic Method/Serialize.md",
+                "file": "Php/SESSION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Oop/Magic Method/Serialize.md",
+                "file": "Php/SESSION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Oop/Magic Method/Serialize.md"
+                "file": "Php/SESSION.md"
               }
             }
           },
@@ -158,11 +158,12 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
+    "Php/JSON.md",
+    "Php/Oop/Magic Method/Serialize.md",
     "Php/SESSION.md",
     "Php/COOKIES.md",
     "Php/Error Handling.md",
     "Php/Types Of Error.md",
-    "Php/JSON.md",
     "Php/Php file system/Date Time.md",
     "Php/Array/Array Function.md",
     "Php/Php file system",
@@ -184,7 +185,6 @@
     "Php/Oop/Parent Keyword.md",
     "Php/Array/Array Transformation Functions.md",
     "Php/Array/Array Sorting Functions.md",
-    "Php/Array/Array Reduce.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
