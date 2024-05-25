@@ -49,7 +49,65 @@ echo $y;
 ```
 
 Deprecated Error:  
+1. These errors are thrown for functions or features that are outdated and will likely be removed in future versions of PHP.
+2. An example might be using a function that has been deprecated in favor of a newer, better function
 
 ```php
+if ($_SERVER["REQUEST_METHOD"] == "GET") 
+{
+$lat = 34.0522; 
+$lon = -118.2437;
+$sunrise = date_sunrise(time(), 
+SUNFUNCS_RET_STRING, $lat, $lon); 
+echo "Sunrise time in Los Angeles is: 
+$sunrise"; 
+}
+```
 
+Strict Error:
+1. Indicate that you're using PHP in a way that may not be compatible with future versions.
+2. They are suggestions for writing more robust code. 
+3. An example might be calling a non-static method statically.
+
+```php
+if ($_SERVER["REQUEST_METHOD"] == "GET")
+{ 
+class MyClass 
+{ 
+function nonStaticMethod() 
+{ 
+echo "nonStaticMethod"; 
+} 
+} 
+MyClass::nonStaticMethod(); 
+}
+```
+
+Recoverable Fatal Error:
+1. A fatal error that can be caught and handled using a custom error handler. 
+2. An example might be type hinting against a class and then passing an incorrect object type.
+
+```php
+if ($_SERVER["REQUEST_METHOD"] == "GET") 
+{ 
+function myFunction(array $myArray) 
+{ 
+echo $myArray[0];
+} 
+myFunction("this is not an array"); 
+}
+```
+
+User Errors:
+1. You can trigger custom error messages using the `trigger_error()` function. 
+2. This allows you to define your own error levels like E_USER_ERROR, E_USER_WARNING, and E_USER_NOTICE.
+
+```php
+if ($_SERVER["REQUEST_METHOD"] == "GET") 
+{ 
+if (1 !== 2) 
+{ 
+trigger_error("One does not equal two!", E_USER_NOTICE); 
+} 
+}
 ```
