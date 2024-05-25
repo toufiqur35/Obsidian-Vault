@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Error Handaling.md",
+                "file": "Php/Error Handling.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Error Handaling.md",
+                "file": "Php/Error Handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Error Handaling.md",
+                "file": "Php/Error Handling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Error Handaling.md"
+                "file": "Php/Error Handling.md"
               }
             }
           },
@@ -159,7 +159,7 @@
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
     "Php/Types Of Error.md",
-    "Php/Error Handaling.md",
+    "Php/Error Handling.md",
     "Php/COOKIES.md",
     "Php/SESSION.md",
     "Php/JSON.md",
