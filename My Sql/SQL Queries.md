@@ -62,16 +62,55 @@ SELECT * FROM Customers
 ORDER BY Country DESC;
 ```
 
-
-####  ORDER BY Keyword
-* The `ORDER BY` keyword is used to sort the result-set in ascending or descending order.
-* The `ORDER BY` keyword sorts the records in ascending order by default. To sort the records in descending order, use the `DESC` keyword.
+####  INSERT INTO
+* The `INSERT INTO` statement is used to insert new records in a table.
 
 ```mysql
-SELECT * FROM Customers  
-ORDER BY Country; //deafult ascending
+INSERT INTO _table_name_ (_column1_, _column2_, _column3_, ...)  
+VALUES (_value1_, _value2_, _value3_, ...);
 
-//examole2
-SELECT * FROM Customers  
-ORDER BY Country DESC;
+'////If you are adding values for all the columns of the table'
+INSERT INTO _table_name_  
+VALUES (_value1_, _value2_, _value3_, ...); 
+```
+
+####  NULL Value
+* A field with a NULL value is a field with no value.
+
+```mysql
+SELECT _column_names _FROM _table_name_  
+WHERE _column_name_ IS NULL;
+
+//example2
+SELECT _column_names _FROM _table_name_  
+WHERE _column_name_ IS NOT NULL;
+```
+
+#### Update Statement
+* The `UPDATE` statement is used to modify the existing records in a table.
+
+```mysql
+UPDATE Customers  
+SET ContactName = 'Alfred Schmidt', City = 'Frankfurt'  
+WHERE CustomerID = 1;
+```
+#### DELETE Statement
+* The `DELETE` statement is used to delete existing records in a table.
+
+```mysql
+DELETE FROM _table_name_ WHERE _condition_;
+DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
+```
+####  LIMIT Clause
+* The `LIMIT` clause is used to specify the number of records to return.
+* The `LIMIT` clause is useful on large tables with thousands of records. Returning a large number of records can impact performance.
+
+```mysql
+SELECT _column_name(s)_  
+FROM _table_name  
+_WHERE _condition_  
+LIMIT _number_;
+
+//example
+
 ```
