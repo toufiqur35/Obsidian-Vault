@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/SESSION.md",
+                "file": "My Sql/my-sql.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/SESSION.md",
+                "file": "My Sql/my-sql.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/SESSION.md",
+                "file": "My Sql/my-sql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/SESSION.md"
+                "file": "My Sql/my-sql.md"
               }
             }
           },
@@ -158,9 +158,11 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
+    "Php/SESSION.md",
+    "My Sql/my-sql.md",
+    "My Sql",
     "Php/JSON.md",
     "Php/Oop/Magic Method/Serialize.md",
-    "Php/SESSION.md",
     "Php/COOKIES.md",
     "Php/Error Handling.md",
     "Php/Types Of Error.md",
@@ -184,7 +186,6 @@
     "Php/Oop/Interface.md",
     "Php/Oop/Parent Keyword.md",
     "Php/Array/Array Transformation Functions.md",
-    "Php/Array/Array Sorting Functions.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
@@ -193,7 +194,6 @@
     "Php/Array",
     "Problem Solving/php",
     "Problem Solving",
-    "Php/If Else",
     "Untitled.canvas",
     "Screenshot_1.png",
     "Pasted image 20240320150015.png",
