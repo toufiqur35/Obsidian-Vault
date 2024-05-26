@@ -112,5 +112,57 @@ _WHERE _condition_
 LIMIT _number_;
 
 //example
+SELECT * FROM Customers  
+WHERE Country='Germany'  
+LIMIT 3;
+```
 
+#### MIN() and MAX() Functions
+* The `MIN()` function returns the smallest value of the selected column.
+* The `MAX()` function returns the largest value of the selected column.
+#### MIN() Syntax
+
+```mysql
+SELECT MIN(_column_name_)  
+FROM _table_name_  
+WHERE _condition_;
+
+//example
+SELECT MIN(Price) AS SmallestPrice  
+FROM Products;
+```
+
+#### MAX() Syntax
+
+```mysql
+SELECT MAX(_column_name_)  
+FROM _table_name_  
+WHERE _condition_;
+
+//example
+SELECT MAX(Price) AS LargestPrice  
+FROM Products;
+```
+#### COUNT(), AVG() and SUM() Functions
+* The `COUNT()` function returns the number of rows that matches a specified criterion.
+
+```mysql
+SELECT COUNT(_column_name_)  
+FROM _table_name_  
+WHERE _condition_;
+```
+* The `AVG()` function returns the average value of a numeric column. 
+
+```mysql
+SELECT AVG(_column_name_)  
+FROM _table_name_  
+WHERE _condition_;
+```
+##### SUM() Syntax
+* The `SUM()` function returns the total sum of a numeric column. 
+
+```mysql
+SELECT SUM(_column_name_)  
+FROM _table_name_  
+WHERE _condition_;
 ```
