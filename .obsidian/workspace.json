@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My Sql/SQL Queries.md",
+                "file": "My Sql/SQL/List.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My Sql/SQL Queries.md",
+                "file": "My Sql/SQL/List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My Sql/SQL Queries.md",
+                "file": "My Sql/SQL/List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "My Sql/SQL Queries.md"
+                "file": "My Sql/SQL/List.md"
               }
             }
           },
@@ -143,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,8 +157,10 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
+    "My Sql/SQL/SQL Queries.md",
+    "My Sql/SQL/List.md",
+    "My Sql/SQL",
     "My Sql/MySQL Database.md",
-    "My Sql/SQL Queries.md",
     "Php/SESSION.md",
     "My Sql",
     "Php/JSON.md",
@@ -185,7 +186,6 @@
     "Php/Oop/Abstract Classes.md",
     "Php/Oop/Class & Object.md",
     "Php/Oop/Interface.md",
-    "Php/Oop/Parent Keyword.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
@@ -193,7 +193,6 @@
     "New folder",
     "Php/Array",
     "Problem Solving/php",
-    "Problem Solving",
     "Untitled.canvas",
     "Screenshot_1.png",
     "Pasted image 20240320150015.png",

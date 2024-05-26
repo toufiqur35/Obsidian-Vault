@@ -145,24 +145,35 @@ FROM Products;
 ```
 #### COUNT(), AVG() and SUM() Functions
 * The `COUNT()` function returns the number of rows that matches a specified criterion.
+* The `AVG()` function returns the average value of a numeric column. 
+* The `SUM()` function returns the total sum of a numeric column. 
 
 ```mysql
 SELECT COUNT(_column_name_)  
 FROM _table_name_  
 WHERE _condition_;
+
+//example
+SELECT COUNT(ProductID)  
+FROM Products;
 ```
-* The `AVG()` function returns the average value of a numeric column. 
 
 ```mysql
 SELECT AVG(_column_name_)  
 FROM _table_name_  
 WHERE _condition_;
+
+//example
+SELECT AVG(Price)  
+FROM Products;
 ```
-##### SUM() Syntax
-* The `SUM()` function returns the total sum of a numeric column. 
 
 ```mysql
 SELECT SUM(_column_name_)  
 FROM _table_name_  
 WHERE _condition_;
+
+//example
+SELECT SUM(Quantity)  
+FROM OrderDetails;
 ```
