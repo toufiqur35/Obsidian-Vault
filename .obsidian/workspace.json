@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Terminology/Terminology.md",
+                "file": "Laravel/Terminology/JSON.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Terminology/Terminology.md",
+                "file": "Laravel/Terminology/JSON.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Terminology/Terminology.md",
+                "file": "Laravel/Terminology/JSON.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Terminology/Terminology.md"
+                "file": "Laravel/Terminology/JSON.md"
               }
             }
           },
@@ -158,14 +158,17 @@
   },
   "active": "5df8ed200d990360",
   "lastOpenFiles": [
-    "11-01.png",
+    "Laravel/Terminology/Middleware.md",
+    "Laravel/Terminology/JSON.md",
+    "Laravel/Terminology/Client & Server Side.md",
+    "photo",
+    "photo/11-01.png",
     "1-01.png",
     "2-01.png",
     "Untitled-1-01.png",
     "wallpaper.jpg",
     "Pasted image 20240605130629.png",
     "Pasted image 20240605124404.png",
-    "Laravel/Terminology/Terminology.md",
     "Php/Array/Array Sorting Functions.md",
     "Laravel/Terminology",
     "Laravel",
@@ -194,12 +197,10 @@
     "Php/If Else/Ternary Operators.md",
     "Php/Oop/Static.md",
     "Php/Oop/Final Keyword.md",
-    "Php/Oop/Constructors and Inheritance.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
     "sobujjj",
-    "New folder",
     "Untitled.canvas",
     "Screenshot_1.png",
     "Pasted image 20240320150015.png",
