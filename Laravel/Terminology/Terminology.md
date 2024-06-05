@@ -14,4 +14,6 @@
 * It is a type of filtering mechanism to ensure API Securities and more.
 * Middleware acts as a bridge between a request and a response.
 
-![[1-01.png]]
+![[11-01.png]]
+#### Uses of Middleware
+* Use to implement API key, user agent restriction, CSRF, XSRF security, token based API authentic
