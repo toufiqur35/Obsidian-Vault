@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Terminology/JSON.md",
+                "file": "Laravel/Terminology/Client & Server Side.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Terminology/JSON.md",
+                "file": "Laravel/Terminology/Client & Server Side.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Terminology/JSON.md",
+                "file": "Laravel/Terminology/Client & Server Side.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Terminology/JSON.md"
+                "file": "Laravel/Terminology/Client & Server Side.md"
               }
             }
           },
@@ -158,8 +158,8 @@
   },
   "active": "5df8ed200d990360",
   "lastOpenFiles": [
-    "Laravel/Terminology/Middleware.md",
     "Laravel/Terminology/JSON.md",
+    "Laravel/Terminology/Middleware.md",
     "Laravel/Terminology/Client & Server Side.md",
     "photo",
     "photo/11-01.png",

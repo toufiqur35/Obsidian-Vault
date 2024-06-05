@@ -31,17 +31,37 @@
 {"firstName":"toufiqur","lastName":"sobuj"} is the best
 ```
 
-```
+* Always  create a root element (root name of array).
+```json
+// json with root element
 {
-  "Students": [
+  "Students": [                       //json root name Students
 		{ 
 			"Name":"Amit Goenka" ,
 			"Major":"Physics" 
 			}, 
-			  { 
+		{ 
 			  "Name":"Smita Pallod" ,
 		      "Major":"Chemistry" 
-		  }, 
+		}, 
+			  {
+			   "Name":"Rajeev Sen" , 
+			   "Major":"Mathematics" 
+		}
+	]
+}
+
+// json without root element
+{
+  [                       
+		{ 
+			"Name":"Amit Goenka" ,
+			"Major":"Physics" 
+			}, 
+		{ 
+			  "Name":"Smita Pallod" ,
+		      "Major":"Chemistry" 
+		}, 
 			  {
 			   "Name":"Rajeev Sen" , 
 			   "Major":"Mathematics" 
