@@ -8,4 +8,10 @@
 * Routing is the URL/URL path to send request to server.
 * Controller is function /class/ code respond on request and process response.
 * Controller acts as a bridge between a request and a response.
+
+#### Middleware
+* Middleware is a special types of controller executed after request but before in response.
+* It is a type of filtering mechanism to ensure API Securities and more.
+* Middleware acts as a bridge between a request and a response.
+
 ![[1-01.png]]
