@@ -5,3 +5,15 @@
 - The official internet media type for JSON in application/JSON.
 - It is design for human readable data interchange.
 - The file name extension is `.json`
+
+#### Bad Special Characters Inside JSON & Solution
+* Backspace : Replace with \\b
+* Form feed : Replace with \\f
+* Newline : Replace with \\n
+* Carriage return : Replace with \\r
+* Tab : Replace with \\t
+* Double quote : Replace with \\"
+* Backslash : Replace with \\\
+
+#### Best practices of JSON
+* Always enclose the key: Value pair within doubl*
