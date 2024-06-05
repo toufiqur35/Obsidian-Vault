@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My Sql/SQL/SQL Queries.md",
+                "file": "Php/Array/String Conversion - Serialize, JSON.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My Sql/SQL/SQL Queries.md",
+                "file": "Php/Array/String Conversion - Serialize, JSON.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My Sql/SQL/SQL Queries.md",
+                "file": "Php/Array/String Conversion - Serialize, JSON.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "My Sql/SQL/SQL Queries.md"
+                "file": "Php/Array/String Conversion - Serialize, JSON.md"
               }
             }
           },
@@ -158,9 +158,9 @@
   },
   "active": "19aaa46bb774f72b",
   "lastOpenFiles": [
+    "My Sql/SQL/SQL Queries.md",
     "My Sql/SQL/List.md",
     "Problem Solving/php/Binary Search Algorithm.md",
-    "My Sql/SQL/SQL Queries.md",
     "My Sql/SQL",
     "My Sql/MySQL Database.md",
     "Php/SESSION.md",
