@@ -1,0 +1,7 @@
+- JSON stands for **J**ava-Script Object Notation.
+- JSON is a lightweight data-interchange format that is completely language independent.
+- JSON is plain text written in JavaScript object notation
+- It is derived from java-script, but many modern programming language include code to generate and parse JSON format data.
+- The official internet media type for JSON in application/JSON.
+- It is design for human readable data interchange.
+- The file name extension is `.json`
