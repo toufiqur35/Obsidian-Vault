@@ -9,4 +9,3 @@
 * Controller is function /class/ code respond on request and process response.
 * Controller acts as a bridge between a request and a response.
 
-**---------->Routing----------->controller---------->Return-------->**
