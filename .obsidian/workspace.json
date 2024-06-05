@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Terminology/Http Client.md",
+                "file": "Laravel/Terminology/GET vs. POST.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Terminology/Http Client.md",
+                "file": "Laravel/Terminology/GET vs. POST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Terminology/Http Client.md",
+                "file": "Laravel/Terminology/GET vs. POST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Terminology/Http Client.md"
+                "file": "Laravel/Terminology/GET vs. POST.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "5df8ed200d990360",
   "lastOpenFiles": [
-    "Laravel/Terminology/Client & Server Side.md",
     "Laravel/Terminology/Http Client.md",
+    "Laravel/Terminology/GET vs. POST.md",
+    "Laravel/Terminology/Client & Server Side.md",
     "Laravel/Terminology/JSON.md",
     "Laravel/Terminology/Middleware.md",
     "photo",
@@ -196,7 +197,6 @@
     "Problem Solving/php/Easy.md",
     "Php/Fibonacci Series.md",
     "Php/If Else/Ternary Operators.md",
-    "Php/Oop/Static.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
