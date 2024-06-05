@@ -1,4 +1,14 @@
-The following table compares the two HTTP methods: GET and POST.
+#### When use GET() When POST() 
+* **GET** is used to request something from server with less amount of data to pass. 
+* When nothing should change on the server because of your action. 
+* When request only retrieves data from a web server by specifying parameters 
+* Get method only carries request `url` & header not request body. 
+
+* **POST** should be used when the server state changes due to that action.
+* When request needs its body, to pass large amount of data. 
+* When want to upload documents , images , video from client to server
+
+##### The following table compares the two HTTP methods: GET and POST.
 
 | Key Points                  | GET                                                                                                                                                      | POST                                                                                                           |
 | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |

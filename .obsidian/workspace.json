@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Terminology/Http Client.md",
+                "file": "Laravel/Terminology/Http.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Terminology/Http Client.md",
+                "file": "Laravel/Terminology/Http.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Terminology/Http Client.md",
+                "file": "Laravel/Terminology/Http.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Terminology/Http Client.md"
+                "file": "Laravel/Terminology/Http.md"
               }
             }
           },
@@ -158,11 +158,11 @@
   },
   "active": "5df8ed200d990360",
   "lastOpenFiles": [
+    "Laravel/Terminology/GET vs. POST.md",
+    "Laravel/Terminology/Http.md",
     "Laravel/Terminology/Client & Server Side.md",
-    "Laravel/Terminology/Http Client.md",
     "Laravel/Terminology/JSON.md",
     "Laravel/Terminology/Middleware.md",
-    "Laravel/Terminology/GET vs. POST.md",
     "photo",
     "photo/11-01.png",
     "1-01.png",

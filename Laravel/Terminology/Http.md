@@ -1,3 +1,4 @@
+#### Http Client
 Postman is an HTTP client application, used to test request response communication.
 Postman is widely used for API testing and generating documentation.
 
@@ -5,7 +6,6 @@ Postman is widely used for API testing and generating documentation.
 * Generate and publish beautiful, machine readable API.
 * Checking performance and response times at scheduled intervals.
 * Communicate the expected behavior of an API by simulating endpoint and their responses.
-
 #### Http Request Segments:
 * HTTP Request is the first step to initiate web request/response communication. Every request is a combination of request header, body and request URL.
 
