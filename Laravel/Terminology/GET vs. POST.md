@@ -1,6 +1,11 @@
 The following table compares the two HTTP methods: GET and POST.
 
-
-|     |     |
-| --- | --- |
-|     |     |
+| Key Points                  | GET                                                                                                                                         | POST                                                                                                     |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| BACK button/Reload          | Harmless                                                                                                                                    | Data will be re-submitted (the browser should alert the user that the data are about to be re-submitted) |
+| Bookmarked                  | Can be bookmarked                                                                                                                           | Cannot be bookmarked                                                                                     |
+| Cached                      | Can be cached                                                                                                                               | Not cached                                                                                               |
+| Encoding type               | application/x-www-form-urlencoded                                                                                                           | application/x-www-form-urlencoded or multipart/form-data. Use multipart encoding for binary data         |
+| History                     | Parameters remain in browser history                                                                                                        | Parameters are not saved in browser history                                                              |
+| Restrictions on data length | Yes, when sending data, the GET method adds the data to the URL; and the length of a URL is limited (maximum URL length is 2048 characters) | No restrictions                                                                                          |
+| Visibility                  | Data is visible to everyone in the URL                                                                                                      | Data is not displayed in the URL                                                                         |
