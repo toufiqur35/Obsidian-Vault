@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Terminology/Client & Server Side.md",
+                "file": "Laravel/Terminology/Http Client.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Terminology/Client & Server Side.md",
+                "file": "Laravel/Terminology/Http Client.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Terminology/Client & Server Side.md",
+                "file": "Laravel/Terminology/Http Client.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Terminology/Client & Server Side.md"
+                "file": "Laravel/Terminology/Http Client.md"
               }
             }
           },
@@ -158,9 +158,10 @@
   },
   "active": "5df8ed200d990360",
   "lastOpenFiles": [
+    "Laravel/Terminology/Client & Server Side.md",
+    "Laravel/Terminology/Http Client.md",
     "Laravel/Terminology/JSON.md",
     "Laravel/Terminology/Middleware.md",
-    "Laravel/Terminology/Client & Server Side.md",
     "photo",
     "photo/11-01.png",
     "1-01.png",
@@ -196,7 +197,6 @@
     "Php/Fibonacci Series.md",
     "Php/If Else/Ternary Operators.md",
     "Php/Oop/Static.md",
-    "Php/Oop/Final Keyword.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
