@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "30d9a22c0fedfa18",
+        "id": "374397e6ee018c49",
         "type": "tabs",
         "children": [
           {
-            "id": "19aaa46bb774f72b",
+            "id": "5df8ed200d990360",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Array/Array Sorting Functions.md",
+                "file": "Laravel/Terminology/Terminology.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Array/Array Sorting Functions.md",
+                "file": "Laravel/Terminology/Terminology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Array/Array Sorting Functions.md",
+                "file": "Laravel/Terminology/Terminology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Array/Array Sorting Functions.md"
+                "file": "Laravel/Terminology/Terminology.md"
               }
             }
           },
@@ -156,8 +156,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19aaa46bb774f72b",
+  "active": "5df8ed200d990360",
   "lastOpenFiles": [
+    "Php/Array/Array Sorting Functions.md",
+    "Laravel/Terminology/Terminology.md",
+    "Laravel/Terminology",
+    "Laravel",
     "Php/Array/String Conversion - Serialize, JSON.md",
     "My Sql/SQL/SQL Queries.md",
     "My Sql/SQL/List.md",
@@ -185,15 +189,11 @@
     "Php/Oop/Final Keyword.md",
     "Php/Oop/Constructors and Inheritance.md",
     "Php/Oop/Constructor.md",
-    "Php/Oop/Access modifiers.md",
-    "Php/Oop/Abstract Classes.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
     "sobujjj",
     "New folder",
-    "Php/Array",
-    "Problem Solving/php",
     "Untitled.canvas",
     "Screenshot_1.png",
     "Pasted image 20240320150015.png",
