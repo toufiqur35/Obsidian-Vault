@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Terminology/URI Naming Convention.md",
+                "file": "Laravel/Terminology/Cookies.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Terminology/URI Naming Convention.md",
+                "file": "Laravel/Terminology/Cookies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Terminology/URI Naming Convention.md",
+                "file": "Laravel/Terminology/Cookies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Terminology/URI Naming Convention.md"
+                "file": "Laravel/Terminology/Cookies.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "5df8ed200d990360",
   "lastOpenFiles": [
-    "Laravel/Terminology/Status Code.md",
     "Laravel/Terminology/URI Naming Convention.md",
+    "Laravel/Terminology/Cookies.md",
+    "Laravel/Terminology/Status Code.md",
     "Laravel/Terminology/Http.md",
     "Laravel/Terminology/GET vs. POST.md",
     "Laravel/Terminology/Client & Server Side.md",
@@ -196,7 +197,6 @@
     "Php/Function/Variadic (multi parameters) function.md",
     "Php/Function/Fibonacci Series.md",
     "Project/word sort.md",
-    "Problem Solving/php/Easy.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
