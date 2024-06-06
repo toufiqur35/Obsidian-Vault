@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Terminology/Best Practices.md",
+                "file": "Php/Array/Array Reduce.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 228.5
   },
   "right": {
     "id": "363b0e8973658f75",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Terminology/Best Practices.md",
+                "file": "Php/Array/Array Reduce.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Terminology/Best Practices.md",
+                "file": "Php/Array/Array Reduce.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Terminology/Best Practices.md"
+                "file": "Php/Array/Array Reduce.md"
               }
             }
           },
@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,8 +158,13 @@
   },
   "active": "5df8ed200d990360",
   "lastOpenFiles": [
-    "Laravel/Terminology/Cookies.md",
+    "Php/Array/Array Iteration Functions.md",
+    "Php/Array/Array Information Functions.md",
+    "Php/Array/Array Function.md",
+    "Php/Array/Array Creation and Manipulation Functions.md",
+    "Php/Array/Array.md",
     "Laravel/Terminology/Best Practices.md",
+    "Laravel/Terminology/Cookies.md",
     "Laravel/Terminology/URI Naming Convention.md",
     "Laravel/Terminology/Status Code.md",
     "Laravel/Terminology/Http.md",
@@ -190,12 +196,7 @@
     "Php/COOKIES.md",
     "Php/Error Handling.md",
     "Php/Types Of Error.md",
-    "Php/Php file system/Date Time.md",
-    "Php/Array/Array Function.md",
     "Php/Php file system",
-    "Php/Function/Function.md",
-    "Php/Function/Variadic (multi parameters) function.md",
-    "Php/Function/Fibonacci Series.md",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
