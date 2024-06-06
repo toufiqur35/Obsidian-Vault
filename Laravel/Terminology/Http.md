@@ -20,11 +20,11 @@ Postman is widely used for API testing and generating documentation.
 * Essential component of Internet security, as `DoS` attacks can tank a server with unlimited requests.
 * Rate limiting also helps make your API scalable by avoid unexpected spikes in traffic, causing severe lag time.
 
-#### Http Response Segments
+### Http Response Segments
 Http response is the final step of request-response communication. Every response is a combination of response header, body and cookies.
 
-| Request Area  | Standard Data Type                           |
+| Response Area | Standard Data Type                           |
 | ------------- | -------------------------------------------- |
 | Body          | Simple String, JSON, Download, Redirect, XML |
 | Header        | Key Pair Value                               |
-| URL Parameter | String                                       |
+| Cookies       | Key Pair Value                               |
