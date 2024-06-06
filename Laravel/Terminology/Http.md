@@ -15,3 +15,16 @@ Postman is widely used for API testing and generating documentation.
 | Header        | Key Pair Value                               |
 | URL Parameter | String                                       |
 
+### Http Request Throttling 
+**Throttle Request refers to a process in which a user is allowed to hit the application maximum time in per second or per minute. Throttling is also known as request rate limiting.** 
+* Essential component of Internet security, as `DoS` attacks can tank a server with unlimited requests.
+* Rate limiting also helps make your API scalable by avoid unexpected spikes in traffic, causing severe lag time.
+
+#### Http Response Segments
+Http response is the final step of request-response communication. Every response is a combination of response header, body and cookies.
+
+| Request Area  | Standard Data Type                           |
+| ------------- | -------------------------------------------- |
+| Body          | Simple String, JSON, Download, Redirect, XML |
+| Header        | Key Pair Value                               |
+| URL Parameter | String                                       |
