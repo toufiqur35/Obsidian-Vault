@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "374397e6ee018c49",
+        "id": "410c353a04b8d294",
         "type": "tabs",
         "children": [
           {
-            "id": "5df8ed200d990360",
+            "id": "e21147df0760d5c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -156,10 +156,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5df8ed200d990360",
+  "active": "e21147df0760d5c3",
   "lastOpenFiles": [
-    "Php/Array/Array Reduce.md",
+    "photo/Pasted image 20240607161819.png",
+    "Pasted image 20240607161830.png",
+    "Pasted image 20240607161811.png",
     "Laravel/Terminology/JSON WEB TOKEN(JWT).md",
+    "Php/Array/Array Reduce.md",
     "Php/Array/Array Iteration Functions.md",
     "Php/Array/Array Information Functions.md",
     "Php/Array/Array Function.md",
@@ -195,15 +198,12 @@
     "My Sql",
     "Php/JSON.md",
     "Php/Oop/Magic Method/Serialize.md",
-    "Php/COOKIES.md",
     "Php/Php file system",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
     "sobujjj",
     "Untitled.canvas",
-    "Screenshot_1.png",
-    "Pasted image 20240320150015.png",
     "class 2/Untitled.canvas"
   ]
 }

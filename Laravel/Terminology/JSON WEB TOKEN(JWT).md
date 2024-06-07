@@ -6,6 +6,6 @@
 * **Information Exchange:** Way of securely transmitting information between parties.
 
 #### JSON WEB TOKEN STRUCTURE
-**header**
-* Type of the token 
+**Header**
+* Type of the token                         
 * Signing algorithm
