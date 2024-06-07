@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Array/Array Reduce.md",
+                "file": "Laravel/Terminology/JSON WEB TOKEN(JWT).md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Array/Array Reduce.md",
+                "file": "Laravel/Terminology/JSON WEB TOKEN(JWT).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Array/Array Reduce.md",
+                "file": "Laravel/Terminology/JSON WEB TOKEN(JWT).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Array/Array Reduce.md"
+                "file": "Laravel/Terminology/JSON WEB TOKEN(JWT).md"
               }
             }
           },
@@ -158,6 +158,8 @@
   },
   "active": "5df8ed200d990360",
   "lastOpenFiles": [
+    "Php/Array/Array Reduce.md",
+    "Laravel/Terminology/JSON WEB TOKEN(JWT).md",
     "Php/Array/Array Iteration Functions.md",
     "Php/Array/Array Information Functions.md",
     "Php/Array/Array Function.md",
@@ -194,8 +196,6 @@
     "Php/JSON.md",
     "Php/Oop/Magic Method/Serialize.md",
     "Php/COOKIES.md",
-    "Php/Error Handling.md",
-    "Php/Types Of Error.md",
     "Php/Php file system",
     "Php/Oop/Magic Method",
     "Php/Oop",
