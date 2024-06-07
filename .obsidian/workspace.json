@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Terminology/JSON WEB TOKEN(JWT).md",
+                "file": "Laravel/Terminology/Client-Side Rendering.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Terminology/JSON WEB TOKEN(JWT).md",
+                "file": "Laravel/Terminology/Client-Side Rendering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Terminology/JSON WEB TOKEN(JWT).md",
+                "file": "Laravel/Terminology/Client-Side Rendering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Terminology/JSON WEB TOKEN(JWT).md"
+                "file": "Laravel/Terminology/Client-Side Rendering.md"
               }
             }
           },
@@ -158,10 +158,12 @@
   },
   "active": "e21147df0760d5c3",
   "lastOpenFiles": [
+    "Laravel/Terminology/Server-Side Rendering.md",
+    "Laravel/Terminology/Client-Side Rendering.md",
+    "Laravel/Terminology/JSON WEB TOKEN(JWT).md",
     "photo/Pasted image 20240607161819.png",
     "Pasted image 20240607161830.png",
     "Pasted image 20240607161811.png",
-    "Laravel/Terminology/JSON WEB TOKEN(JWT).md",
     "Php/Array/Array Reduce.md",
     "Php/Array/Array Iteration Functions.md",
     "Php/Array/Array Information Functions.md",
@@ -197,7 +199,6 @@
     "Php/SESSION.md",
     "My Sql",
     "Php/JSON.md",
-    "Php/Oop/Magic Method/Serialize.md",
     "Php/Php file system",
     "Php/Oop/Magic Method",
     "Php/Oop",
