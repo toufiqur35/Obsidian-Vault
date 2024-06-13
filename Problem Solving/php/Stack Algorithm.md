@@ -147,15 +147,55 @@ The output will print the result after evaluation which will be an integer.
 - - - - / will be there as opertor along with ( ) in input
 ### Example:
 Enter string
-
-#### Input:
+### Input:
 
 ```
 *56
 ```
-
 #### Output:
 
 ```
 30
+```
+
+## Solution
+
+```php
+ $input = trim(fgets(STDIN));
+    $st = new SplStack();
+    for($i= strlen($input) - 1 ; $i>=0 ; $i--)
+        {
+           $item = $input[$i];
+           if(isNumber($item)){
+            $st->push($item);
+           }else{
+            $first = $st->pop();
+            $second = $st->pop();
+            $res = calculate($first,$second,$item);
+            $st->push($res);
+           }
+        }
+        
+    print (int)$st->top();
+    
+    function calculate($first,$second,$operator){
+        switch($operator){
+            case '+':
+            return $first+$second;
+            break;
+            case '-':
+            return $first-$second;
+            break;
+            case '*':
+            return $first*$second;
+            break;
+            case '/':
+            return $first/$second;
+            break;
+       }
+    }
+
+	function isNumber($item){
+        return $item >= "0" && $item<="9";
+    }
 ```
