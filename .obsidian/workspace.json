@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Terminology/Client-Side Rendering.md",
+                "file": "Problem Solving/php/Stack.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Terminology/Client-Side Rendering.md",
+                "file": "Problem Solving/php/Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Terminology/Client-Side Rendering.md",
+                "file": "Problem Solving/php/Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Terminology/Client-Side Rendering.md"
+                "file": "Problem Solving/php/Stack.md"
               }
             }
           },
@@ -158,8 +158,11 @@
   },
   "active": "e21147df0760d5c3",
   "lastOpenFiles": [
-    "Laravel/Terminology/Server-Side Rendering.md",
+    "Problem Solving/php/Binary Search Algorithm.md",
+    "Problem Solving/php/Stack.md",
     "Laravel/Terminology/Client-Side Rendering.md",
+    "Problem Solving/php/Untitled",
+    "Laravel/Terminology/Server-Side Rendering.md",
     "Laravel/Terminology/JSON WEB TOKEN(JWT).md",
     "photo/Pasted image 20240607161819.png",
     "Pasted image 20240607161830.png",
@@ -193,17 +196,14 @@
     "Php/Array/String Conversion - Serialize, JSON.md",
     "My Sql/SQL/SQL Queries.md",
     "My Sql/SQL/List.md",
-    "Problem Solving/php/Binary Search Algorithm.md",
     "My Sql/SQL",
     "My Sql/MySQL Database.md",
     "Php/SESSION.md",
     "My Sql",
-    "Php/JSON.md",
     "Php/Php file system",
     "Php/Oop/Magic Method",
     "Php/Oop",
     "sobujjj/8 Array Mathematics Function.pdf",
-    "sobujjj",
     "Untitled.canvas",
     "class 2/Untitled.canvas"
   ]
