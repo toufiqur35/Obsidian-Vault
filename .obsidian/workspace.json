@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "635b06541857f4a5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -155,7 +166,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e21147df0760d5c3",
+  "active": "635b06541857f4a5",
   "lastOpenFiles": [
     "Problem Solving/php/Binary Search Algorithm.md",
     "Problem Solving/php/Stack Algorithm.md",
