@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ostad live class/class 2/github.md",
+                "file": "Laravel/Terminology/Cookies.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ostad live class/class 2/github.md",
+                "file": "Laravel/Terminology/Cookies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ostad live class/class 2/github.md",
+                "file": "Laravel/Terminology/Cookies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ostad live class/class 2/github.md"
+                "file": "Laravel/Terminology/Cookies.md"
               }
             }
           },
@@ -158,6 +158,7 @@
   },
   "active": "e21147df0760d5c3",
   "lastOpenFiles": [
+    "ostad live class/class 2/github.md",
     "Laravel/Terminology/Status Code.md",
     "Laravel/Terminology/Cookies.md",
     "Problem Solving/php/Stack Algorithm.md",
@@ -198,7 +199,6 @@
     "My Sql/SQL/List.md",
     "My Sql/SQL",
     "My Sql/MySQL Database.md",
-    "Php/SESSION.md",
     "My Sql",
     "Php/Php file system",
     "Php/Oop/Magic Method",
