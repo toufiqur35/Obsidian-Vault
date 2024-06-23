@@ -87,6 +87,7 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Product;
+use App\Http\Resourece\ProductResourece;
 
 class ProductController extends Controller
 {
@@ -95,6 +96,7 @@ class ProductController extends Controller
 		$products = Product::get();
 
 		if($products>0){
+		return ProductResourece::collection($product);
 		}
 		else{
 		return response()->json(['message'=>'No record available'], 200);
@@ -120,6 +122,36 @@ class ProductController extends Controller
     {
 	
     }
+}
+```
+
+### Creating Resource
+To generate a resource class, you may use the `make:resource` Artisan command. By default, resources will be placed in the `app/Http/Resources` directory of your application. Resources extend the `Illuminate\Http\Resources\Json\JsonResource` class:
+
+```
+php artisan make:resource ProductResource
+```
+
+* app \\http\\Resource\\`ProductResource.php`
+
+```php
+namespace App\Http\Resources;
+use Illuminate\Http\Request;
+use Illuminate\Http\Resources\Json\JsonResource;
+class ProductResource extends JsonResource
+{
+
+public function toArray(Request $request): array
+	{
+		return [
+		'id' => $this->id,
+		'name' => $this->name,
+		'price' => $this->price,
+		'description' => $this->description,
+		'created_at' => $this->created_at,
+		'updated_at' => $this->updated_at,
+		];
+	}
 }
 ```
 ### 7. Create the `Api` Routes
