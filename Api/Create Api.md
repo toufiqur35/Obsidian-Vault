@@ -95,8 +95,8 @@ class ProductController extends Controller
     {
 		$products = Product::get();
 
-		if($products>0){
-		return ProductResourece::collection($product);
+		if($products->count()>0){
+		return ProductResource::collection($product);
 		}
 		else{
 		return response()->json(['message'=>'No record available'], 200);
@@ -105,7 +105,11 @@ class ProductController extends Controller
 
 	public function store(Request $request)
     {
-	
+	$validated = $request->validate([
+		'name' => 'required|max:255',
+		'price' => 'required|intiger',
+		'description' => 'required',
+		]);
     }
 
 	public function show(Procutc $product)
