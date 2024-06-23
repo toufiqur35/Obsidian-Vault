@@ -11,9 +11,24 @@ The next step is to configure the database for your application.
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=hospital_management_system
+DB_DATABASE=database name
 DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-### 3. Make a model and migration
+### 3. Install `Api`
+
+```
+php artisan install:api
+```
+
+### 3. Add `HasApiTokens` to the User models
+
+```php
+use Laravel\Sanctum\HasApiTokens;
+
+class User extends Authenticatable
+{
+    use HasFactory, Notifiable, HasApiTokens;
+}
+```
