@@ -39,11 +39,11 @@ class User extends Authenticatable
 ```
 //you can create any name of table
 
-php artisan make:migration create_product_table
+php artisan make:migration create_products_table
 ```
 * configuration table
 ```php
-Schema::create('works_process', function (Blueprint $table) {
+Schema::create('products', function (Blueprint $table) {
    $table->id();
    $table->string('name');
    $table->string('price');
@@ -51,8 +51,37 @@ Schema::create('works_process', function (Blueprint $table) {
    $table->timestamps();
 });
 ```
-### 4. Migrate to database
+### 5. Migrate to database
 
 ```
 php artisan migrate
+```
+### 6. Create the Model
+
+```
+php artisan make:model Product
+```
+* open this Product model file
+* app\\http\\model\\`Product.php`
+
+```php
+protected $table = 'products';
+protected $fillable = [
+	'name',
+	'price',
+	'description',
+    ];
+```
+
+### 7. Create the controller
+* With controllers, you can group related request handling logic within a single class. In a Laravel project, controllers are located in the app/Http/Controllers directory.
+
+```
+php artisan make:controller Api/ProductController
+```
+
+### 7. Create the `Api` Routes
+
+```
+Route::apiResource('product',ProductController::class);
 ```
