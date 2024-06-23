@@ -103,25 +103,41 @@ class ProductController extends Controller
 		}
     }
 
+	//store 
 	public function store(Request $request)
     {
-	$validated = $request->validate([
+		$validated = $request->validate([
 		'name' => 'required|max:255',
-		'price' => 'required|intiger',
+		'price' => 'required|integer',
 		'description' => 'required',
 		]);
+
+		$product = Product::create([
+		'name' => $request->name,
+		'price' => $request->price,
+		'description' => $request->description,
+		]);
+
+		return response()->json([
+		'message'=>'Product create successfully',
+		'data'=> new ProductResource($product);
+		],200);
     }
 
+	//show 
 	public function show(Procutc $product)
     {
 	
     }
 
+
+	//update
 	public function update(Request $request, Procutc $product)
     {
 	
     }
 
+	//destroy
 	public function destroy(Procutc $product)
     {
 	
