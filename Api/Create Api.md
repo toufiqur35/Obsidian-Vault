@@ -112,6 +112,13 @@ class ProductController extends Controller
 		'description' => 'required',
 		]);
 
+		if($validated->fails){
+		return response()->json([
+		'message' => 'All fields are required',
+		'error' => $validated->messages(),
+		],422);
+		}
+
 		$product = Product::create([
 		'name' => $request->name,
 		'price' => $request->price,
@@ -127,20 +134,45 @@ class ProductController extends Controller
 	//show 
 	public function show(Procutc $product)
     {
-	
+		return new ProductResource($product);
     }
 
 
 	//update
 	public function update(Request $request, Procutc $product)
     {
-	
+	$validated = $request->validate([
+		'name' => 'required|max:255',
+		'price' => 'required|integer',
+		'description' => 'required',
+		]);
+
+		if($validated->fails){
+		return response()->json([
+		'message' => 'All fields are required',
+		'error' => $validated->messages(),
+		],422);
+		}
+
+		$product = Product::update([
+		'name' => $request->name,
+		'price' => $request->price,
+		'description' => $request->description,
+		]);
+
+		return response()->json([
+		'message'=>'Product update successfully',
+		'data'=> new ProductResource($product);
+		],200);
     }
 
 	//destroy
 	public function destroy(Procutc $product)
     {
-	
+		$product->delete();
+		return response()->json([
+			'message'=>'Product delete successfully',
+		],200);
     }
 }
 ```
