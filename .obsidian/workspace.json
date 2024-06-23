@@ -11,8 +11,12 @@
             "id": "e2777de2a338d01b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Array.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -82,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Api/Create Api.md",
+                "file": "JavaScript/Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Api/Create Api.md",
+                "file": "JavaScript/Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Api/Create Api.md"
+                "file": "JavaScript/Array.md"
               }
             }
           },
@@ -152,10 +156,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf94feffdf98b826",
+  "active": "e2777de2a338d01b",
   "lastOpenFiles": [
-    "Laravel/Untitled.md",
     "Api/Create Api.md",
+    "JavaScript/Array.md",
+    "Laravel/Untitled.md",
     "Api",
     "Laravel/Terminology/Cookies.md",
     "Laravel/Terminology/Status Code.md",
@@ -194,7 +199,6 @@
     "Laravel/Terminology",
     "Laravel",
     "Php/Array/String Conversion - Serialize, JSON.md",
-    "My Sql/SQL/SQL Queries.md",
     "My Sql/SQL",
     "My Sql",
     "Php/Php file system",
