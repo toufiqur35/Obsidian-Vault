@@ -80,7 +80,48 @@ protected $fillable = [
 php artisan make:controller Api/ProductController
 ```
 
+#### Configuration Controller File
 
+```php
+namespace App\Http\Controllers\Api;
+use App\Http\Controllers\Controllers;
+use Illuminate\Http\Request;
+use App\Models\Product;
+
+class ProductController extends Controller
+{
+	public function index()
+    {
+		$products = Product::get();
+
+		if($products>0){
+		}
+		else{
+		return response()->json(['message'=>'No record available'], 200);
+		}
+    }
+
+	public function store(Request $request)
+    {
+	
+    }
+
+	public function show(Procutc $product)
+    {
+	
+    }
+
+	public function update(Request $request, Procutc $product)
+    {
+	
+    }
+
+	public function destroy(Procutc $product)
+    {
+	
+    }
+}
+```
 ### 7. Create the `Api` Routes
 
 ```
