@@ -28,7 +28,9 @@ public function index($id)
         $secure = false;
         $httpOnly = true;
 
-        return response($data)->cookie(
+		$status_code = 200;
+
+        return response($data,$status_code)->cookie(
             $name,
             $value,
             $minutes,
