@@ -80,8 +80,21 @@ protected $fillable = [
 php artisan make:controller Api/ProductController
 ```
 
+
 ### 7. Create the `Api` Routes
 
 ```
-Route::apiResource('product',ProductController::class);
+Route::apiResource('products',ProductController::class);
+```
+* check this resources route list
+```
+php artisan route:list
+```
+* resources `api` routes list
+```
+GET|HEAD   api/products ........... product.index > Api\ProductController@index
+POST   api/products ........... product.store > Api\ProductController@store
+GET|HEAD   api/products/{product} ....... product.show > Api\ProductController@show
+PUT|PATCH   api/products/{product} .. product.update > Api\ProductController@update
+DELETE   api/products/{product} ... product.destroy > Api\ProductController@destroy
 ```
