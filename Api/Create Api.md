@@ -154,7 +154,7 @@ class ProductController extends Controller
 		],422);
 		}
 
-		$product = Product::update([
+		$product->update([
 		'name' => $request->name,
 		'price' => $request->price,
 		'description' => $request->description,
