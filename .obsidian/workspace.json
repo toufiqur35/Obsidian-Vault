@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Terminology/GET vs. POST.md",
+                "file": "Laravel/Terminology/Http.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Terminology/GET vs. POST.md",
+                "file": "Laravel/Terminology/Http.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Terminology/GET vs. POST.md",
+                "file": "Laravel/Terminology/Http.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Terminology/GET vs. POST.md"
+                "file": "Laravel/Terminology/Http.md"
               }
             }
           },
@@ -158,18 +158,21 @@
   },
   "active": "e2777de2a338d01b",
   "lastOpenFiles": [
+    "Laravel/Terminology/Cookies.md",
+    "Laravel/Terminology/Client-Side Rendering.md",
+    "Laravel/Terminology/Client & Server Side.md",
+    "Laravel/Terminology/Best Practices.md",
+    "Laravel/Terminology/GET vs. POST.md",
     "Laravel/Terminology/JSON WEB TOKEN(JWT).md",
     "Laravel/Terminology/JSON.md",
     "JavaScript/Array.md",
     "Api/Create Api.md",
     "Laravel/Untitled.md",
     "Api",
-    "Laravel/Terminology/Cookies.md",
     "Laravel/Terminology/Status Code.md",
     "ostad live class/class 2/github.md",
     "Problem Solving/php/Stack Algorithm.md",
     "Problem Solving/php/Binary Search Algorithm.md",
-    "Laravel/Terminology/Client-Side Rendering.md",
     "Problem Solving/php/Untitled",
     "Laravel/Terminology/Server-Side Rendering.md",
     "photo/Pasted image 20240607161819.png",
@@ -181,11 +184,8 @@
     "Php/Array/Array Function.md",
     "Php/Array/Array Creation and Manipulation Functions.md",
     "Php/Array/Array.md",
-    "Laravel/Terminology/Best Practices.md",
     "Laravel/Terminology/URI Naming Convention.md",
     "Laravel/Terminology/Http.md",
-    "Laravel/Terminology/GET vs. POST.md",
-    "Laravel/Terminology/Client & Server Side.md",
     "Laravel/Terminology/Middleware.md",
     "photo",
     "photo/11-01.png",
