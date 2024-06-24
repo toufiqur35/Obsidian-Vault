@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Array.md",
+                "file": "Laravel/Terminology/GET vs. POST.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Array.md",
+                "file": "Laravel/Terminology/GET vs. POST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Array.md",
+                "file": "Laravel/Terminology/GET vs. POST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Array.md"
+                "file": "Laravel/Terminology/GET vs. POST.md"
               }
             }
           },
@@ -156,10 +156,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bfbdc8e43d0155c3",
+  "active": "e2777de2a338d01b",
   "lastOpenFiles": [
-    "Api/Create Api.md",
+    "Laravel/Terminology/JSON WEB TOKEN(JWT).md",
+    "Laravel/Terminology/JSON.md",
     "JavaScript/Array.md",
+    "Api/Create Api.md",
     "Laravel/Untitled.md",
     "Api",
     "Laravel/Terminology/Cookies.md",
@@ -170,7 +172,6 @@
     "Laravel/Terminology/Client-Side Rendering.md",
     "Problem Solving/php/Untitled",
     "Laravel/Terminology/Server-Side Rendering.md",
-    "Laravel/Terminology/JSON WEB TOKEN(JWT).md",
     "photo/Pasted image 20240607161819.png",
     "Pasted image 20240607161830.png",
     "Pasted image 20240607161811.png",
@@ -185,7 +186,6 @@
     "Laravel/Terminology/Http.md",
     "Laravel/Terminology/GET vs. POST.md",
     "Laravel/Terminology/Client & Server Side.md",
-    "Laravel/Terminology/JSON.md",
     "Laravel/Terminology/Middleware.md",
     "photo",
     "photo/11-01.png",
