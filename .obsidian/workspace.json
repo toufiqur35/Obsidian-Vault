@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Terminology/Http.md",
+                "file": "Laravel/Blade/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Terminology/Http.md",
+                "file": "Laravel/Blade/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Terminology/Http.md",
+                "file": "Laravel/Blade/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Terminology/Http.md"
+                "file": "Laravel/Blade/Untitled.md"
               }
             }
           },
@@ -158,6 +158,9 @@
   },
   "active": "e2777de2a338d01b",
   "lastOpenFiles": [
+    "Laravel/Terminology/Http.md",
+    "Laravel/Blade/Untitled.md",
+    "Laravel/Blade",
     "Laravel/Terminology/Cookies.md",
     "Laravel/Terminology/Client-Side Rendering.md",
     "Laravel/Terminology/Client & Server Side.md",
@@ -185,7 +188,6 @@
     "Php/Array/Array Creation and Manipulation Functions.md",
     "Php/Array/Array.md",
     "Laravel/Terminology/URI Naming Convention.md",
-    "Laravel/Terminology/Http.md",
     "Laravel/Terminology/Middleware.md",
     "photo",
     "photo/11-01.png",
@@ -198,12 +200,10 @@
     "Php/Array/Array Sorting Functions.md",
     "Laravel/Terminology",
     "Laravel",
-    "Php/Array/String Conversion - Serialize, JSON.md",
     "My Sql/SQL",
     "My Sql",
     "Php/Php file system",
     "Php/Oop/Magic Method",
-    "Php/Oop",
     "Untitled.canvas",
     "class 2/Untitled.canvas"
   ]
