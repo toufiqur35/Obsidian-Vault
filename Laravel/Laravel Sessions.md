@@ -1,0 +1,1 @@
+* Sessions provide a way to store information about the user across multiple requests.
