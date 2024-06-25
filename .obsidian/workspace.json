@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Blade/blade all.md",
+                "file": "Laravel/Blade/Laravel Blade.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Blade/blade all.md",
+                "file": "Laravel/Blade/Laravel Blade.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Blade/blade all.md",
+                "file": "Laravel/Blade/Laravel Blade.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Blade/blade all.md"
+                "file": "Laravel/Blade/Laravel Blade.md"
               }
             }
           },
@@ -156,10 +156,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf94feffdf98b826",
+  "active": "e2777de2a338d01b",
   "lastOpenFiles": [
-    "Laravel/Terminology/Http.md",
     "Laravel/Blade/blade all.md",
+    "Laravel/Blade/Laravel Blade.md",
+    "Laravel/Terminology/Http.md",
     "Laravel/Blade",
     "Laravel/Terminology/Cookies.md",
     "Laravel/Terminology/Client-Side Rendering.md",
@@ -197,7 +198,6 @@
     "wallpaper.jpg",
     "Pasted image 20240605130629.png",
     "Pasted image 20240605124404.png",
-    "Php/Array/Array Sorting Functions.md",
     "Laravel/Terminology",
     "Laravel",
     "My Sql/SQL",
