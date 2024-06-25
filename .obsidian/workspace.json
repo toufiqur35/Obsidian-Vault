@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Blade/Untitled.md",
+                "file": "Laravel/Blade/blade all.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Blade/Untitled.md",
+                "file": "Laravel/Blade/blade all.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Blade/Untitled.md",
+                "file": "Laravel/Blade/blade all.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Blade/Untitled.md"
+                "file": "Laravel/Blade/blade all.md"
               }
             }
           },
@@ -159,7 +159,7 @@
   "active": "e2777de2a338d01b",
   "lastOpenFiles": [
     "Laravel/Terminology/Http.md",
-    "Laravel/Blade/Untitled.md",
+    "Laravel/Blade/blade all.md",
     "Laravel/Blade",
     "Laravel/Terminology/Cookies.md",
     "Laravel/Terminology/Client-Side Rendering.md",
