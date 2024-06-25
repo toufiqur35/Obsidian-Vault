@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Laravel Sessions.md",
+                "file": "Laravel/Middleware.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Laravel Sessions.md",
+                "file": "Laravel/Middleware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Laravel Sessions.md",
+                "file": "Laravel/Middleware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Laravel Sessions.md"
+                "file": "Laravel/Middleware.md"
               }
             }
           },
@@ -158,8 +158,10 @@
   },
   "active": "e2777de2a338d01b",
   "lastOpenFiles": [
-    "Laravel/Laravel Log.md",
     "Laravel/Laravel Sessions.md",
+    "Laravel/Middleware.md",
+    "Laravel/Terminology/Middleware.md",
+    "Laravel/Laravel Log.md",
     "Laravel/Blade/Laravel Blade.md",
     "Laravel/Blade/blade all.md",
     "Laravel/Terminology/Http.md",
@@ -188,8 +190,6 @@
     "Php/Array/Array Information Functions.md",
     "Php/Array/Array Function.md",
     "Php/Array/Array Creation and Manipulation Functions.md",
-    "Php/Array/Array.md",
-    "Laravel/Terminology/URI Naming Convention.md",
     "photo",
     "photo/11-01.png",
     "1-01.png",
