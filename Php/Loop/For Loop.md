@@ -69,7 +69,7 @@ for($i = 0, $j = 0; $i<100; $i+=7,$j+=11)
 7. Graphics Card->   GIGABYTE GeForce GT 710 2GB
 8. Power Supply->   Thermaltake Smart BX1 550W
 9. Casing
-10. BenQ
+10. Monitor->   BenQ
 11. Casing Cooler
 12. Keyboard
 13. Mouse
