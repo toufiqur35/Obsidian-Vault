@@ -12,3 +12,52 @@
 * Middleware can inspect a request and decorate it, on reject it, based on what it finds.
 * Middleware is most often considered separate from your application logic.
 * Middleware give your enough freedom to create your own security mechanism.
+
+#### REQUEST MIDDLEWARE
+* Understanding over the middleware structure
+
+```php
+namespace App\Http\Middleware;
+
+use Closure;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Symfony\Component\HttpFoundation\Response;
+
+class AuthenticatedMiddleware
+{
+
+   public function handle(Request $request, Closure $next): Response
+    {
+       return $next($request);
+    }
+}
+```
+
+* Check Request Header Inside Middleware
+
+```php
+namespace App\Http\Middleware;
+
+use Closure;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Symfony\Component\HttpFoundation\Response;
+
+class AuthenticatedMiddleware
+{
+
+   public function handle(Request $request, Closure $next): Response
+    {
+       if(Auth::user()->role != 'admin')
+        {
+            return redirect('/');
+        }
+        return $next($request);
+    }
+}
+
+
+//route
+Route::get('/hello',[DemoController::class,'DemoAction'])->middlewire([DemoMiddlewire::class]);
+```
