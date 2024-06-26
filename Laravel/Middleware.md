@@ -76,3 +76,31 @@ Route::middleware(['DemoMiddlewire'])->group(function () {
 });
 Route::get('/hello',[DemoController::class,'DemoAction']);
 ```
+
+### [Middleware Aliases](https://laravel.com/docs/11.x/middleware#middleware-aliases)
+You may assign aliases to middleware in your application's `bootstrap/app.php` file. Middleware aliases allows you to define a short alias for a given middleware class, which can be especially useful for middleware with long class names:
+
+```php
+use App\Http\Middleware\DemoMiddlewire;
+
+->withMiddleware(function (Middleware $middleware) {
+$middleware->alias([
+'demo' => DemoMiddlewire::class
+]);
+})
+```
+* `web.php`
+```php
+Route::middleware(['Demo'])->group(function () {
+	Route::get('/hello1',[DemoController::class,'DemoAction1']);
+	Route::get('/hello2',[DemoController::class,'DemoAction2']);
+	Route::get('/hello3',[DemoController::class,'DemoAction3']);
+});
+Route::get('/hello',[DemoController::class,'DemoAction']);
+```
+
+* Apply For Whole Application
+
+```php
+
+```
