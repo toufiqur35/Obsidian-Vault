@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problem Solving/php/Easy.md",
+                "file": "Php/Fibonacci Series.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problem Solving/php/Easy.md",
+                "file": "Php/Fibonacci Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problem Solving/php/Easy.md",
+                "file": "Php/Fibonacci Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problem Solving/php/Easy.md"
+                "file": "Php/Fibonacci Series.md"
               }
             }
           },
@@ -158,6 +158,11 @@
   },
   "active": "e2777de2a338d01b",
   "lastOpenFiles": [
+    "Php/Array/String Conversion - Serialize, JSON.md",
+    "Php/Array/Array Sorting Functions.md",
+    "Php/Loop/for each.md",
+    "Php/Loop/For Loop.md",
+    "Problem Solving/php/Easy.md",
     "Problem Solving/php/Binary Search Algorithm.md",
     "Laravel/Middleware.md",
     "Laravel/Laravel Sessions.md",
@@ -185,11 +190,6 @@
     "photo/Pasted image 20240607161819.png",
     "Pasted image 20240607161830.png",
     "Pasted image 20240607161811.png",
-    "Php/Array/Array Reduce.md",
-    "Php/Array/Array Iteration Functions.md",
-    "Php/Array/Array Information Functions.md",
-    "Php/Array/Array Function.md",
-    "Php/Array/Array Creation and Manipulation Functions.md",
     "photo",
     "photo/11-01.png",
     "1-01.png",
