@@ -99,8 +99,41 @@ Route::middleware(['Demo'])->group(function () {
 Route::get('/hello',[DemoController::class,'DemoAction']);
 ```
 
-* Apply For Whole Application
+* Manipulate (ADD) Request Details Inside Middleware
 
 ```php
+class AuthenticatedMiddleware
+{
+   public function handle(Request $request, Closure $next): Response
+    {
+       $request->headers->add(['email'=>'demo@gmail.com']);
+        return $next($request);
+    }
+}
+```
 
+* Manipulate (Remove) Request Details Inside Middleware
+
+```php
+class AuthenticatedMiddleware
+{
+   public function handle(Request $request, Closure $next): Response
+    {
+       $request->headers->remove('key_name');
+        return $next($request);
+    }
+}
+```
+
+* Manipulate (Replace) Request Details Inside Middleware
+
+```php
+class AuthenticatedMiddleware
+{
+   public function handle(Request $request, Closure $next): Response
+    {
+       $request->headers->replace(['email'=>'replace@gmail.com']);
+        return $next($request);
+    }
+}
 ```
