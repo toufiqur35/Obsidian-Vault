@@ -59,3 +59,20 @@ for($i = 0, $j = 0; $i<100; $i+=7,$j+=11)
 }
 ```
 
+
+1. CPU->   AMD Ryzen 5 5600G
+2. CPU Cooler->   Xtreme XJOGOS XJC400 180W CPU Air Cooler
+3. Motherboard->   Asrock B450 Steel Legend AMD
+4. RAM->   CORSAIR VENGEANCE RGB RS 8GB DDR4 3200MHz RAM
+5. SSD->   Lexar NM620 256GB M.2 NVMe 
+6. Storage->   Toshiba  1TB
+7. Graphics Card->   GIGABYTE GeForce GT 710 2GB
+8. Power Supply->   Thermaltake Smart BX1 550W
+9. Casing
+10. BenQ
+11. Casing Cooler
+12. Keyboard
+13. Mouse
+14. Headphone
+
+
