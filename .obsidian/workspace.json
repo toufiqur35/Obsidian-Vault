@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Middleware.md",
+                "file": "Problem Solving/php/Easy.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Middleware.md",
+                "file": "Problem Solving/php/Easy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Middleware.md",
+                "file": "Problem Solving/php/Easy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Middleware.md"
+                "file": "Problem Solving/php/Easy.md"
               }
             }
           },
@@ -158,8 +158,9 @@
   },
   "active": "e2777de2a338d01b",
   "lastOpenFiles": [
-    "Laravel/Laravel Sessions.md",
+    "Problem Solving/php/Binary Search Algorithm.md",
     "Laravel/Middleware.md",
+    "Laravel/Laravel Sessions.md",
     "Laravel/Terminology/Middleware.md",
     "Laravel/Laravel Log.md",
     "Laravel/Blade/Laravel Blade.md",
@@ -179,7 +180,6 @@
     "Laravel/Terminology/Status Code.md",
     "ostad live class/class 2/github.md",
     "Problem Solving/php/Stack Algorithm.md",
-    "Problem Solving/php/Binary Search Algorithm.md",
     "Problem Solving/php/Untitled",
     "Laravel/Terminology/Server-Side Rendering.md",
     "photo/Pasted image 20240607161819.png",
