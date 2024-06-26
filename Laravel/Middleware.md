@@ -137,3 +137,10 @@ class AuthenticatedMiddleware
     }
 }
 ```
+
+#### REQUEST RATE LIMITING
+* For Specific Routing End Point
+
+```php
+Route::get('/hello',[DemoController::class,'DemoAction'])->middlewire('throttle:5,1');
+```
