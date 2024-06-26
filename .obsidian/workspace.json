@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e2777de2a338d01b",
+            "id": "a15242b6db544e30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Loop/For Loop.md",
+                "file": "Node Error.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Loop/For Loop.md",
+                "file": "Node Error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Loop/For Loop.md",
+                "file": "Node Error.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Loop/For Loop.md"
+                "file": "Node Error.md"
               }
             }
           },
@@ -143,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,13 +155,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e2777de2a338d01b",
+  "active": "a15242b6db544e30",
   "lastOpenFiles": [
+    "Php/Loop/For Loop.md",
+    "Php/Loop/for each.md",
+    "Node Error.md",
+    "Untitled",
     "Php/Fibonacci Series.md",
     "Php/Array/String Conversion - Serialize, JSON.md",
     "Php/Array/Array Sorting Functions.md",
-    "Php/Loop/for each.md",
-    "Php/Loop/For Loop.md",
     "Problem Solving/php/Easy.md",
     "Problem Solving/php/Binary Search Algorithm.md",
     "Laravel/Middleware.md",
@@ -185,7 +186,6 @@
     "Api",
     "Laravel/Terminology/Status Code.md",
     "ostad live class/class 2/github.md",
-    "Problem Solving/php/Stack Algorithm.md",
     "Problem Solving/php/Untitled",
     "photo/Pasted image 20240607161819.png",
     "Pasted image 20240607161830.png",
@@ -203,7 +203,6 @@
     "My Sql/SQL",
     "My Sql",
     "Php/Php file system",
-    "Php/Oop/Magic Method",
     "Untitled.canvas",
     "class 2/Untitled.canvas"
   ]
