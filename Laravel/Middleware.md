@@ -61,3 +61,18 @@ class AuthenticatedMiddleware
 //route
 Route::get('/hello',[DemoController::class,'DemoAction'])->middlewire([DemoMiddlewire::class]);
 ```
+
+* Apply For Specific Route
+```php
+Route::get('/hello',[DemoController::class,'DemoAction'])->middlewire([DemoMiddlewire::class]);
+```
+
+* Apply For Route Group
+```php
+Route::middleware(['DemoMiddlewire'])->group(function () {
+	Route::get('/hello1',[DemoController::class,'DemoAction1']);
+	Route::get('/hello2',[DemoController::class,'DemoAction2']);
+	Route::get('/hello3',[DemoController::class,'DemoAction3']);
+});
+Route::get('/hello',[DemoController::class,'DemoAction']);
+```
