@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,7 +156,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a15242b6db544e30",
+  "active": "bfbdc8e43d0155c3",
   "lastOpenFiles": [
     "Node Error.md",
     "Php/Loop/For Loop.md",
