@@ -161,3 +161,13 @@ fscanf(STDIN,"%s",$n);
          print "Odd";
     }
 ```
+
+
+
+Computer Networking Lab
+530222
+Software Engineering Lab
+530220
+Embedded System Programming Lab
+530224
+Submission Date: 26/06/2024
