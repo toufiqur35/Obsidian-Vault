@@ -68,36 +68,96 @@ print min($wheelsCar,$bodisCar,$figureCar);
 // 10
 ```
 
-## 3 Problem Statement
+## 3 Problem Statement - Positivity
 
 Write a program to check if an array contains more positivity than negativity.An array has more positivity if it contains strictly more unique positive values than unique negative values. If the number of positive and negative values are equal then it is also taken as negativity.
-
 ### Input
 
 The program will take an integer 𝑁N as the size of an array. Then it will take the integer values of the array 𝑀[]M[].
-
 ### Output
 
 The output will print either "Positivity" or "Negativity"
-
 ### Constraints
 
 - 0 ≤ |N| ≤ 10000
 - -10000 ≤ |M[]| ≤ 10000
-
 ### Example:
 
 Enter numbers
-
 #### Input:
 
 ```
 5
 1 -3 6 -2 -8
 ```
-
 #### Output:
 
 ```
 Negativity
+```
+### Solution
+
+```php
+$line1 = trim(fgets(STDIN));
+$line2 = trim(fgets(STDIN));
+
+$n = (int)$line1;
+$data = explode(" ", $line2);
+
+$pos = 0;
+$neg = 0;
+for($i=0;$i<$n; $i++)
+    {
+        if($data[$i]>0){
+            $pos++;
+        }else{
+            $neg++;
+        }
+    }
+print $pos>$neg?"Positivity":"Negativity";
+```
+
+
+
+### 4. Sum Digits: Odd or Even
+### Problem Statement
+
+Write a program which will determine whether the sum of all the digits of the number is even or odd.
+### Input
+
+The program will take an integer 𝑁N as input.
+### Output
+
+The output will print either "Odd" or "Even"
+### Constraints
+
+- 0 ≤ |N| ≤ 100000
+### Example:
+
+Enter number
+#### Input:
+
+```
+123
+```
+#### Output:
+
+```
+Even
+```
+
+#### Solution
+
+```php
+fscanf(STDIN,"%s",$n);
+    $sum = 0;
+    for($i=0;$i<strlen($n);$i++){
+        $sum +=(int)$n[$i];
+    }
+    if($sum % 2 == 0){
+         print "Even";
+    }
+    else{
+         print "Odd";
+    }
 ```
