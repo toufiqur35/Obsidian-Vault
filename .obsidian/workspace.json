@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problem Solving/php/Easy.md",
+                "file": "Laravel/Middleware.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problem Solving/php/Easy.md",
+                "file": "Laravel/Middleware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problem Solving/php/Easy.md",
+                "file": "Laravel/Middleware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problem Solving/php/Easy.md"
+                "file": "Laravel/Middleware.md"
               }
             }
           },
@@ -156,8 +156,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bfbdc8e43d0155c3",
+  "active": "a15242b6db544e30",
   "lastOpenFiles": [
+    "Laravel/Laravel Sessions.md",
+    "Problem Solving/php/Easy.md",
     "Node Error.md",
     "Php/Loop/For Loop.md",
     "Php/Loop/for each.md",
@@ -165,10 +167,8 @@
     "Php/Fibonacci Series.md",
     "Php/Array/String Conversion - Serialize, JSON.md",
     "Php/Array/Array Sorting Functions.md",
-    "Problem Solving/php/Easy.md",
     "Problem Solving/php/Binary Search Algorithm.md",
     "Laravel/Middleware.md",
-    "Laravel/Laravel Sessions.md",
     "Laravel/Terminology/Middleware.md",
     "Laravel/Laravel Log.md",
     "Laravel/Blade/Laravel Blade.md",
