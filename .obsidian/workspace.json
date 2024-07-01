@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Middleware.md",
+                "file": "Laravel/Laravel Migration/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Middleware.md",
+                "file": "Laravel/Laravel Migration/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Middleware.md",
+                "file": "Laravel/Laravel Migration/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Middleware.md"
+                "file": "Laravel/Laravel Migration/Untitled.md"
               }
             }
           },
@@ -158,6 +158,9 @@
   },
   "active": "a15242b6db544e30",
   "lastOpenFiles": [
+    "Laravel/Middleware.md",
+    "Laravel/Laravel Migration/Untitled.md",
+    "Laravel/Laravel Migration",
     "Laravel/Laravel Sessions.md",
     "Problem Solving/php/Easy.md",
     "Node Error.md",
@@ -168,7 +171,6 @@
     "Php/Array/String Conversion - Serialize, JSON.md",
     "Php/Array/Array Sorting Functions.md",
     "Problem Solving/php/Binary Search Algorithm.md",
-    "Laravel/Middleware.md",
     "Laravel/Terminology/Middleware.md",
     "Laravel/Laravel Log.md",
     "Laravel/Blade/Laravel Blade.md",
@@ -186,7 +188,6 @@
     "Api/Create Api.md",
     "Api",
     "Laravel/Terminology/Status Code.md",
-    "ostad live class/class 2/github.md",
     "Problem Solving/php/Untitled",
     "photo/Pasted image 20240607161819.png",
     "Pasted image 20240607161830.png",
@@ -203,7 +204,6 @@
     "Laravel",
     "My Sql/SQL",
     "My Sql",
-    "Php/Php file system",
     "Untitled.canvas",
     "class 2/Untitled.canvas"
   ]
