@@ -156,9 +156,103 @@ $table->json('options');
 ```
 
 **Increments:**
+
 ```mysql
 $table->increments('id');
 ```
+
+### Seeding the Database
+
+You can also seed your database with initial data using seeders. To create a seeder, use the `make:seeder` command:
+
+```php
+php artisan make:seeder UsersTableSeeder
+```
+
+Then, define the run method in the seeder file:
+
+```php
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
+
+class UsersTableSeeder extends Seeder
+{
+    public function run()
+    {
+        DB::table('users')->insert([
+            'name' => Str::random(10),
+            'email' => Str::random(10).'@example.com',
+            'password' => Hash::make('password'),
+        ]);
+    }
+}
+
+```
+
+To run the seeder, use the `db:seed` command:
+
+```php
+php artisan db:seed --class=UsersTableSeeder
+```
+### Using Factories for Seeding
+Laravel also provides model factories for generating large amounts of data. Factories can be used in combination with seeders to populate your database.
+
+Create a factory using:
+
+```
+php artisan make:factory UserFactory
+```
+
+Define the factory in the generated file:
+
+```php
+use App\Models\User;
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
+
+class UserFactory extends Factory
+{
+    protected $model = User::class;
+
+    public function definition()
+    {
+        return [
+            'name' => $this->faker->name,
+            'email' => $this->faker->unique()->safeEmail,
+            'email_verified_at' => now(),
+            'password' => '$2y$10$'.Str::random(10), // password
+            'remember_token' => Str::random(10),
+        ];
+    }
+}
+
+```
+
+Then, use the factory in your seeder:
+
+```php
+use Illuminate\Database\Seeder;
+use App\Models\User;
+
+class DatabaseSeeder extends Seeder
+{
+    public function run()
+    {
+        User::factory(10)->create();
+    }
+}
+
+```
+
+Run the seeder:
+
+```php
+php artisan db:seed
+```
+
+This will create 10 users using the factory definition.
 ## List of all column types
 [https://laravel.com/docs/11.x/migrations#available-column-types](https://laravel.com/docs/11.x/migrations#available-column-types)  
 ## Schema Design Best Practices
