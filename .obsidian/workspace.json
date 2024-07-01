@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Laravel Migration/Indexes.md",
+                "file": "My Sql/SQL/SQL Queries.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Laravel Migration/Indexes.md",
+                "file": "My Sql/SQL/SQL Queries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Laravel Migration/Indexes.md",
+                "file": "My Sql/SQL/SQL Queries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Laravel Migration/Indexes.md"
+                "file": "My Sql/SQL/SQL Queries.md"
               }
             }
           },
@@ -143,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 257.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,8 +158,10 @@
   },
   "active": "a15242b6db544e30",
   "lastOpenFiles": [
-    "Laravel/Laravel Migration/Foreign Keys.md",
+    "My Sql/MySQL Database.md",
+    "My Sql/SQL/List.md",
     "Laravel/Laravel Migration/Indexes.md",
+    "Laravel/Laravel Migration/Foreign Keys.md",
     "Laravel/Laravel Migration/Migration.md",
     "Laravel/Laravel Migration/Table Columns.md",
     "Laravel/Middleware.md",
@@ -184,8 +187,6 @@
     "Laravel/Terminology/Client & Server Side.md",
     "Laravel/Terminology/Best Practices.md",
     "Laravel/Terminology/GET vs. POST.md",
-    "Laravel/Terminology/JSON WEB TOKEN(JWT).md",
-    "Laravel/Terminology/JSON.md",
     "Api",
     "Problem Solving/php/Untitled",
     "photo/Pasted image 20240607161819.png",
