@@ -27,258 +27,128 @@ Laravel migration rollback is a command that allows you to reverse the changes m
 ```
 php artisan migrate:rollback
 ```
-To rollback a migration, you can use the following command:This command will rollback the most recent migration that has been run. You can also specify a specific migration to rollback by using the  option:
-
-  
-
-**php artisan migrate:rollback** **--migration=create_users_table**
-
-  
-
+To rollback a migration, you can use the following command: This command will rollback the most recent migration that has been run. You can also specify a specific migration to rollback by using the  option:
+```
+php artisan migrate:rollback** **--migration=create_users_table
+```
 This command will rollback the  migration.
-
-  
-
 If you need to rollback multiple migrations, you can use the  option:
-
-  
-
-**php artisan migrate:rollback** **--step=3**
-
-  
-
+```
+php artisan migrate:rollback --step=3
+```
 This command will rollback the last 3 migrations that have been run.
-
-  
-
 Migration rollback is a powerful tool that can be used to easily revert changes to your database schema. However, it is important to use this command with caution, as it can potentially lead to data loss.
-
-  
-
 ## How to remove all migrations and run again
-
-  
-
-**php artisan migrate:reset**
-
-  
-
+```
+php artisan migrate:reset
+```
 This command will remove all the existing migrations from the database. It's useful when you want to start from scratch or when you need to make significant changes to your database schema. Be careful when using this command, as it will permanently delete all the data in your database.
-
-  
-
 ## Run all migrations again
-
-  
-
-**php artisan migrate**
-
-  
-
+```
+php artisan migrate
+```
 This command will run all the migrations that have not been run yet. It's useful when you've added new migrations to your project or when you've made changes to your database schema that require migrations. 
-
-  
-
-  
-
 ## Reset and Migrate together
-
-  
-
-**php artisan migrate:refresh**
-
-  
-
+```
+php artisan migrate:refresh
+```
 ## Migration command tips
-
-  
-
 When creating migrations in Laravel or other frameworks that use command-line interfaces for database management, you typically use command-line instructions. Here are some common command-style examples for creating migrations:
 
-  
-
 **Basic migration creation:**
-
+```
 php artisan make:migration create_users_table
-
-  
+```
 
 **Create a migration for a specific table:**
-
+```
 php artisan make:migration create_products_table
-
-  
+```
 
 **Create a migration to add a column to an existing table:**
-
+```
 php artisan make:migration add_category_to_products_table
-
-  
+```
 
 **Create a migration to modify a column:**
-
+```
 php artisan make:migration change_price_column_in_products_table
-
-  
+```
 
 **Create a migration for a pivot table:**
-
+```
 php artisan make:migration create_product_tag_table
-
-  
-
+```
 ## Schema Column Types
-
 Laravel's Schema builder provides a variety of column types for defining database tables. Here's a list of commonly used column types in Laravel migrations:
 
-  
-
 **String and Text:**
-
 $table->string('name', 100);
-
 $table->text('description');
-
 $table->longText('content');
 
-  
-
 **Numeric:**
-
 $table->integer('count');
-
 $table->bigInteger('big_count');
-
 $table->float('amount', 8, 2);
-
 $table->double('large_amount', 8, 2);
-
 $table->decimal('price', 8, 2);
 
-  
-
 **Boolean:**
-
 $table->boolean('is_active');
 
-  
-
 **Date and Time:**
-
 $table->date('birth_date');
-
 $table->time('appointment_time');
-
 $table->dateTime('created_at');
-
 $table->timestamp('logged_at');
-
 $table->year('birth_year');
 
-  
-
-  
-
 **Enum and Set:**
-
 $table->enum('difficulty', ['easy', 'medium', 'hard']);
 
-  
-
 **JSON**:
-
 $table->json('options');
 
-  
-
 **Increments:**
-
 $table->increments('id');
-
-  
-
 ## List of all column types
-
 [https://laravel.com/docs/11.x/migrations#available-column-types](https://laravel.com/docs/11.x/migrations#available-column-types)  
-
-  
-
 ## Schema Design Best Practices
-
 Here are some best practices for picking column types in Laravel:
 
-  
+#### Choose the most restrictive type possible
+* Use the most restrictive type that can accurately represent the data to prevent invalid data from being inserted.
+* For example, if a column only needs to store a 0 or 1, use a `boolean` type instead of an integer.
 
-**Choose the most restrictive type possible**
+#### Use unsigned for non-negative integers
+* Use unsigned integers for columns that will only store non-negative values, such as IDs or counts.
+* This can help prevent invalid data from being inserted and improve data integrity.
 
-Use the most restrictive type that can accurately represent the data to prevent invalid data from being inserted.
+#### Use nullable for optional columns
+* Use nullable for columns that may not always have a value.
+* This can help prevent errors when inserting data and improve data integrity.
 
-For example, if a column only needs to store a 0 or 1, use a boolean type instead of an integer.
+#### Use default values for columns with default values
+* Use default values for columns that have a default value, such as a `created_at` timestamp.
+* This can help simplify data insertion and improve data consistency.
 
-  
+#### Use `enum` for columns with a fixed set of values
+* Use `enum` for columns that can only take on a fixed set of values, such as a status column with values like "active" or "inactive".
+* This can help prevent invalid data from being inserted and improve data integrity.
 
-**Use unsigned for non-negative integers**
+#### Use `json` for columns with complex data
+* Use `json` for columns that need to store complex data, such as arrays or objects.
+* This can help simplify data storage and retrieval, but may require additional processing and indexing.
 
-Use unsigned integers for columns that will only store non-negative values, such as IDs or counts.
+#### Consider the data size and storage requirements
+* Consider the data size and storage requirements when choosing a column type.
+* For example, using a text column for a large amount of text data may be more efficient than using a string column.
 
-This can help prevent invalid data from being inserted and improve data integrity.
+#### Document your column type choices
+* Document your column type choices and the reasoning behind them.
+* This can help other developers understand the database schema and make informed decisions when working with the data.
 
-  
-
-**Use nullable for optional columns**
-
-Use nullable for columns that may not always have a value.
-
-This can help prevent errors when inserting data and improve data integrity.
-
-  
-
-**Use default values for columns with default values**
-
-Use default values for columns that have a default value, such as a created_at timestamp.
-
-This can help simplify data insertion and improve data consistency.
-
-  
-
-**Use enum for columns with a fixed set of values**
-
-Use enum for columns that can only take on a fixed set of values, such as a status column with values like "active" or "inactive".
-
-This can help prevent invalid data from being inserted and improve data integrity.
-
-  
-
-**Use json for columns with complex data**
-
-Use json for columns that need to store complex data, such as arrays or objects.
-
-This can help simplify data storage and retrieval, but may require additional processing and indexing.
-
-  
-
-**Consider the data size and storage requirements**
-
-Consider the data size and storage requirements when choosing a column type.
-
-For example, using a text column for a large amount of text data may be more efficient than using a string column.
-
-  
-
-  
-
-**Document your column type choices**
-
-Document your column type choices and the reasoning behind them.
-
-This can help other developers understand the database schema and make informed decisions when working with the data.
-
-  
-
-**Review and refactor column types as needed**
-
-Review and refactor column types as needed based on changing data requirements or performance issues. This can help ensure that the database schema remains optimized and efficient over time.
-
-  
-
-By following these best practices, you can ensure that your database schema is well-designed, efficient, and easy to maintain.
+#### Review and refactor column types as needed
+* Review and refactor column types as needed based on changing data requirements or performance issues. This can help ensure that the database schema remains optimized and efficient over time.
+* By following these best practices, you can ensure that your database schema is well-designed, efficient, and easy to maintain.
