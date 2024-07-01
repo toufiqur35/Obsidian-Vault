@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Laravel Migration/Foreign Keys.md",
+                "file": "Laravel/Laravel Migration/Indexes.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Laravel Migration/Foreign Keys.md",
+                "file": "Laravel/Laravel Migration/Indexes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Laravel Migration/Foreign Keys.md",
+                "file": "Laravel/Laravel Migration/Indexes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Laravel Migration/Foreign Keys.md"
+                "file": "Laravel/Laravel Migration/Indexes.md"
               }
             }
           },
@@ -158,10 +158,10 @@
   },
   "active": "a15242b6db544e30",
   "lastOpenFiles": [
+    "Laravel/Laravel Migration/Foreign Keys.md",
     "Laravel/Laravel Migration/Indexes.md",
     "Laravel/Laravel Migration/Migration.md",
     "Laravel/Laravel Migration/Table Columns.md",
-    "Laravel/Laravel Migration/Foreign Keys.md",
     "Laravel/Middleware.md",
     "Laravel/Laravel Migration",
     "Laravel/Laravel Sessions.md",

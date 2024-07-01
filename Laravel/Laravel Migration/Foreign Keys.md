@@ -41,6 +41,17 @@ You can specify additional options for foreign key constraints, such as what hap
 - `onUpdate('cascade')`: Updates the foreign key in the child rows when the parent row’s key is updated.
 ### Adding Foreign Keys to Existing Tables
 If you need to add a foreign key to an existing table, you can do so in a separate migration:
+#### Step 1: Create a New Migration
+First, create a new migration using the Artisan command:
+
+```php
+php artisan make:migration add_foreign_key_to_posts_table --table=posts
+```
+
+This command will create a new migration file in the `database/migrations` directory.
+### Step 2: Define the Migration
+Open the newly created migration file. You will define the changes in the `up` method and how to revert them in the `down` method.
+Here’s an example of adding a `user_id` foreign key to the `posts` table:
 
 ```php
 use Illuminate\Database\Migrations\Migration;
