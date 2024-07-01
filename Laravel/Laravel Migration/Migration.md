@@ -16,6 +16,39 @@ Run the following command:
 php artisan make:migration create_tasks_table
 ```
 This will create a new migration file in the database/migrations directory. 
+
+### Writing a Migration
+
+A migration file contains two main methods: `up` and `down`. The `up` method is used to define the changes you want to apply to the database, and the `down` method is used to revert those changes.
+
+Example of a migration file:
+```php
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateUsersTable extends Migration
+{
+    public function up()
+    {
+        Schema::create('users', function (Blueprint $table) {
+            $table->id();
+            $table->string('name');
+            $table->string('email')->unique();
+            $table->timestamp('email_verified_at')->nullable();
+            $table->string('password');
+            $table->rememberToken();
+            $table->timestamps();
+        });
+    }
+
+    public function down()
+    {
+        Schema::dropIfExists('users');
+    }
+}
+
+```
 ## How to run a Laravel Migration
 Once you have created a migration file, you can run it by using the following command:
 ```
@@ -29,7 +62,7 @@ php artisan migrate:rollback
 ```
 To rollback a migration, you can use the following command: This command will rollback the most recent migration that has been run. You can also specify a specific migration to rollback by using the  option:
 ```
-php artisan migrate:rollback** **--migration=create_users_table
+php artisan migrate:rollback --migration=create_users_table
 ```
 This command will rollback the  migration.
 If you need to rollback multiple migrations, you can use the  option:
@@ -83,35 +116,49 @@ php artisan make:migration create_product_tag_table
 Laravel's Schema builder provides a variety of column types for defining database tables. Here's a list of commonly used column types in Laravel migrations:
 
 **String and Text:**
+```mysql
 $table->string('name', 100);
 $table->text('description');
 $table->longText('content');
+```
 
 **Numeric:**
+```mysql
 $table->integer('count');
 $table->bigInteger('big_count');
 $table->float('amount', 8, 2);
 $table->double('large_amount', 8, 2);
 $table->decimal('price', 8, 2);
+```
 
 **Boolean:**
+```mysql
 $table->boolean('is_active');
+```
 
 **Date and Time:**
+```mysql
 $table->date('birth_date');
 $table->time('appointment_time');
 $table->dateTime('created_at');
 $table->timestamp('logged_at');
 $table->year('birth_year');
+```
 
-**Enum and Set:**
+**`Enum` and Set:**
+```mysql
 $table->enum('difficulty', ['easy', 'medium', 'hard']);
+```
 
 **JSON**:
+```mysql
 $table->json('options');
+```
 
 **Increments:**
+```mysql
 $table->increments('id');
+```
 ## List of all column types
 [https://laravel.com/docs/11.x/migrations#available-column-types](https://laravel.com/docs/11.x/migrations#available-column-types)  
 ## Schema Design Best Practices
