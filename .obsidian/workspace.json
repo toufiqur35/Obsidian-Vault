@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My Sql/SQL/SQL Queries.md",
+                "file": "Laravel/Laravel Migration/Foreign Keys.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My Sql/SQL/SQL Queries.md",
+                "file": "Laravel/Laravel Migration/Foreign Keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My Sql/SQL/SQL Queries.md",
+                "file": "Laravel/Laravel Migration/Foreign Keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "My Sql/SQL/SQL Queries.md"
+                "file": "Laravel/Laravel Migration/Foreign Keys.md"
               }
             }
           },
@@ -158,12 +158,13 @@
   },
   "active": "a15242b6db544e30",
   "lastOpenFiles": [
-    "My Sql/MySQL Database.md",
-    "My Sql/SQL/List.md",
     "Laravel/Laravel Migration/Indexes.md",
-    "Laravel/Laravel Migration/Foreign Keys.md",
     "Laravel/Laravel Migration/Migration.md",
     "Laravel/Laravel Migration/Table Columns.md",
+    "My Sql/SQL/SQL Queries.md",
+    "My Sql/MySQL Database.md",
+    "My Sql/SQL/List.md",
+    "Laravel/Laravel Migration/Foreign Keys.md",
     "Laravel/Middleware.md",
     "Laravel/Laravel Migration",
     "Laravel/Laravel Sessions.md",
@@ -186,7 +187,6 @@
     "Laravel/Terminology/Client-Side Rendering.md",
     "Laravel/Terminology/Client & Server Side.md",
     "Laravel/Terminology/Best Practices.md",
-    "Laravel/Terminology/GET vs. POST.md",
     "Api",
     "Problem Solving/php/Untitled",
     "photo/Pasted image 20240607161819.png",
