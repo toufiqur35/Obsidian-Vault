@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c9a3d477f89478b8",
+        "id": "3cecd172cc32cd88",
         "type": "tabs",
         "children": [
           {
-            "id": "a15242b6db544e30",
+            "id": "3383e94ad1193a0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Laravel Migration/Table Columns.md",
+                "file": "Laravel/Laravel Migration/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Laravel Migration/Table Columns.md",
+                "file": "Laravel/Laravel Migration/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Laravel Migration/Table Columns.md",
+                "file": "Laravel/Laravel Migration/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Laravel Migration/Table Columns.md"
+                "file": "Laravel/Laravel Migration/Untitled.md"
               }
             }
           },
@@ -156,13 +156,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a15242b6db544e30",
+  "active": "3383e94ad1193a0f",
   "lastOpenFiles": [
+    "Laravel/Laravel Migration/Untitled.md",
+    "Laravel/Laravel Migration/Table Columns.md",
     "Laravel/Laravel Migration/Class.md",
     "Laravel/Laravel Migration/Migration.md",
     "Laravel/Laravel Migration/Foreign Keys.md",
     "Laravel/Laravel Migration/Indexes.md",
-    "Laravel/Laravel Migration/Table Columns.md",
     "My Sql/SQL/SQL Queries.md",
     "My Sql/MySQL Database.md",
     "My Sql/SQL/List.md",
@@ -186,7 +187,6 @@
     "Laravel/Blade",
     "Laravel/Terminology/Cookies.md",
     "Laravel/Terminology/Client-Side Rendering.md",
-    "Laravel/Terminology/Client & Server Side.md",
     "Api",
     "Problem Solving/php/Untitled",
     "photo/Pasted image 20240607161819.png",
