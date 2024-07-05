@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a41acfc7b0f1868e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -156,7 +167,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a15242b6db544e30",
+  "active": "a41acfc7b0f1868e",
   "lastOpenFiles": [
     "Laravel/Laravel Migration/Migration.md",
     "Laravel/Laravel Migration/Class.md",
