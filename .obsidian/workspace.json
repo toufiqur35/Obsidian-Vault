@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ostad live class/class 2/github.md",
+                "file": "Laravel/Query Builder/Query.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ostad live class/class 2/github.md",
+                "file": "Laravel/Query Builder/Query.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ostad live class/class 2/github.md",
+                "file": "Laravel/Query Builder/Query.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ostad live class/class 2/github.md"
+                "file": "Laravel/Query Builder/Query.md"
               }
             }
           },
@@ -158,6 +158,11 @@
   },
   "active": "3383e94ad1193a0f",
   "lastOpenFiles": [
+    "Laravel/Blade/Laravel Blade.md",
+    "Laravel/Query Builder/Query.md",
+    "Laravel/Query Builder",
+    "Laravel/Blade/blade all.md",
+    "ostad live class/class 2/github.md",
     "Laravel/Laravel Migration/Migration.md",
     "Laravel/Laravel Migration/Foreign Keys.md",
     "Laravel/Laravel Migration/Untitled.md",
@@ -181,12 +186,8 @@
     "Problem Solving/php/Binary Search Algorithm.md",
     "Laravel/Terminology/Middleware.md",
     "Laravel/Laravel Log.md",
-    "Laravel/Blade/Laravel Blade.md",
-    "Laravel/Blade/blade all.md",
     "Laravel/Terminology/Http.md",
     "Laravel/Blade",
-    "Laravel/Terminology/Cookies.md",
-    "Laravel/Terminology/Client-Side Rendering.md",
     "Api",
     "Problem Solving/php/Untitled",
     "photo/Pasted image 20240607161819.png",
@@ -203,7 +204,6 @@
     "Laravel/Terminology",
     "Laravel",
     "My Sql/SQL",
-    "My Sql",
     "Untitled.canvas",
     "class 2/Untitled.canvas"
   ]
