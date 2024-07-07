@@ -59,3 +59,18 @@ $result = DB::table('products')->select('title')->distinct()->get();
 return $result;
 }
 ```
+
+## [Joins](https://laravel.com/docs/11.x/queries#joins)
+
+#### [Inner Join Clause](https://laravel.com/docs/11.x/queries#inner-join-clause)
+The query builder may also be used to add join clauses to your queries. To perform a basic "inner join", you may use the `join` method on a query builder instance. The first argument passed to the `join` method is the name of the table you need to join to, while the remaining arguments specify the column constraints for the join. You may even join multiple tables in a single query:
+
+```php
+public function demoAction()
+{
+	$users = DB::table('products')
+	->join('categorys', 'products.category_id', '=', 'categorys.id')
+	->join('brands', 'products.brand_id', '=', 'brands.id')
+	->get();
+}
+```
