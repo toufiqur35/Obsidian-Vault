@@ -30,7 +30,32 @@ public function demoAction()
 {
 $result = DB::table('users')->count();
 $result = DB::table('orders')->max('price');
-$result = DB::table('orders')->max('price');
+$result = DB::table('orders')->min('price');
+$result = DB::table('orders')->avg('price');
+$result = DB::table('orders')->sum('price');
+return $result;
+}
+```
+
+## [Select Statements](https://laravel.com/docs/11.x/queries#select-statements)
+
+* You may not always want to select all columns from a database table. Using the `select` method, you can specify a custom "select" clause for the query:
+#### [Select Clause](https://laravel.com/docs/11.x/queries#specifying-a-select-clause)
+
+```php
+public function demoAction()
+{
+$result = DB::table('products')->select('title', 'price')->get();
+return $result;
+}
+```
+
+The `distinct` method allows you to force the query to return distinct results:
+
+```php
+public function demoAction()
+{
+$result = DB::table('products')->select('title')->distinct()->get();
 return $result;
 }
 ```
