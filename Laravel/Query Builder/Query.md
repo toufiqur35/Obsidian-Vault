@@ -137,7 +137,10 @@ public function demoAction()
 {
 	$query1 = DB::table('products')->where('products.price');
 	$query2 = DB::table('products')->where('products.discount','=',1);
-	$result = $query1->un
-	->get();
+	$result = $query1->union($query2)->get();
+	return $result;
 }
 ```
+
+## [Basic Where Clauses](https://laravel.com/docs/11.x/queries#basic-where-clauses)
+
