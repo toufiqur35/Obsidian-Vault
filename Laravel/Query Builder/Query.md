@@ -123,3 +123,18 @@ public function demoAction()
 	->get();
 }
 ```
+
+#### Unions Clause
+* The union method takes two argument is the 
+
+```php
+public function demoAction()
+{
+	DB::table('users')
+	->join('contacts', function (JoinClause $join) {
+	$join->on('users.id', '=', 'contacts.user_id')
+	->where('contacts.user_id', '>', 5);
+	})
+	->get();
+}
+```
