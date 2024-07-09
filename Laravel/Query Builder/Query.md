@@ -108,3 +108,18 @@ public function demoAction()
 	$users = DB::table('users')->crossJoin('posts')	->get();
 }
 ```
+
+#### Cross Join Clause
+Advanced join clauses in SQL are used to combine rows from two or more tables based on a related column between them. While basic join types like INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN are commonly used, advanced join clauses offer more complex and powerful ways to query data. Here are some advanced join clauses and concepts:
+
+```php
+public function demoAction()
+{
+	DB::table('users')
+	->join('contacts', function (JoinClause $join) {
+	$join->on('users.id', '=', 'contacts.user_id')
+	->where('contacts.user_id', '>', 5);
+	})
+	->get();
+}
+```
