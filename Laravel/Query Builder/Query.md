@@ -75,4 +75,36 @@ public function demoAction()
 }
 ```
 
+#### Left Join Clause
+The `LEFT JOIN` keyword returns all records from the left table (table1), and the matching records from the right table (table2). The result is 0 records from the right side, if there is no match.
 
+```php
+public function demoAction()
+{
+	$users = DB::table('users')
+	->leftJoin('posts', 'users.id', '=', 'posts.user_id')	
+	->get();
+}
+```
+
+#### Right Join Clause
+The `RIGHT JOIN` keyword returns all records from the right table (table2), and the matching records from the left table (table1). The result is 0 records from the left side, if there is no match.
+
+```php
+public function demoAction()
+{
+	$users = DB::table('users')
+	->rightJoin('posts', 'users.id', '=', 'posts.user_id')	
+	->get();
+}
+```
+
+#### Cross Join Clause
+The `CROSS JOIN` keyword returns all records from both tables (table1 and table2).
+
+```php
+public function demoAction()
+{
+	$users = DB::table('users')->crossJoin('posts')	->get();
+}
+```
