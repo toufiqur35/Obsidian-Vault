@@ -127,16 +127,17 @@ public function demoAction()
 #### Unions Clause
 * The union method takes two argument is the first query, and the second argument is the second query.
 * The two queries must select the same columns in the same order.
-* 
+* The `UNION` operator is used to combine the result-set of two or more `SELECT` statements.
+- Every `SELECT` statement within `UNION` must have the same number of columns
+- The columns must also have similar data types
+- The columns in every `SELECT` statement must also be in the same order
 
 ```php
 public function demoAction()
 {
-	DB::table('users')
-	->join('contacts', function (JoinClause $join) {
-	$join->on('users.id', '=', 'contacts.user_id')
-	->where('contacts.user_id', '>', 5);
-	})
+	$query1 = DB::table('products')->where('products.price');
+	$query2 = DB::table('products')->where('products.discount','=',1);
+	$result = $query1->un
 	->get();
 }
 ```
