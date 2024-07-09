@@ -125,7 +125,9 @@ public function demoAction()
 ```
 
 #### Unions Clause
-* The union method takes two argument is the 
+* The union method takes two argument is the first query, and the second argument is the second query.
+* The two queries must select the same columns in the same order.
+* 
 
 ```php
 public function demoAction()
