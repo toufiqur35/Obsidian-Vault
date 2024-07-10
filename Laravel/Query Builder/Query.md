@@ -188,5 +188,27 @@ public function demoAction()
 * When chaining together calls to the query builder's `where` method, the "where" clauses will be joined together using the `and` operator. However, you may use the `orWhere` method to join a clause to the query using the `or` operator. The `orWhere` method accepts the same arguments as the `where` method:
 
 ```php
-
+public function demoAction()
+{
+	$result = DB::table('products')
+	->where('products.price', '>', 100)
+	->orWhere('products.price', '=', 20)->get();
+	
+	return $result;
+}
 ```
+
+#### Where Not Clauses
+* The `whereNot` and `orWhereNot` methods may be used to negate a given group of query constraints. For example, the following query excludes products that are on clearance or which have a price that is less than ten:
+
+```php
+public function demoAction()
+{
+	$result = DB::table('products')
+	->where('products.price', '>', 100)
+	->whereNot('products.price', '=', 20)->get();
+	
+	return $result;
+}
+```
+
