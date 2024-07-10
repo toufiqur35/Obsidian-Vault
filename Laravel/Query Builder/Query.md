@@ -364,5 +364,25 @@ public function demoAction()
 ```
 
 
+### Ordering, Grouping, Limit 
+
+#### The `orderBy` Method
+The `orderBy` method allows you to sort the results of the query by a given column. The first argument accepted by the `orderBy` method should be the column you wish to sort by, while the second argument determines the direction of the sort and may be either `asc` or `desc`:
+
+```php
+public function demoAction()
+{
+	$result = DB::table('brands')->orderBy('brandName', 'desc')->get();
+	
+	return $result;
+}
+```
+
+* The latest and oldest methods allow you to easily order results by date .
+* The inRandomOrder method may be used to sort the query results randomly .
+* The groupBy and having methods may be used to group the query results .
+* The skip and take methods to limit the number of results returned from the query or to skip a given number of results in the query.
+
+
 
 
