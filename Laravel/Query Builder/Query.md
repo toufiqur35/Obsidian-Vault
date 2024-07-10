@@ -563,11 +563,14 @@ public function demoAction()
 ```
 
 * Custom Paginate
+
 ```php
 public function demoAction()
 {
-	$result = DB::table('products')->paginate(5);
-			
+	$result = DB::table('products')->paginate(
+				$perPage = 15, $columns = ['*'], $pageName = 'users'
+				);	
+					
 	return $result;
 }
 ```
