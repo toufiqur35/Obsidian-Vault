@@ -475,4 +475,26 @@ public function demoAction()
 }
 ```
 
+### Update or Insert Statements
+* `updateOrInsert` method may be used. to update an existing record in the database or create it if no matching record exists.
+
+```php
+public function demoAction()
+{
+	$result = DB::table('brands')->updateOrInsert(
+		//check data exist or not
+		[
+			'brandName' => 'Hatil'
+		],
+		// if data !exist then insert data
+		[
+			'brandName' => 'new Hatil',
+			'brandImg' => 'new image path'
+		]
+	);
+
+	return $result;
+}
+```
+
 
