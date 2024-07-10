@@ -467,10 +467,9 @@ public function demoAction()
 ```php
 public function demoAction()
 {
-	$result = DB::table('brands')->insert([
-		'brandName' => 'new brand',
-		'brandImg' => 'image path'
-	]);
+	$result = DB::table('products')
+			->where('id', 1)
+			->update(['PRICE' => 1000]);
 
 	return $result;
 }
