@@ -520,4 +520,55 @@ public function demoAction()
 
 ## Delete Statements
 * The query builder's `delete` method may be used to delete records from the table. The `delete` method returns the number of affected rows. You may constrain `delete` statements by adding "where" clauses before calling the `delete` method:
+* If you wish to `truncate` an entire table, which will remove all records from the table and reset the auto-incrementing ID to zero, you may use the `truncate` method:
+
+```php
+public function demoAction()
+{
+	//delete statement remove single records from the table 
+	$result = DB::table('products')
+			->where('id', 1)
+			->delete();
+
+	//truncate statement remove all records from the table 
+	$result = DB::table('products')
+			->where('id', 1)
+			->truncate();
+			
+	return $result;
+}
+```
+
+### Paginate 
+* Display simple "Next" and "Previous" links in your application's UI, use the `simplePaginate` method to perform a single, efficient query.
+
+```php
+public function demoAction()
+{
+	$result = DB::table('products')->simplePaginate(5);
+			
+	return $result;
+}
+```
+
+* The paginate method counts the total number of records matched by the query before retrieving the records from the database.
+
+```php
+public function demoAction()
+{
+	$result = DB::table('products')->paginate(5);
+			
+	return $result;
+}
+```
+
+* Custom Paginate
+```php
+public function demoAction()
+{
+	$result = DB::table('products')->paginate(5);
+			
+	return $result;
+}
+```
 
