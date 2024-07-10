@@ -249,13 +249,24 @@ public function demoAction()
 public function demoAction()
 {
 	$result = DB::table('products')
-	->whereNotBetween('price', [1,100])->get();
+	->whereIn('price', [20,5000])->get();
 	
 	return $result;
 }
 ```
 
 * The whereNotIn method verifies that the given column's value is not contained in the given array. 
+
+```php
+public function demoAction()
+{
+	$result = DB::table('products')
+	->whereNotIn('price', [20,2000])->get();
+	
+	return $result;
+}
+```
+
 * The whereNull method verifies that the value of the given column is NULL.
 
 ```php
