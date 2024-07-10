@@ -296,17 +296,72 @@ public function demoAction()
 ```php
 public function demoAction()
 {
-	$result = DB::table('products')
-	->whereDate('price')->get();
+	$result = DB::table('brands')
+	->whereDate('created_at', '2016-12-31')->get();
 	
 	return $result;
 }
 ```
+
 * The whereMonth method may be used to compare a column's value against a specific month. 
+
+```php
+public function demoAction()
+{
+	$result = DB::table('products')
+	->whereMonth('updated_at', '11')->get();
+	
+	return $result;
+}
+```
+
 * The whereDay method may be used to compare a column's value against a specific day of the month.
-* The whereYear method may be used to compare a column's value against a specific year. 
+
+```php
+public function demoAction()
+{
+	$result = DB::table('brands')
+	->whereDay('created_at', '22')->get();
+	
+	return $result;
+}
+```
+
+* The whereYear method may be used to compare a column's value against a specific year.
+
+```php
+public function demoAction()
+{
+	$result = DB::table('brands')
+	->whereDay('created_at', '2022')->get();
+	
+	return $result;
+}
+```
+
 * The whereTime method may be used to compare a column's value against a specific time. 
+
+```php
+public function demoAction()
+{
+	$result = DB::table('brands')
+	->whereDay('created_at','=', '11:20:45')->get();
+	
+	return $result;
+}
+```
+
 * The whereColumn method may be used to verify that two columns are equal.
+
+```php
+public function demoAction()
+{
+	$result = DB::table('brands')
+	->whereColumn('updated_at','>', 'created_at')->get();
+	
+	return $result;
+}
+```
 
 
 
