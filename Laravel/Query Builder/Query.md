@@ -498,3 +498,26 @@ public function demoAction()
 ```
 
 
+### Increment and Decrement
+* The query builder also provides convenient methods for incrementing or decrementing the value of a given column. Both of these methods accept at least one argument: the column to modify. A second argument may be provided to specify the amount by which the column should be incremented or decremented:
+
+```php
+public function demoAction()
+{
+	//increment
+	$result = DB::table('products')
+			->where('id', 1)
+			->increment('price',10);
+
+	//Decrement
+	$result = DB::table('products')
+			->where('id', 1)
+			->decrement('price',10);
+
+	return $result;
+}
+```
+
+## Delete Statements
+* The query builder's `delete` method may be used to delete records from the table. The `delete` method returns the number of affected rows. You may constrain `delete` statements by adding "where" clauses before calling the `delete` method:
+
