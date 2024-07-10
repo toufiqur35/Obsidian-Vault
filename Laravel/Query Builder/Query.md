@@ -367,7 +367,7 @@ public function demoAction()
 ### Ordering, Grouping, Limit 
 
 #### The `orderBy` Method
-The `orderBy` method allows you to sort the results of the query by a given column. The first argument accepted by the `orderBy` method should be the column you wish to sort by, while the second argument determines the direction of the sort and may be either `asc` or `desc`:
+* The `orderBy` method allows you to sort the results of the query by a given column. The first argument accepted by the `orderBy` method should be the column you wish to sort by, while the second argument determines the direction of the sort and may be either `asc` or `desc`:
 
 ```php
 public function demoAction()
@@ -378,10 +378,54 @@ public function demoAction()
 }
 ```
 
-* The latest and oldest methods allow you to easily order results by date .
-* The inRandomOrder method may be used to sort the query results randomly .
-* The groupBy and having methods may be used to group the query results .
-* The skip and take methods to limit the number of results returned from the query or to skip a given number of results in the query.
+#### The `latest` and `oldest` Methods
+* The `latest` and `oldest` methods allow you to easily order results by date. By default, the result will be ordered by the table's `created_at` column. Or, you may pass the column name that you wish to sort by:
+
+```php
+public function demoAction()
+{
+	$result = DB::table('brands')->latest()->first();
+	
+	return $result;
+}
+```
+
+#### The `inRandomOrder` Methods
+* The `inRandomOrder` method may be used to sort the query results randomly. For example, you may use this method to fetch a random user:
+
+```php
+public function demoAction()
+{
+	$result = DB::table('brands')->inRandomOrder()->first();
+	
+	return $result;
+}
+```
+
+#### The `groupBy` and `having` Methods
+* As you might expect, the `groupBy` and `having` methods may be used to group the query results. The `having` method's signature is similar to that of the `where` method:
+
+```php
+public function demoAction()
+{
+	$result = DB::table('brands')->inRandomOrder()->first();
+	
+	return $result;
+}
+```
+
+
+#### The `skip` and `take` Methods
+* You may use the `skip` and `take` methods to limit the number of results returned from the query or to skip a given number of results in the query:
+
+```php
+public function demoAction()
+{
+	$result = DB::table('products')->skip(10)->take(5)->get();
+	
+	return $result;
+}
+```
 
 
 
