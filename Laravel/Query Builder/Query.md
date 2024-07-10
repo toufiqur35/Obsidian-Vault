@@ -144,3 +144,23 @@ public function demoAction()
 
 ## [Basic Where Clauses](https://laravel.com/docs/11.x/queries#basic-where-clauses)
 
+The where() method allows you to filter the results. 12 Laravel Query Builder
+* = (equal to) 
+* != (not equal to) 
+* < (less than) 
+* <= (less than or equal to) 
+* (greater than) 
+* = (greater than or equal to) 
+* LIKE (contains)
+* NOT LIKE (does not contain) 
+* IN (is in the list)
+* NOT IN (is not in the list)
+
+```php
+public function demoAction()
+{
+	$result = DB::table('products')->where('products.discount','=',1);
+	$result = DB::table('products')->where('name', 'like', 'T%')->get();
+	return $result;
+}
+```
