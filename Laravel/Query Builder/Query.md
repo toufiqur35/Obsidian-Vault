@@ -219,7 +219,29 @@ public function demoAction()
 ```
 
 * The whereBetweenColumns method verifies that a column's value is between the two values of two columns in the same table row. 
+
+```php
+public function demoAction()
+{
+	$patients = DB::table('patients')
+			->whereBetweenColumns('weight', ['minimum_allowed_weight', 'maximum_allowed_weight'])
+			->get();
+	
+	return $patients;
+}
+```
 * The whereNotBetweenColumns method verifies that a column's value lies outside the two values of two columns in the same table row.
+
+```php
+public function demoAction()
+{
+	$patients = DB::table('patients')
+			->whereNotBetweenColumns('weight', ['minimum_allowed_weight', 'maximum_allowed_weight'])
+			->get();
+	
+	return $patients;
+}
+```
 
 * The whereIn method verifies that a given column's value is contained within the given array. 
 
@@ -235,8 +257,40 @@ public function demoAction()
 
 * The whereNotIn method verifies that the given column's value is not contained in the given array. 
 * The whereNull method verifies that the value of the given column is NULL.
+
+```php
+public function demoAction()
+{
+	$result = DB::table('products')
+	->whereNull('price')->get();
+	
+	return $result;
+}
+```
+
 * he whereNotNull method verifies that the column's value is not NULL. 
-* The whereDate method may be used to compare a column's value against a date. 
+
+```php
+public function demoAction()
+{
+	$result = DB::table('products')
+	->whereNotNull('price')->get();
+	
+	return $result;
+}
+```
+
+* The whereDate method may be used to compare a column's value against a date.
+
+```php
+public function demoAction()
+{
+	$result = DB::table('products')
+	->whereDate('price')->get();
+	
+	return $result;
+}
+```
 * The whereMonth method may be used to compare a column's value against a specific month. 
 * The whereDay method may be used to compare a column's value against a specific day of the month.
 * The whereYear method may be used to compare a column's value against a specific year. 
