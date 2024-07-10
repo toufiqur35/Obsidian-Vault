@@ -160,7 +160,33 @@ The where() method allows you to filter the results. 12 Laravel Query Builder
 public function demoAction()
 {
 	$result = DB::table('products')->where('products.discount','=',1);
-	$result = DB::table('products')->where('name', 'like', 'T%')->get();
+	$result = DB::table('products')->where('products.title', 'like', '%Ca%')->get();
 	return $result;
 }
+```
+
+#### Advance Where Clauses
+* The orWhere method to join a clause to the query using the or operator. 
+* The whereNot and orWhereNot methods may be used to negate a given group of query constraints. 
+* The whereBetween method verifies that a column's value is between two values . 
+* The whereNotBetween method verifies that a column's value lies outside of two values. 
+* The whereBetweenColumns method verifies that a column's value is between the two values of two columns in the same table row. 
+* The whereNotBetweenColumns method verifies that a column's value lies outside the two values of two columns in the same table row.
+* The whereIn method verifies that a given column's value is contained within the given array. 
+* The whereNotIn method verifies that the given column's value is not contained in the given array. 
+* The whereNull method verifies that the value of the given column is NULL.
+* he whereNotNull method verifies that the column's value is not NULL. 
+* The whereDate method may be used to compare a column's value against a date. 
+* The whereMonth method may be used to compare a column's value against a specific month. 
+* The whereDay method may be used to compare a column's value against a specific day of the month.
+* The whereYear method may be used to compare a column's value against a specific year. 
+* The whereTime method may be used to compare a column's value against a specific time. 
+* The whereColumn method may be used to verify that two columns are equal.
+
+
+#### Or Where Clauses
+* When chaining together calls to the query builder's `where` method, the "where" clauses will be joined together using the `and` operator. However, you may use the `orWhere` method to join a clause to the query using the `or` operator. The `orWhere` method accepts the same arguments as the `where` method:
+
+```php
+
 ```
