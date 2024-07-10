@@ -444,5 +444,36 @@ public function demoAction()
 ```
 
 
+## Insert Statements
+
+* The query builder also provides an `insert` method that may be used to insert records into the database table. The `insert` method accepts an array of column names and values:
+
+```php
+public function demoAction()
+{
+	$result = DB::table('brands')->insert([
+		'brandName' => 'new brand',
+		'brandImg' => 'image path'
+	]);
+
+	return $result;
+}
+```
+
+## Update Statements
+
+* In addition to inserting records into the database, the query builder can also update existing records using the `update` method. The `update` method, like the `insert` method, accepts an array of column and value pairs indicating the columns to be updated. The `update` method returns the number of affected rows. You may constrain the `update` query using `where` clauses:
+
+```php
+public function demoAction()
+{
+	$result = DB::table('brands')->insert([
+		'brandName' => 'new brand',
+		'brandImg' => 'image path'
+	]);
+
+	return $result;
+}
+```
 
 
