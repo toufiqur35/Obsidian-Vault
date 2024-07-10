@@ -404,11 +404,15 @@ public function demoAction()
 
 #### The `groupBy` and `having` Methods
 * As you might expect, the `groupBy` and `having` methods may be used to group the query results. The `having` method's signature is similar to that of the `where` method:
+* when error -> config/`database.php`/ strict => false
 
 ```php
 public function demoAction()
 {
-	$result = DB::table('brands')->inRandomOrder()->first();
+	$result = DB::table('products')
+			->groupBy('price')
+			->having('account_id', '>', 100)
+			->get();
 	
 	return $result;
 }
@@ -422,6 +426,18 @@ public function demoAction()
 public function demoAction()
 {
 	$result = DB::table('products')->skip(10)->take(5)->get();
+	
+	return $result;
+}
+```
+
+#### The `limit` and `offset` Methods
+* Alternatively, you may use the `limit` and `offset` methods. These methods are functionally equivalent to the `take` and `skip` methods, respectively:
+
+```php
+public function demoAction()
+{
+	$result = DB::table('products')->offset(10)->limit(5)->get();
 	
 	return $result;
 }
