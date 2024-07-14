@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Query Builder/Query.md",
+                "file": "ostad live class/class 2/github.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Query Builder/Query.md",
+                "file": "ostad live class/class 2/github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Query Builder/Query.md",
+                "file": "ostad live class/class 2/github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Query Builder/Query.md"
+                "file": "ostad live class/class 2/github.md"
               }
             }
           },
@@ -156,10 +156,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bfbdc8e43d0155c3",
+  "active": "3383e94ad1193a0f",
   "lastOpenFiles": [
-    "Node Error.md",
+    "mark down/mark down.md",
     "Laravel/Query Builder/Query.md",
+    "Node Error.md",
     "Laravel/Blade/Laravel Blade.md",
     "Laravel/Query Builder",
     "Laravel/Blade/blade all.md",
@@ -186,7 +187,6 @@
     "Problem Solving/php/Binary Search Algorithm.md",
     "Laravel/Terminology/Middleware.md",
     "Laravel/Laravel Log.md",
-    "Laravel/Terminology/Http.md",
     "Laravel/Blade",
     "Api",
     "Problem Solving/php/Untitled",
