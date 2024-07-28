@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ostad live class/class 2/github.md",
+                "file": "Problem Solving/php/Binary Search Algorithm.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ostad live class/class 2/github.md",
+                "file": "Problem Solving/php/Binary Search Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ostad live class/class 2/github.md",
+                "file": "Problem Solving/php/Binary Search Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ostad live class/class 2/github.md"
+                "file": "Problem Solving/php/Binary Search Algorithm.md"
               }
             }
           },
@@ -157,13 +157,13 @@
   },
   "active": "3383e94ad1193a0f",
   "lastOpenFiles": [
+    "ostad live class/class 2/github.md",
     "mark down/mark down.md",
     "Laravel/Query Builder/Query.md",
     "Node Error.md",
     "Laravel/Blade/Laravel Blade.md",
     "Laravel/Query Builder",
     "Laravel/Blade/blade all.md",
-    "ostad live class/class 2/github.md",
     "Laravel/Laravel Migration/Migration.md",
     "Laravel/Laravel Migration/Foreign Keys.md",
     "Laravel/Laravel Migration/Untitled.md",
