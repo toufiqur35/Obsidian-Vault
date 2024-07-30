@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Php/Array/Array.md",
+                "file": "Problem Solving/php/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Php/Array/Array.md",
+                "file": "Problem Solving/php/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Php/Array/Array.md",
+                "file": "Problem Solving/php/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Php/Array/Array.md"
+                "file": "Problem Solving/php/Untitled.md"
               }
             }
           },
@@ -143,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,6 +157,9 @@
   },
   "active": "3383e94ad1193a0f",
   "lastOpenFiles": [
+    "Problem Solving/php/Count Lone Zeroes.md",
+    "Problem Solving/php/Untitled.md",
+    "Php/Array/Array.md",
     "Problem Solving/php/Binary Search Algorithm.md",
     "Problem Solving/php/Stack Algorithm.md",
     "Php/If Else/Switch Case.md",
@@ -182,10 +184,7 @@
     "Laravel/Laravel Migration/Indexes.md",
     "My Sql/SQL/SQL Queries.md",
     "My Sql/MySQL Database.md",
-    "My Sql/SQL/List.md",
-    "Laravel/Middleware.md",
     "Laravel/Laravel Migration",
-    "Laravel/Laravel Sessions.md",
     "Untitled",
     "Laravel/Blade",
     "Api",
