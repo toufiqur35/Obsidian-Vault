@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problem Solving/php/Untitled.md",
+                "file": "Vue Js/Todo List.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problem Solving/php/Untitled.md",
+                "file": "Vue Js/Todo List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problem Solving/php/Untitled.md",
+                "file": "Vue Js/Todo List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problem Solving/php/Untitled.md"
+                "file": "Vue Js/Todo List.md"
               }
             }
           },
@@ -158,8 +158,15 @@
   },
   "active": "3383e94ad1193a0f",
   "lastOpenFiles": [
-    "Problem Solving/php/Count Lone Zeroes.md",
+    "My Sql/SQL/List.md",
+    "Vue Js/Todo List.md",
+    "Vue Js",
+    "ostad live class/class 2/github.md",
+    "Node Error.md",
+    "My Sql/MySQL Database.md",
+    "My Sql/SQL/SQL Queries.md",
     "Problem Solving/php/Untitled.md",
+    "Problem Solving/php/Count Lone Zeroes.md",
     "Php/Array/Array.md",
     "Problem Solving/php/Binary Search Algorithm.md",
     "Problem Solving/php/Stack Algorithm.md",
@@ -170,10 +177,8 @@
     "Php/Loop/While Loop.md",
     "Php/Loop/For Loop.md",
     "Php/Loop/for each.md",
-    "ostad live class/class 2/github.md",
     "mark down/mark down.md",
     "Laravel/Query Builder/Query.md",
-    "Node Error.md",
     "Laravel/Blade/Laravel Blade.md",
     "Laravel/Query Builder",
     "Laravel/Blade/blade all.md",
@@ -181,12 +186,7 @@
     "Laravel/Laravel Migration/Foreign Keys.md",
     "Laravel/Laravel Migration/Untitled.md",
     "Laravel/Laravel Migration/Table Columns.md",
-    "Laravel/Laravel Migration/Class.md",
-    "Laravel/Laravel Migration/Indexes.md",
-    "My Sql/SQL/SQL Queries.md",
-    "My Sql/MySQL Database.md",
     "Laravel/Laravel Migration",
-    "Untitled",
     "Laravel/Blade",
     "Api",
     "Problem Solving/php/Untitled",
