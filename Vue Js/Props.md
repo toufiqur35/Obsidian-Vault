@@ -8,7 +8,7 @@ Props are custom attributes that you can register on a component. When a value i
 
 In Vue.js 3, you can define props in a component using an object within the `defineProps` or `props` option in the `setup` function or the component's options, respectively. Here’s how you can define props in both the Options API and the Composition API.
 
-create title components:
+create title props components:
 ```vue
 <script setup>
 import { defineProps } from 'vue';
@@ -26,4 +26,13 @@ defineProps({
 </script>
 ```
 
-use 
+use props components
+```html
+<script setup>
+import Title from './components/Title.vue';
+</script>
+
+<template>
+  <Hero title="Test Title" subtitle="Test Subtitle" />
+</template>
+```
