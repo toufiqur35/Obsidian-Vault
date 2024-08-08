@@ -254,3 +254,106 @@ export default {
 </script>
 ```
 
+## Lifecycle Hooks
+
+In Vue, we have something called lifecycle hooks. These are functions that are called at different points in the lifecycle of a component. For example, when the component is created, mounted, updated, and destroyed. We can use these hooks to perform actions at these different points. There are a couple of them that were actually removed in Vue 3 because they were replaced by the setup() function, but the main ones are:
+
+- `onBeforeMount` – called before mounting begins
+- `onMounted` – called when component is mounted
+- `onBeforeUpdate` – called when reactive data changes and before re-render
+- `onUpdated` – called after re-render
+- `onBeforeUnmount` – called before the Vue instance is destroyed
+- `onUnmounted` – called after the instance is destroyed
+- `onActivated` – called when a kept-alive component is activated
+- `onDeactivated` – called when a kept-alive component is deactivated
+- `onErrorCaptured` – called when an error is captured from a child component
+
+```vue
+<script>
+import { onBeforeMount, onMounted, onBeforeUpdate, onUpdated, onBeforeUnmount, onUnmounted } from 'vue';
+
+export default {
+
+  setup() {
+
+    // beforeMount
+
+    onBeforeMount(() => {
+
+      console.log('Component is about to be mounted');
+
+    });
+
+  
+
+    // mounted
+
+    onMounted(() => {
+
+      console.log('Component has been mounted');
+
+    });
+
+  
+
+    // beforeUpdate
+
+    onBeforeUpdate(() => {
+
+      console.log('Component is about to be updated');
+
+    });
+
+  
+
+    // updated
+
+    onUpdated(() => {
+
+      console.log('Component has been updated');
+
+    });
+
+  
+
+    // beforeUnmount
+
+    onBeforeUnmount(() => {
+
+      console.log('Component is about to be unmounted');
+
+    });
+
+  
+
+    // unmounted
+
+    onUnmounted(() => {
+
+      console.log('Component has been unmounted');
+
+    });
+
+  
+
+    return {};
+
+  },
+
+};
+
+</script>
+
+  
+  
+
+<template>
+
+  <div>
+
+    <h1>{{ name }}</h1>
+
+  </div>
+
+</template>
+```
