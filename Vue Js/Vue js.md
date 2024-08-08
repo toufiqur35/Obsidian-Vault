@@ -120,3 +120,136 @@ export default {
 };
 </script>
 ```
+
+Now we can use the `v-if` directive to conditionally render the status. Add the following under the name:
+
+```html
+<h1>{{ name }}</h1>
+<p v-if="status === 'active'">User is active</p>
+```
+### v-else
+You can also use `v-else` to show something else if the condition is false. Add the following to the template:
+
+```html
+<h1>{{ name }}</h1>
+<p v-if="status === 'active'">User is active</p>
+<p v-else>User is Inactive</p>
+```
+
+Now it will show that the user is inactive if the `status` is set to something else.
+
+### v-else-if
+You can also use `v-else-if` to add another condition:
+
+```html
+<h1>{{ name }}</h1>
+<p v-if="status === 'active'">User is Active</p>
+<p v-else-if="status === 'pending'">User is Pending</p>
+<p v-else>User is Inactive</p>
+```
+
+Now it will show active if active, pending if pending and inactive if anything else.
+
+### v-for
+You can also use `v-for` to iterate over an array of items. Let's add an array of tasks to the data:
+
+```vue
+<script>
+export default {
+  data() {
+    return {
+      name: 'John Doe',
+      status: 'active',
+      tasks: ['Task One', 'Task Two', 'Task Three', 'Task Four'],
+    };
+  },
+};
+</script>
+```
+
+Now we can use `v-for` to loop over the tasks:
+
+```html
+<h3>Tasks:</h3>
+<ul>
+  <li v-for="task in tasks" :key="task">{{ task }}</li>
+</ul>
+```
+
+The `v-for` directive takes the form of `v-for="item in items"`. The `:key` attribute is required when using `v-for` to help Vue keep track of the elements and their state. You should now see the tasks on the page.
+
+### v-bind
+The `v-bind` directive is used to bind an attribute to a property on the component. For example, you can bind the `href` attribute of an anchor tag to a property on the component. Let's add a link to the data:
+
+```vue
+<script>
+export default {
+  data() {
+    return {
+      name: 'John Doe',
+      status: 'active',
+      tasks: ['Task One', 'Task Two', 'Task Three', 'Task Four'],
+      link: 'https://google.com',
+    };
+  },
+};
+</script>
+```
+
+Now we can bind the `href` attribute of an anchor tag to the `link` property:
+
+```html
+<a v-bind:href="link">Link to Google</a>
+```
+
+We can also shorten this to `:href`:
+
+```html
+<a :href="link">Link to Google</a>
+```
+
+### `v-on` & Methods
+
+The `v-on` directive is used to bind an event to a function/method. For example, you can bind a click event to a function that changes the status. Let's do that.
+
+First, add the button with the following:
+
+```html
+<button
+  v-on:click='toggleStatus'
+  class='mt-3 px-4 py-2 bg-blue-500 text-white rounded-md'>
+  Change Status
+</button>
+
+//v-on Shorthand
+<button
+  @click='toggleStatus'
+  class='mt-3 px-4 py-2 bg-blue-500 text-white rounded-md'>
+  Change Status
+</button>
+```
+
+This will fire off a click event when the button is clicked. Now let's add the method to the data. Remember, we are still using the Options API. I will convert it to the Composition API soon:
+
+```vue
+<script>
+export default {
+  data() {
+    return {
+      status: 'active',
+    };
+  },
+  methods: {
+    toggleStatus() {
+      if (this.status === 'active') {
+        this.status = 'pending';
+      } else if (this.status === 'pending') {
+        this.status = 'inactive';
+      } else {
+        this.status = 'active';
+      }
+    },
+  },
+};
+</script>
+```
