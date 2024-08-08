@@ -268,92 +268,82 @@ In Vue, we have something called lifecycle hooks. These are functions that are c
 - `onDeactivated` – called when a kept-alive component is deactivated
 - `onErrorCaptured` – called when an error is captured from a child component
 
+### Detailed Explanation of Each Lifecycle Hook
+
+#### 1. `beforeCreate`
+- **When it’s called**: Before the component instance is initialized.
+- **What you can do**: Access component options but not `data`, `computed`, or `methods` because the instance is not fully created yet.
+#### 2. `created`
+- **When it’s called**: After the component instance is created and the reactive properties are set up.
+- **What you can do**: Access reactive data, computed properties, and methods. Useful for initializing data that depends on props or external sources.
+#### 3. `beforeMount`
+- **When it’s called**: Before the component is mounted to the DOM.
+- **What you can do**: Access reactive data but not the DOM elements. Typically used to make last-minute changes before the initial render.
+#### 4. `mounted`
+
+- **When it’s called**: After the component is mounted to the DOM.
+- **What you can do**: Access reactive data and the DOM. Ideal for making AJAX requests, setting up event listeners, or initializing third-party libraries that require a DOM element.
+#### 5. `beforeUpdate`
+- **When it’s called**: Before the component updates, right before the DOM is patched.
+- **What you can do**: Access the current state of data and DOM before the update.
+#### 6. `updated`
+- **When it’s called**: After the component updates and the DOM is patched.
+- **What you can do**: Access the updated state of data and DOM. Be cautious not to trigger additional updates in this hook, which could lead to an infinite loop.
+#### 7. `beforeUnmount`
+- **When it’s called**: Before the component is unmounted and removed from the DOM.
+- **What you can do**: Perform cleanup operations like removing event listeners, canceling network requests, or stopping timers.
+#### 8. `unmounted`
+- **When it’s called**: After the component is unmounted and removed from the DOM.
+- **What you can do**: Final cleanup operations.
+#### Using Lifecycle Hooks in the `setup` Function
+
+When using the Composition API, lifecycle hooks are available as functions that can be imported from Vue.
+
 ```vue
+<template>
+  <div>
+    <h1>{{ title }}</h1>
+    <button @click="updateTitle">Update Title</button>
+  </div>
+</template>
+
 <script>
-import { onBeforeMount, onMounted, onBeforeUpdate, onUpdated, onBeforeUnmount, onUnmounted } from 'vue';
+import { ref, onMounted, onBeforeUpdate, onUpdated, onBeforeUnmount, onUnmounted } from 'vue';
 
 export default {
-
   setup() {
-
-    // beforeMount
-
-    onBeforeMount(() => {
-
-      console.log('Component is about to be mounted');
-
-    });
-
-  
-
-    // mounted
+    const title = ref('Hello, Vue!');
+    const updateTitle = () => {
+      title.value = 'Updated Title!';
+    };
 
     onMounted(() => {
-
       console.log('Component has been mounted');
-
     });
-
-  
-
-    // beforeUpdate
 
     onBeforeUpdate(() => {
-
       console.log('Component is about to be updated');
-
     });
-
-  
-
-    // updated
 
     onUpdated(() => {
-
       console.log('Component has been updated');
-
     });
-
-  
-
-    // beforeUnmount
 
     onBeforeUnmount(() => {
-
       console.log('Component is about to be unmounted');
-
     });
-
-  
-
-    // unmounted
 
     onUnmounted(() => {
-
       console.log('Component has been unmounted');
-
     });
 
-  
-
-    return {};
-
+    return {
+      title,
+      updateTitle,
+    };
   },
-
 };
-
 </script>
 
-  
-  
-
-<template>
-
-  <div>
-
-    <h1>{{ name }}</h1>
-
-  </div>
-
-</template>
 ```
+
