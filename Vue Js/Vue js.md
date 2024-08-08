@@ -35,7 +35,35 @@ Vue.js is designed to be both efficient and scalable, making it a good choice fo
 
 ### Create-Vue
 
+Open a terminal window and run the following:
 
+```
+npm create vue@latest project-name
+```
+
+I am going to choose the following options:
+- TypeScript: no
+- JSX: no
+- Vue Router:  no
+- Pinia: no
+- Vitest: no
+- End to End Testing: no
+- ESLint: no
+- DevTools: no
+- 
+Open this folder in VS Code or whatever editor you are using.
+
+```
+cd project-name
+code .
+```
+
+Install & Run the Development Server:
+
+```
+npm install 
+npm run dev
+```
 ### Vue Components
 
 * Reusable, self-contained pieces of code.
@@ -70,3 +98,25 @@ export default {
 </style>
 ```
 
+## Directive
+- `v-if` - Render the element if the expression is true. There is also `v-else` and `v-else-if`.
+- `v-for` - Iterate over an array of items and render them.
+- `v-bind` - Bind an attribute to a property on the component.
+- `v-on` - Bind an event to a function.
+- `v-model` - Bind an input to a property on the component.
+- `v-show` - Show or hide an element based on the expression.
+### v-if
+Let's look at an example of using the `v-if` directive. First we will add a new piece of data to the component. Add the following to the script tag:
+
+```vue
+<script>
+export default {
+  data() {
+    return {
+      name: 'John Doe',
+      status: 'active',
+    };
+  },
+};
+</script>
+```
