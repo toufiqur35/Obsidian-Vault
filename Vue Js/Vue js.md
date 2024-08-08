@@ -253,3 +253,37 @@ export default {
 };
 </script>
 ```
+
+### Basic Form Handling
+Handling forms in Vue 3 can be done using the `v-model` directive, which provides two-way data binding between the form input elements and your data model.
+
+```vue
+<script> 
+import { ref } from 'vue'; 
+export default { setup() 
+{ 
+const formData = ref({ name: '', email: '', message: '', }); 
+const handleSubmit = () => { console.log(formData.value); 
+}; 
+return { formData, handleSubmit, }; }, }; 
+
+</script>
+
+<template> 
+	<form @submit.prevent="handleSubmit"> 
+		<div> 
+			<label for="name">Name:</label> 
+			<input id="name" v-model="formData.name" type="text" /> 
+		</div> 
+		<div> 
+			<label for="email">Email:</label> 
+			<input id="email" v-model="formData.email" type="email" /> 
+		</div> 
+		<div> 
+			<label for="message">Message:</label> 
+			<textarea id="message" v-model="formData.message"></textarea> 
+		</div> 
+		<button type="submit">Submit</button> 
+	</form> 
+</template> 
+```
