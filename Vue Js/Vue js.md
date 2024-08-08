@@ -7,4 +7,19 @@
 ### Vue Components
 
 * Reusable, self-contained pieces of code.
-* 
+* Include the logic/js dynamic HTML output & scoped styling.
+* Option API vs Composition API.
+
+```vue
+<script> 
+	//javascript Logic
+</script> 
+
+<template> 
+<h4>{{ title }}</h4> 
+</template>
+
+<style scoped>
+	/*css styling
+</style>
+```
