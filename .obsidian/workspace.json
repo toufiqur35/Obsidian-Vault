@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Vue Js/Composition Api.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f1d91caacf44925",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Vue Js/Vue js.md",
                 "mode": "source",
                 "source": false
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vue Js/Vue js.md",
+                "file": "Vue Js/Composition Api.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vue Js/Vue js.md",
+                "file": "Vue Js/Composition Api.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vue Js/Vue js.md"
+                "file": "Vue Js/Composition Api.md"
               }
             }
           },
@@ -158,8 +170,9 @@
   },
   "active": "3383e94ad1193a0f",
   "lastOpenFiles": [
-    "Vue Js/Todo List.md",
     "Vue Js/Vue js.md",
+    "Vue Js/Composition Api.md",
+    "Vue Js/Todo List.md",
     "My Sql/SQL/List.md",
     "Vue Js",
     "ostad live class/class 2/github.md",
@@ -185,7 +198,6 @@
     "Laravel/Blade/blade all.md",
     "Laravel/Laravel Migration/Migration.md",
     "Laravel/Laravel Migration/Foreign Keys.md",
-    "Laravel/Laravel Migration/Untitled.md",
     "Laravel/Laravel Migration",
     "Laravel/Blade",
     "Api",
