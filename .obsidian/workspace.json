@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vue Js/Props.md",
+                "file": "Vue Js/Router.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vue Js/Props.md",
+                "file": "Vue Js/Router.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vue Js/Props.md",
+                "file": "Vue Js/Router.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vue Js/Props.md"
+                "file": "Vue Js/Router.md"
               }
             }
           },
@@ -170,8 +170,9 @@
   },
   "active": "3383e94ad1193a0f",
   "lastOpenFiles": [
-    "Vue Js/Vue js.md",
     "Vue Js/Props.md",
+    "Vue Js/Router.md",
+    "Vue Js/Vue js.md",
     "Vue Js/Todo List.md",
     "Vue Js/Forms.md",
     "Vue Js/Composition Api.md",
@@ -197,7 +198,6 @@
     "Laravel/Query Builder/Query.md",
     "Laravel/Blade/Laravel Blade.md",
     "Laravel/Query Builder",
-    "Laravel/Blade/blade all.md",
     "Laravel/Laravel Migration",
     "Laravel/Blade",
     "Api",
