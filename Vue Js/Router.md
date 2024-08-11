@@ -13,7 +13,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '@/views/HomeView.vue';
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(),
   routes: [
     {
       path: '/',
@@ -24,4 +24,47 @@ const router = createRouter({
 });
 
 export default router;
+```
+
+Now let's open up the `src/main.js` file and apply the router:
+
+```js
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+
+const app = createApp(App);
+app.use(router);
+app.mount('#app');
+```
+
+We have imported the router and then we are using it in the `createApp` function. Now we can use the router in our components.
+
+```html
+<RouterLink to='/'> Home </RouterLink>
+```
+
+## Active Links
+
+The routing should work, however, the active link is always the home link. We need to add some logic to make sure the active link is the current page.
+
+Let's bring in `useRoute` from the `vue-router` package:
+
+```
+import { RouterLink, useRoute } from 'vue-router';
+```
+
+Now add the following function:
+
+```html
+<script setup>
+  import { RouterLink, useRoute } from 'vue-router';
+  const isActiveLink = (routePath) =>{
+    return useRoute().path === routePath;
+  }
+</script>
+
+<template>
+<RouterLink to="/" :class="[isActiveLink('/')? 'bg-green-900' : '', 'text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2']">Home</RouterLink>
+</template>
 ```
