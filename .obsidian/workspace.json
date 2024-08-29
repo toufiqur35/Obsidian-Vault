@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laravel/Query Builder/Query.md",
+                "file": "Problem Solving/php/Easy.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laravel/Query Builder/Query.md",
+                "file": "Problem Solving/php/Easy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laravel/Query Builder/Query.md",
+                "file": "Problem Solving/php/Easy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laravel/Query Builder/Query.md"
+                "file": "Problem Solving/php/Easy.md"
               }
             }
           },
@@ -170,6 +170,10 @@
   },
   "active": "3383e94ad1193a0f",
   "lastOpenFiles": [
+    "Problem Solving/php/Stack Algorithm.md",
+    "Problem Solving/php/Untitled.md",
+    "Problem Solving/php/Easy.md",
+    "Laravel/Query Builder/Query.md",
     "Laravel/Laravel Migration/Foreign Keys.md",
     "Vue Js/Router.md",
     "Vue Js/Props.md",
@@ -183,11 +187,9 @@
     "Node Error.md",
     "My Sql/MySQL Database.md",
     "My Sql/SQL/SQL Queries.md",
-    "Problem Solving/php/Untitled.md",
     "Problem Solving/php/Count Lone Zeroes.md",
     "Php/Array/Array.md",
     "Problem Solving/php/Binary Search Algorithm.md",
-    "Problem Solving/php/Stack Algorithm.md",
     "Php/If Else/Switch Case.md",
     "Php/If Else/Nested Ternary Operators.md",
     "Php/If Else/Nested If Else.md",
@@ -195,8 +197,6 @@
     "Php/Loop/While Loop.md",
     "Php/Loop/For Loop.md",
     "Php/Loop/for each.md",
-    "mark down/mark down.md",
-    "Laravel/Query Builder/Query.md",
     "Laravel/Query Builder",
     "Laravel/Laravel Migration",
     "Laravel/Blade",
