@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problem Solving/php/Fibonacci Series.md",
+                "file": "Problem Solving/php/Prime Number.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problem Solving/php/Fibonacci Series.md",
+                "file": "Problem Solving/php/Prime Number.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problem Solving/php/Fibonacci Series.md",
+                "file": "Problem Solving/php/Prime Number.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problem Solving/php/Fibonacci Series.md"
+                "file": "Problem Solving/php/Prime Number.md"
               }
             }
           },
@@ -170,9 +170,10 @@
   },
   "active": "3383e94ad1193a0f",
   "lastOpenFiles": [
+    "Problem Solving/php/Fibonacci Series.md",
+    "Problem Solving/php/Prime Number.md",
     "Problem Solving/php/Number to String.md",
     "Problem Solving/php/Triplet.md",
-    "Problem Solving/php/Fibonacci Series.md",
     "Problem Solving/php/Easy.md",
     "Problem Solving/php/Stack Algorithm.md",
     "Laravel/Query Builder/Query.md",
@@ -196,7 +197,6 @@
     "Php/If Else/Nested Ternary Operators.md",
     "Php/If Else/Nested If Else.md",
     "Php/If Else/If Else.md",
-    "Php/Loop/While Loop.md",
     "Laravel/Query Builder",
     "Laravel/Laravel Migration",
     "Laravel/Blade",
