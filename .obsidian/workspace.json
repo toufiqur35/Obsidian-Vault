@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problem Solving/php/Prime Number.md",
+                "file": "update new folder/sobuj.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prime Number"
+              "title": "sobuj"
             }
           },
           {
@@ -190,8 +190,10 @@
   },
   "active": "3383e94ad1193a0f",
   "lastOpenFiles": [
-    "Problem Solving/php/Fibonacci Series.md",
     "Problem Solving/php/Prime Number.md",
+    "update new folder/sobuj.md",
+    "update new folder",
+    "Problem Solving/php/Fibonacci Series.md",
     "Problem Solving/php/Number to String.md",
     "Problem Solving/php/Triplet.md",
     "Problem Solving/php/Easy.md",
@@ -216,7 +218,6 @@
     "Php/If Else/Switch Case.md",
     "Php/If Else/Nested Ternary Operators.md",
     "Php/If Else/Nested If Else.md",
-    "Php/If Else/If Else.md",
     "Laravel/Query Builder",
     "Laravel/Laravel Migration",
     "Laravel/Blade",
@@ -235,7 +236,6 @@
     "Pasted image 20240605124404.png",
     "Laravel/Terminology",
     "Laravel",
-    "My Sql/SQL",
     "Untitled.canvas",
     "class 2/Untitled.canvas"
   ]
