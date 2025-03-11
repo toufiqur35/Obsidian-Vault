@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3cecd172cc32cd88",
+        "id": "168e0bddc9408988",
         "type": "tabs",
         "children": [
           {
-            "id": "3383e94ad1193a0f",
+            "id": "af9147ab8c0f80d2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "update new folder/sobuj.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "sobuj"
-            }
-          },
-          {
-            "id": "0f1d91caacf44925",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vue Js/Vue js.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Vue js"
+              "title": "New tab"
             }
           }
         ],
@@ -188,10 +170,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3383e94ad1193a0f",
+  "active": "af9147ab8c0f80d2",
   "lastOpenFiles": [
-    "Problem Solving/php/Prime Number.md",
+    "Untitled 1.canvas",
+    "Vue Js/Vue js.md",
+    "Untitled.canvas",
     "update new folder/sobuj.md",
+    "Problem Solving/php/Prime Number.md",
     "update new folder",
     "Problem Solving/php/Fibonacci Series.md",
     "Problem Solving/php/Number to String.md",
@@ -202,7 +187,6 @@
     "Laravel/Laravel Migration/Foreign Keys.md",
     "Vue Js/Router.md",
     "Vue Js/Props.md",
-    "Vue Js/Vue js.md",
     "Vue Js/Todo List.md",
     "Vue Js/Forms.md",
     "Vue Js/Composition Api.md",
@@ -217,7 +201,6 @@
     "Problem Solving/php/Binary Search Algorithm.md",
     "Php/If Else/Switch Case.md",
     "Php/If Else/Nested Ternary Operators.md",
-    "Php/If Else/Nested If Else.md",
     "Laravel/Query Builder",
     "Laravel/Laravel Migration",
     "Laravel/Blade",
@@ -236,7 +219,6 @@
     "Pasted image 20240605124404.png",
     "Laravel/Terminology",
     "Laravel",
-    "Untitled.canvas",
     "class 2/Untitled.canvas"
   ]
 }
